@@ -40,21 +40,14 @@
   Responsiveness with a dropdown menu
 */
 
-@media (min-width: $container-width) {
-  .dropbtn {
-    display: none;
-  }
-  .dropdown-content {
-    display: none;
-  }
+.menu-list {
+  display: none;
 }
-@media (max-width: $container-width) {
-  .menu-list {
-    display: none;
-  }
+
   .site-title {
     padding-right: 0.25rem;
   }
+
   .dropbtn {
     background-color: white;
     color: black;
