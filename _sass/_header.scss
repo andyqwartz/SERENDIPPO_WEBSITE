@@ -21,13 +21,12 @@
 }
 
 .menu-list {
-  display: none; /* hide regular menu by defualt */
+  display: none; 
 
 .menu-link {
 padding: 5px 10px;
   }
 
-/* Styles for the dropdown menu */
 .dropbtn {
   background-color: white;
   color: black;
@@ -36,6 +35,7 @@ padding: 5px 10px;
   font-size: 16px;
   border: none;
   cursor: pointer;
+  float:right;
 }
 
 .dropdown {
