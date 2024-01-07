@@ -18,9 +18,11 @@
   text-align:center; 
 }
 
+/*dropdown menu*/
+
 .menu-list {
   display: none; 
-
+}
 .menu-link {
 padding: 5px 10px;
   }
@@ -32,6 +34,7 @@ padding: 5px 10px;
   margin-top: 4px;
   font-size: 16px;
   border: none;
+  cursor: pointer;
 }
 
 .dropdown {
@@ -59,4 +62,3 @@ padding: 5px 10px;
   background-color: #f1f1f1;
 }
 
-}
