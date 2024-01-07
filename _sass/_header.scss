@@ -1,5 +1,5 @@
 .site-header {
-  min-height: 170px;
+  min-height: 160px;
   width: $container-width;
   position: fixed;
   background-color: white;
@@ -59,24 +59,4 @@ padding: 5px 10px;
   background-color: #f1f1f1;
 }
 
-/* Show the dropdown content on hover */
-.dropdown:hover .dropdown-content {
-  display: block;
 }
-
-/* Adjustments for smaller screens */
-
-  /* @media (max-width: $container-width) {
-  .menu-list {
-    display: none;
-  }
-  .site-title {
-    padding-right: 0.25rem;
-  }
-  .dropbtn {
-    display: block; /* Show the dropdown button on smaller screens */
-  }
- /* .dropdown {
-    display: block; /* Show the dropdown container on smaller screens */
-  
-
