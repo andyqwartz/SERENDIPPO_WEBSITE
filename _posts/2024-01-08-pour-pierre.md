@@ -6,7 +6,7 @@ title: "Pour Pierre"
 #tags: [documentation,sample]
 image: pour_pierre.jpg
 ---
-Pour Pierre (2023) Paris, London
+**Pour Pierre** (2023) Paris, London
 
 ## The short documentary unfolds as a reflective tapestry, weaving together the tangible pulse of Paris and its people with the intangible threads of cultural memory. Pierre, the elusive puppeteer, becomes our Virgil in this journey, where every puppet is a repository of forgotten tales, and every body movement is a nod to the ephemeral dance between reality and the conjured. 
 
