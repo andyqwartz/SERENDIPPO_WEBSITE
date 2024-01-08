@@ -4,5 +4,5 @@ title: "Pour Pierre"
 author: "Badseed"
 categories: documentation
 tags: [documentation,sample]
-image: cuba-1.jpg
+image: pour_pierre.jpg
 ---
