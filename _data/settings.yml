@@ -7,7 +7,7 @@ disqus:
 # google-ID: 'UA-112060364-2'
 
 menu:
-- {name: 'Marionnettes',  url: 'facts'}
+- {name: 'Pour Pierre',  url: 'pour-pierre'}
 - {name: 'Stomping on the World', url: 'resources'}
 - {name: 'Work in Progress',       url: 'sample-posts'}
 - {name: 'About',              url: 'about'}
