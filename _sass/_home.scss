@@ -1,19 +1,10 @@
 .home-image{
-max-height:200%;
-height: auto; 
-display: block;
-position:relative;
-top:200px;
+  transform: scale(2);
+  display: block;
+  margin: 0 auto;
+  top:160px;
 }
-homepage-image{
-  text-align:center;
-}
+
 @media(max-width:$container-width){
-  .home-image{
-    max-height:200%;
-    height: auto; 
-    display: block;
-    position:relative;
-    top:200px;
-    }
+  
 }
