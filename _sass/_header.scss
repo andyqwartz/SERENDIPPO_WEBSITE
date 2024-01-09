@@ -26,7 +26,11 @@
 .centered-image{
   text-align:center; 
 }
-
+@media(maxi-width:$container-width){
+  .centered-image{
+    text-align:center;
+  }
+}
 /*dropdown menu*/
 
 .menu-list {
