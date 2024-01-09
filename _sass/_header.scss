@@ -5,6 +5,8 @@
   background-color: white;
   box-shadow: 0 5px 6px -6px #bbb;
   z-index: 100;
+  left: 50%;
+  transform: translate(-50%, 0);
 }
 
 .site-image {
@@ -12,9 +14,12 @@
   height: auto; 
   display: block;
   margin: 0 auto;
+<<<<<<< HEAD
   right:50%;
   left:50%;
   transform:translate(-50%,-50%);
+=======
+>>>>>>> 7f68dd33aa91175dc90d0b33f365667aa7a02cd1
 }
 
 
