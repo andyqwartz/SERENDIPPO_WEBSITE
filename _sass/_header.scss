@@ -6,7 +6,16 @@
   box-shadow: 0 5px 6px -6px #bbb;
   z-index: 100;
 }
-
+@media (max-width: $container-width) {
+  .site-header {
+    min-height: 56px;
+    width: 95vw;
+    position: fixed;
+    background-color: white;
+    box-shadow: 0 5px 6px -6px #bbb;
+    z-index: 100;
+  }
+}
 .site-image {
   max-width: 100%;
   height: auto; 
