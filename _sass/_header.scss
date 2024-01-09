@@ -1,5 +1,5 @@
 .site-header {
-  min-height: 100px;
+  min-height: 144px;
   width: $container-width;
   position: fixed;
   background-color: white;
@@ -12,8 +12,9 @@
   height: auto; 
   display: block;
   margin: 0 auto;
+  right:50%;
   left:50%;
-  transform: translate(-50%,0);
+  transform: translate(-50%,-50%);
 }
 
 
