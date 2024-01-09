@@ -4,7 +4,8 @@
   display:block;
   margin: 10px auto 10px;
   position:fixed;
-  text-align:center;
+  left:50%;
+  transform: translateX(-50%);
 }
 
 .home-image {
@@ -12,5 +13,4 @@
   height: auto; 
   display: block;
   margin: 0 auto;
-  text-align:center;
 }
