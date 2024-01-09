@@ -40,8 +40,6 @@
   line-height: $header-thickness;
   float: right;
 }
-/*dropdown menu*/
-@media (max-width: $container-width){
 
 .menu-list {
   display: none; 
@@ -86,5 +84,4 @@ padding: 5px 10px;
 
 .dropdown:hover .dropdown-content {
   display: block;
-}
 }
