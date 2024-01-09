@@ -1,30 +1,9 @@
-.featured-post {
-  height: 400px;
-  margin: 5px 10px 10px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
+.home-image{
+max-width: 100%;
+height: auto; 
+display: block;
+top:144px;
 }
-.featured-post h2 {
-  bottom: 0;
-  margin: 0;
-  padding: 10px;
-  position: absolute;
+homepage-image{
+  text-align:center;
 }
-.featured-post h2 span {
-  display: inline-block;
-  color: white;
-  font: bold 24px/45px Helvetica, Sans-Serif;
-  letter-spacing: -1px;
-  background: rgb(0, 0, 0); /* fallback color */
-  background: rgba(0, 0, 0, 0.7);
-  padding: 10px;
-}
-.featured-post span a {
-  color: white;
-}
-.featured-post h1 {
-  margin: 10px;
-}
-
