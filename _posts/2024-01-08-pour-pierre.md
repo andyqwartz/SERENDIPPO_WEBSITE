@@ -6,7 +6,7 @@ title: "Pour Pierre"
 #tags: [documentation,sample]
 image: pour_pierre.jpg
 ---
-**Pour Pierre** (2023) Paris, London
+**Pour Pierre** (2023)，10m07s，Paris, London
 
  <div align="justify"> 
   
