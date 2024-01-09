@@ -5,7 +5,7 @@
 body, h1, h2, h3, h4, h5, h6,
 p, blockquote, pre, hr,
 dl, dd, ol, ul, figure {
-  margin: 0;
+  margin: 200;
   padding: 0;
 }
 
@@ -43,7 +43,7 @@ body {
 }
 body img {
   align: middle;
-  margin: 160px auto auto auto;
+  margin: 5px auto auto auto;
   display: block;
   max-width: 600px;
 }
