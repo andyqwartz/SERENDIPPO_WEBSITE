@@ -1,5 +1,11 @@
-.home-image{
+.home-content{
+  width:$container-width;
+  display:block;
+  margin: 10px auto 10px;
+}
+.home-image img{
   transform:scale(2);
-  text-align:center;
+  display:block;
+  text-align:middle;
 }
 
