@@ -2,6 +2,7 @@
 .home-content {
   width: 1890px;
   display:block;
+  position:relative;
   margin: 10px auto 10px;
   left:50%;
   transform: translateX(-50%);
@@ -10,6 +11,5 @@
 .home-image {
   max-width: 100%;
   height: auto; 
-  display: block;
   margin: 0 auto;
 }
