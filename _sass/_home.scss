@@ -2,9 +2,11 @@
   width:$container-width;
   display:block;
   margin: 10px auto 10px;
+  text-align:center;
 }
 .home-image img{
   width:100%;
+  min-width:$min-image-width;
   height:auto;
   display:block;
   margin:0 auto;
