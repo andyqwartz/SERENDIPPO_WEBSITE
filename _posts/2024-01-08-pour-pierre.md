@@ -16,7 +16,6 @@ The short documentary unfolds as a reflective tapestry, weaving together the tan
 
 Full Film Available Upon Request
 
-**Align center:**
 <p align="center" width="100%">
     <img width="33%" src="[https://i.stack.imgur.com/RJj4x.png](https://github.com/110101110/110101110.github.io/blob/50dbd7e20d36791dbad8b91600568e78fedf36fb/assets/img/thumbnail.jpeg)https://github.com/110101110/110101110.github.io/blob/50dbd7e20d36791dbad8b91600568e78fedf36fb/assets/img/thumbnail.jpeg">
 </p>
