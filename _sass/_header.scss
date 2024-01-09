@@ -26,6 +26,14 @@
     box-shadow: 0 5px 6px -6px #bbb;
     z-index: 100;
   }
+  .site-image {
+    max-width: 100%;
+    height: auto; 
+    display: block;
+    margin: 0 auto;
+    left:50%;
+    transform: translate(-50%,50%);
+  }
 }
 
 /*dropdown menu*/
