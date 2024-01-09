@@ -36,10 +36,14 @@
     margin: 0 auto;
   }
 }
-
-/*dropdown menu*/
-
 .menu-list {
+  line-height: $header-thickness;
+  float: right;
+}
+/*dropdown menu*/
+@media (max-width: $container-width){
+
+  .menu-list {
   display: none; 
 }
 .menu-link {
@@ -82,4 +86,5 @@ padding: 5px 10px;
 
 .dropdown:hover .dropdown-content {
   display: block;
+}
 }
