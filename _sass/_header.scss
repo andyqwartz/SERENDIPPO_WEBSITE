@@ -16,7 +16,9 @@
   margin: 0 auto;
  
 }
-
+.centered-image {
+  text-align: center;
+}
 
 @media (max-width: $container-width) {
   .site-header {
