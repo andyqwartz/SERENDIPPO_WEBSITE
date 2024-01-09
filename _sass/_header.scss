@@ -5,6 +5,9 @@
   background-color: white;
   box-shadow: 0 5px 6px -6px #bbb;
   z-index: 100;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .site-image {
