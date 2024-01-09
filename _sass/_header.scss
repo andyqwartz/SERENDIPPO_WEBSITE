@@ -5,9 +5,6 @@
   background-color: white;
   box-shadow: 0 5px 6px -6px #bbb;
   z-index: 100;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
 }
 
 .site-image {
@@ -15,11 +12,11 @@
   height: auto; 
   display: block;
   margin: 0 auto;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
-.centered-image{
-  text-align:center; 
-}
 
 @media (max-width: $container-width) {
   .site-header {
@@ -30,6 +27,16 @@
     box-shadow: 0 5px 6px -6px #bbb;
     z-index: 100;
   }
+  .site-image {
+    max-width: 100%;
+    height: auto; 
+    display: block;
+    margin: 0 auto;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
 }
 
 /*dropdown menu*/
