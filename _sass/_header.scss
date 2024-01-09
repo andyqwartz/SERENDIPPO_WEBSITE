@@ -6,7 +6,7 @@
   box-shadow: 0 5px 6px -6px #bbb;
   z-index: 100;
 }
-@media (max-width: $container-width) {
+@media (min-width: $container-width) {
   .site-header {
     min-height: 144px;
     width: 95vw;
