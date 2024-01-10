@@ -24,3 +24,9 @@
   object-fit: cover;
   display: block;
 }
+@media only screen and (max-width:480px){
+  .home-image img{
+    content:url(/assets/img/homepage_2.png);
+    max-width: 100%;
+  }
+}
