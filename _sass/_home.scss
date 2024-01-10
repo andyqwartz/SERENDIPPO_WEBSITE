@@ -14,3 +14,25 @@
   margin: 0 auto;
   text-align:center;
 }
+
+@media only screen and (max-wdith:600px){
+  
+  .home-content {
+    height:800px;
+    position:relative;
+    margin:10px auto 10px;
+    left:50%;
+    transform:translateX(-50%);
+    overflow-x:hidden;
+  }
+  .home-image {
+    display: none;
+  }
+  .background-image {
+    background-image: url(assets/img/homepage_2.png);
+    max-width:100%;
+    height:auto;
+    margin:0 auto;
+    text-align:center;
+  }
+}
