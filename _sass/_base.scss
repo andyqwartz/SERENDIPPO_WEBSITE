@@ -67,6 +67,15 @@ p {
   line-height: 1.65;
   font-family: $body-font-family;
 }
+  /line divider/
+.line {
+  height: 30px;
+  border-bottom: 10px solid var(--custom-color);
+  transform: rotate(2deg);
+  position: relative;
+  top: var(--line-height);
+  margin-bottom: calc(var(--line-height) * 3);
+}
 
 /* Lists */
 ul, ol, dl {
