@@ -5,12 +5,12 @@
   margin: 10px auto 10px;
   left:50%;
   transform: translateX(-50%);
-  overflow-x:hidden;
 }
-
-.home-image {
-  width:auto;
-  max-height: 500px; 
+.home-image{
+  max-width: 100%;
+  height: auto; 
+  display: block;
   margin: 0 auto;
   text-align:center;
 }
+
