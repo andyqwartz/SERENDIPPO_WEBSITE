@@ -39,27 +39,15 @@
 /*fullscreen hamburger menu*/
 
 .menu-list {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  display: flex;
-}
-
-.menu-list li {
-  margin-right: 20px;
-}
-
-.menu-list a {
-  text-decoration: underline;
-  display:block;
+  display: none;
 }
 
 .menu-toggle {
   cursor: pointer;
   display:block;
   position:absolute;
-  top:0px;
-  left:0px;
+  top:5px;
+  left:5px;
 }
 
 .bar {
