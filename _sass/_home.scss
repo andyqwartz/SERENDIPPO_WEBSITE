@@ -13,26 +13,20 @@
   height: auto; 
   margin: 0 auto;
   text-align:center;
+  display:block;
 }
 
 @media only screen and (max-width:600px){
   
-  .home-content {
-    height: 800px;
-    position:relative;
-    margin:10px auto 10px;
-    left:50%;
-    transform:translateX(-50%);
-    overflow-x:hidden;
-  }
   .home-image {
     display: none;
   }
   .home-image {
     background-image: url(assets/img/homepage_2.png);
-    max-width:100%;
-    height:auto;
-    margin:0 auto;
-    text-align:center;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+    width: 100%;
+    height: 100%;
   }
 }
