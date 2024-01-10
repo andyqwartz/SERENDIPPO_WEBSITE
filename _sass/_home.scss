@@ -1,17 +1,26 @@
-  .home-content {
-    height: 500px; 
-    position: relative;
-    margin: 10px auto;
-    left: 50%;
-    transform: translateX(-50%);
-    overflow-x: hidden;
-     
-  }
-  
-  .home-image {
-    width: auto;
-    max-height: 500px;
-    margin: 0 auto;
-    text-align: center;
-  }
- 
+.home-content {
+  height: auto; 
+  position: relative;
+  margin: 10px auto;
+  left: 50%;
+  transform: translateX(-50%);
+  overflow-x: hidden;
+  display: flex;
+  align-items: center; 
+  max-width: 1100px; 
+}
+
+.home-image {
+  width: 100%;
+  max-height:500px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.home-image img {
+  width: 100%;
+  max-width: 1100px; 
+  height: auto;
+  object-fit: cover;
+  display: block;
+}
