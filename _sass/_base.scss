@@ -12,15 +12,6 @@ dl, dd, ol, ul, figure {
 /*
   Basic styling
 */
-:root {
-  --font-size: 22px;
-  --line-height: calc(var(--font-size) * 2); 
-  --custom-color: cyan; 
-  --lines: linear-gradient(
-    to top,
-    var(--custom-color) 50%,
-    rgba(255, 255, 255, 0) 50%
-  ); 
 
   
 /* Headings */
