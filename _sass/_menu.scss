@@ -1,5 +1,7 @@
 .menu {
     position: absolute;
+    top:0;
+    left:0
   }
   
   .menu-toggle {
@@ -20,6 +22,7 @@
   }
   
   .menu-list {
+    text-decoration:none;
     list-style: none;
     padding: 0;
     margin: 0;
@@ -29,7 +32,10 @@
   .menu-link {
     text-decoration: none;
     color: #333;
-    font-weight: bold;
+    font-size:30px;
+    font-weight:600;
+    text-transform:uppercase;
+    text-align:center;
     padding: 10px;
     display: block;
   }
@@ -55,4 +61,3 @@
     background-color:rgba(0, 0, 0, 0.259);
     z-index: 1000; 
   }
-  
