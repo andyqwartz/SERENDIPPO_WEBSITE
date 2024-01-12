@@ -8,7 +8,7 @@ disqus:
 
 menu:
 - {name: 'Pour Pierre',  url: 'pour-pierre'}
-- {name: 'Stomping on the World', url: 'resources'}
+- {name: 'Stomping on the World', url: 'stomping-on-the-world'}
 - {name: 'Work in Progress',       url: 'sample-posts'}
 - {name: 'About',              url: 'about'}
 - {name: 'Contact',            url: 'contact'}
