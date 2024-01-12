@@ -1,9 +1,9 @@
 <menu class="menu">
-    <div class="menu-toggle" id="mobile-menu">
-        <span class="bar"></span>
-        <span class="bar"></span>
-        <span class="bar"></span>
-    </div>
+  <div class="menu-icon" id="menu-icon">
+    <img src="assets/img/menu_icon_1.png" alt="Icon 1" class="icon icon1">
+    <img src="assets/img/menu_icon_2.png" alt="Icon 2" class="icon icon2">
+  </div>
+
     <div class="menu-list">
       {% for item in site.data.settings.menu %}
         <a href="{{ site.github.url }}/{{ item.url }}" class="menu-link">{{ item.name }}</a>
