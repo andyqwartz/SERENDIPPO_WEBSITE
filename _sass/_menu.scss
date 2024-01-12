@@ -1,15 +1,15 @@
 /*fullscreen hamburger menu*/
 .menu {
-    position: fixed;
+    position: absolute;
   }
   
   .menu-toggle {
     cursor: pointer;
     display: block;
-    position: fixed; /* Adjusted to fixed for consistent positioning */
+    position: fixed; 
     top: 15px;
     left: 15px;
-    z-index: 50; /* Ensure it's on top */
+    z-index:1500; 
   }
   
   .bar {
@@ -40,10 +40,10 @@
     position: fixed;
     top: 0;
     left: 0;
-    width: 100%;
+    width:$container-width;
     height: 100%;
     background-color: rgba(0, 0, 0, 0.7);
-    z-index: 10; 
+    z-index: 900; 
   }
   
   .menu-list.show {
@@ -54,6 +54,6 @@
     width: 70%; /* Adjust as needed */
     height: 100%;
     background-color: #fff;
-    z-index: 25; 
+    z-index: 1000; 
   }
   
