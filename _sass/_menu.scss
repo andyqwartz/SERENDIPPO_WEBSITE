@@ -14,13 +14,13 @@
     z-index: 1500;
   
     .icon{
-      width:30px;
+      width:50px;
       height:auto;
       margin-right: 10px;
     }
 
     .icon2 {
-      display: none; /* Hide the second logo initially */
+      display: none; 
     }
   }
   
@@ -39,9 +39,6 @@
     font-size:30px;
     font-weight:600;
     text-transform:uppercase;
-    top:50%;
-    left: 50%;
-    transform:translate(-50%,-50%);
     text-align:center;
     padding: 10px;
     display: block;
