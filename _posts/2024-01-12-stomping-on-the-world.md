@@ -1,9 +1,9 @@
 ---
 layout: post
 title: "Stomping on the World"
-#author: "Badseed"
-#categories: documentation
-#tags: [documentation,sample]
+author: "Badseed"
+categories: documentation
+tags: [documentation,sample]
 image:monster_sunset.jpg
 ---
 **Stomping on the World** (estimated 2024) 
