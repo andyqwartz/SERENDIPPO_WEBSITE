@@ -50,8 +50,12 @@
     left: 0;
     width:100%;
     height: 100%;
-    background-color:#fff;
+    background-color:rgba(0, 0, 0, 0.7);
     z-index: 900; 
+    transition:backgroung-color 0.3s ease;
+  }
+  .overlay-blurred{
+    backdrop-filter:blur(8px) ;
   }
   
   .menu-list.show {
@@ -64,4 +68,8 @@
     height: 100%;
     background-color:rgba(0, 0, 0, 0.259);
     z-index: 1000; 
+  }
+  +.overlay{
+    background-color: rgba(0, 0, 0, 0.7);
+    @extend.overlay-blurred;
   }
