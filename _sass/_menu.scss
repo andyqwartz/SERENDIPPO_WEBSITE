@@ -51,7 +51,7 @@
     height: 100%;
     background-color:rgba(0, 0, 0, 0.7);
     z-index: 900; 
-    transition:backgroung-color 0.3s ease;
+    transition:background-color 0.3s ease;
   }
   .overlay-blurred{
     backdrop-filter:blur(8px) ;
@@ -65,7 +65,7 @@
     background-color:rgba(0, 0, 0, 0.259);
     z-index: 1000; 
   }
-  +.overlay{
+  .overlay.show {
     background-color: rgba(0, 0, 0, 0.7);
-    @extend.overlay-blurred;
+    backdrop-filter:blur(8px);
   }
