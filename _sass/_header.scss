@@ -1,5 +1,5 @@
 .site-header {
-  min-height: 144px;
+  min-height:100px;
   width: $container-width;
   position: fixed;
   background-color: white;
@@ -10,7 +10,7 @@
 }
 
 .site-image {
-  max-width: 100%;
+  width:100px;
   height: auto; 
   display: block;
   margin: 0 auto;
