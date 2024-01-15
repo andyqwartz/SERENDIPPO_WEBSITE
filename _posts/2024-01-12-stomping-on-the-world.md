@@ -17,7 +17,3 @@ Within the realm of Tokusatsu-inspired cinematography, this short film aims to c
 We wish to challenge everyone to delve into the monsters within, urging an introspective excavation that unearths the sublime beauty hidden beneath the surface of our own emotional terrain.
 
 </div>
-
-<p align="center" width="100%">
-  <img width="60%" src="assets/img/ziggy.gif">
-</p>
