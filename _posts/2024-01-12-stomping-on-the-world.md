@@ -6,7 +6,7 @@ categories: documentation
 tags: [documentation, sample]
 image: monster_sunset.jpg
 ---
-**Stomping on the World** (estimated 2024) 
+**Stomping on the World** (wip) 
 
 <div align="justify">
 
