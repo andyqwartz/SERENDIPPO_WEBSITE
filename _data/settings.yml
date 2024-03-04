@@ -7,16 +7,18 @@ disqus:
 # google-ID: 'UA-112060364-2'
 
 menu:
-- {name: 'Pour Pierre',  url: 'pour-pierre'}
-- {name: 'Stomping on the World', url: 'stomping-on-the-world'}
-- {name: 'Work in Progress',       url: 'sample-posts'}
-- {name: 'About',              url: 'about'}
-- {name: 'Contact',            url: 'contact'}
-
+- {name: 'BIO',  url: 'BIO'}
+- {name: 'ANDY',       url: 'ANDY'}
+- {name: 'MUSIC',            url: 'MUSIC'}
+- {name: 'ARTWORK', url: 'MY-ARTWORK'}
+- {name: 'DEFICIT',              url: 'DEFICIT'}
+- {name: 'AQUA',            url: 'aqua.html'}
 # Available social icons are powered by Font Awesome, so you can use any icon that they offer
 social:
-- {icon: 'envelope', link:   'mailto:zqt1998@gmail.com'}
-
+- {icon: 'envelope', link:   'mailto:management@serendippo.me'}
+- {icon: 'twitter', link:    'https://twitter.com/Andrea98Schwarz'}
+- {icon: 'facebook', link:   'https://www.facebook.com/cohenjoachim98/'}
+- {icon: 'instagram', link:  'https://instagram.com/cohenjoachim/'}
 # Customize site text
   #pagination:
   #next_page: 'Newer'
