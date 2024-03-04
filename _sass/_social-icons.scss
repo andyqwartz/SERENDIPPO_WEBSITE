@@ -1,65 +1,29 @@
-@mixin social-media-icon($color, $transition){
-  -webkit-transition: $transition;
-  -o-transition: $transition;
-  -ms-transition: $transition;
-  -moz-transition: $transition;
-  transition: $transition;
-  &:hover{
+// Mixin for social media icons with transition effects and hover color change
+@mixin social-media-icon($color, $transition-time) {
+  -webkit-transition: $transition-time;
+  transition: $transition-time;
+  &:hover {
     color: $color;
   }
+  display: inline-block; // Ensure the element is suitable for transformation
+  transform: scale(1.5); // Adjust scale value as needed to increase icon size
+  transition: transform 0.3s ease, color 0.3s ease; // Smooth transition for transform and color
 }
 
-.fa-envelope {
+// Specific styles for each social media icon
+.social-icon-link {
   padding: 5px;
-  @include social-media-icon($envelope-color, $icon-transition-time);
-}
-
-.fa-twitter {
-  padding: 5px;
-  @include social-media-icon($twitter-color, $icon-transition-time);
-}
-
-.fa-instagram {
-  padding: 5px;
-  @include social-media-icon($instagram-color, $icon-transition-time);
-}
-
-.fa-github {
-  padding: 5px;
-  @include social-media-icon($github-color, $icon-transition-time);
-}
-
-.fa-linkedin {
-  padding: 5px;
-  @include social-media-icon($linkedin-color, $icon-transition-time);
-}
-
-.fa-facebook {
-  padding: 5px;
-  @include social-media-icon($facebook-color, $icon-transition-time);
-}
-
-.fa-google-plus {
-  padding: 5px;
-  @include social-media-icon($google-color, $icon-transition-time);
-}
-
-.fa-pinterest {
-  padding: 5px;
-  @include social-media-icon($pinterest-color, $icon-transition-time);
-}
-
-.fa-medium {
-  padding: 5px;
-  @include social-media-icon($medium-color, $icon-transition-time);
-}
-
-.fa-codepen {
-  padding: 5px;
-  @include social-media-icon($codepen-color, $icon-transition-time);
-}
-
-.fa-rss-square {
-  padding: 5px;
-  @include social-media-icon($rss-color, $icon-transition-time);
+  
+  // Apply the mixin with color and transition time
+  &.fa-envelope { @include social-media-icon($envelope-color, 0.3s); }
+  &.fa-twitter { @include social-media-icon($twitter-color, 0.3s); }
+  &.fa-instagram { @include social-media-icon($instagram-color, 0.3s); }
+  &.fa-github { @include social-media-icon($github-color, 0.3s); }
+  &.fa-linkedin { @include social-media-icon($linkedin-color, 0.3s); }
+  &.fa-facebook { @include social-media-icon($facebook-color, 0.3s); }
+  &.fa-google-plus { @include social-media-icon($google-color, 0.3s); }
+  &.fa-pinterest { @include social-media-icon($pinterest-color, 0.3s); }
+  &.fa-medium { @include social-media-icon($medium-color, 0.3s); }
+  &.fa-codepen { @include social-media-icon($codepen-color, 0.3s); }
+  &.fa-rss-square { @include social-media-icon($rss-color, 0.3s); }
 }
