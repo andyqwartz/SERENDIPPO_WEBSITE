@@ -7,11 +7,7 @@ image:
 permalink: /PRIVACY/
 ---
 <br /> 
-
 <h2 align="center">Privacy Policy</h2>
-
-<br /><br />
-
 <div align="justify">
 Welcome to our website. Your privacy is important to us. This Privacy Policy explains how we collect, use, and safeguard your personal information when you visit our site.
 <br /><br />
@@ -33,10 +29,6 @@ We implement appropriate security measures to protect your personal information 
 <b>6. Changes to This Policy</b><br />
 We may update this Privacy Policy periodically. Please review this page regularly for any changes.
 <br /><br />
-</div>
-
-<br />
-
 <div align="center">
   <p>If you have any questions or concerns about this Privacy Policy, please contact us at contact[arobase]serendippo.me.</p>
 </div>
