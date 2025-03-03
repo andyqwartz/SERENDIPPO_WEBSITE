@@ -3,7 +3,7 @@ layout: post
 title: "PRIVACY"
 author: "ANDY"
 categories: [documentation]
-image: DEFICIT_LOGO_1024.png
+image: 
 permalink: /PRIVACY/
 ---
 <br /> 
