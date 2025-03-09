@@ -16,6 +16,8 @@
   <link rel="stylesheet" href="{{ site.github.url }}/assets/css/syntax.css">
   <!-- Custom CSS for fixes -->
   <link rel="stylesheet" href="{{ site.github.url }}/assets/css/custom.css">
+  <!-- Special fixes for dark mode toggle visibility -->
+  <link rel="stylesheet" href="{{ site.github.url }}/assets/css/dark-mode-fixes.css">
   <!-- Use Atom -->
   {% feed_meta %}
   <!-- RSS-v2.0
@@ -35,4 +37,15 @@
   {% seo %}
   <!-- Dark Mode Script -->
   <script src="{{ site.github.url }}/assets/js/dark-mode.js"></script>
+  
+  <!-- Inline style for dark mode toggle as a last resort -->
+  <style>
+    body.dark-mode #dark-mode-toggle,
+    body.dark-mode #dark-mode-toggle i {
+      color: #ffffff !important;
+      visibility: visible !important;
+      opacity: 1 !important;
+      display: block !important;
+    }
+  </style>
 </head>

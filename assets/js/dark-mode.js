@@ -180,8 +180,10 @@ function applyDarkMode(body, darkModeToggle, isDark) {
   
   if (isDark) {
     body.classList.add('dark-mode');
+    darkModeToggle.style.color = '#ffffff'; // Ensure button is white in dark mode
   } else {
     body.classList.remove('dark-mode');
+    darkModeToggle.style.color = '#000000'; // Black in light mode
   }
   
   updateIcon(darkModeToggle, isDark);
@@ -198,9 +200,15 @@ function updateIcon(darkModeToggle, isDark) {
     if (isDark) {
       currentIcon.classList.remove('fa-moon-o');
       currentIcon.classList.add('fa-sun-o');
+      // Ensure the sun icon is visible in dark mode
+      currentIcon.style.color = '#ffffff';
+      currentIcon.style.textShadow = '0 0 5px rgba(0,0,0,0.5)';
     } else {
       currentIcon.classList.remove('fa-sun-o');
       currentIcon.classList.add('fa-moon-o');
+      // Reset styles for moon icon in light mode
+      currentIcon.style.color = '#000000';
+      currentIcon.style.textShadow = 'none';
     }
   }
 }
@@ -218,9 +226,19 @@ function applyVisibilityStyles(darkModeToggle, body) {
   darkModeToggle.style.top = '25px';
   darkModeToggle.style.right = '25px';
   darkModeToggle.style.zIndex = '100';
-  darkModeToggle.style.color = body.classList.contains('dark-mode') ? '#fff' : '#000';
+  // Apply color based on current mode
+  darkModeToggle.style.color = body.classList.contains('dark-mode') ? '#ffffff' : '#000000';
   darkModeToggle.style.fontSize = '1.5rem';
   darkModeToggle.style.backgroundColor = 'transparent';
   darkModeToggle.style.border = 'none';
   darkModeToggle.style.cursor = 'pointer';
+  
+  // Add some extra visibility for the icon
+  const icon = darkModeToggle.querySelector('i');
+  if (icon) {
+    icon.style.display = 'inline-block';
+    icon.style.visibility = 'visible';
+    icon.style.opacity = '1';
+    icon.style.color = body.classList.contains('dark-mode') ? '#ffffff' : '#000000';
+  }
 } 
