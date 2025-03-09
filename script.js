@@ -5,11 +5,25 @@ document.addEventListener('DOMContentLoaded', function () {
     const icon2 = document.querySelector('.icon2');
     const body = document.body;
 
-    // Create and add moon toggle to footer
+    // Create and add moon toggle to header
     const themeToggle = document.createElement('button');
     themeToggle.innerHTML = '🌙';
     themeToggle.className = 'theme-toggle';
-    document.querySelector('.footer').appendChild(themeToggle);
+    document.querySelector('.menu').appendChild(themeToggle);
+
+    // Create notification element
+    const notification = document.createElement('div');
+    notification.className = 'notification';
+    notification.style.display = 'none';
+    document.body.appendChild(notification);
+
+    function showNotification(message, duration = 3000) {
+        notification.textContent = message;
+        notification.style.display = 'block';
+        setTimeout(() => {
+            notification.style.display = 'none';
+        }, duration);
+    }
 
     // Dark mode toggle
     themeToggle.addEventListener('click', function() {
@@ -17,8 +31,10 @@ document.addEventListener('DOMContentLoaded', function () {
         if (body.classList.contains('dark-mode')) {
             themeToggle.innerHTML = '☀️';
             body.classList.remove('lavender-latte-mode');
+            showNotification('Mode sombre activé');
         } else {
             themeToggle.innerHTML = '🌙';
+            showNotification('Mode sombre désactivé');
         }
         localStorage.setItem('darkMode', body.classList.contains('dark-mode'));
     });
@@ -45,8 +61,13 @@ document.addEventListener('DOMContentLoaded', function () {
                 if (body.classList.contains('lavender-latte-mode')) {
                     body.classList.remove('dark-mode');
                     themeToggle.innerHTML = '🌙';
+                    showNotification('Mode Lavande Latte activé 💜');
+                } else {
+                    showNotification('Mode Lavande Latte désactivé');
                 }
                 localStorage.setItem('lavenderLatteMode', body.classList.contains('lavender-latte-mode'));
+            } else if (clickCount > 0) {
+                showNotification(`Encore ${5 - clickCount} clics pour le mode secret...`);
             }
             clickCount = 0;
         }, 1500);

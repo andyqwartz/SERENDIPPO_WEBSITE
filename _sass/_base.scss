@@ -124,16 +124,17 @@ th, td {
 
 // Theme toggle button
 .theme-toggle {
-  position: fixed;
-  top: 1rem;
-  right: 1rem;
   background: none;
   border: none;
   cursor: pointer;
   font-size: 1.5rem;
   padding: 0.5rem;
-  position: relative;
+  margin-left: 1rem;
   transition: transform 0.3s ease;
+  vertical-align: middle;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
 
   &:hover {
     transform: scale(1.1);
@@ -143,6 +144,32 @@ th, td {
 .footer .theme-toggle {
   margin-left: 1rem;
   vertical-align: middle;
+}
+
+// Notification styles
+.notification {
+  position: fixed;
+  bottom: 2rem;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+  padding: 0.8rem 1.5rem;
+  border-radius: 2rem;
+  font-size: 1rem;
+  z-index: 1000;
+  animation: fadeInOut 0.3s ease-in-out;
+}
+
+@keyframes fadeInOut {
+  0% {
+    opacity: 0;
+    transform: translate(-50%, 1rem);
+  }
+  100% {
+    opacity: 1;
+    transform: translate(-50%, 0);
+  }
 }
 
 body.dark-mode {
@@ -159,6 +186,11 @@ body.dark-mode {
   .theme-toggle {
     color: #ffffff;
   }
+
+  .notification {
+    background-color: rgba(255, 255, 255, 0.8);
+    color: #1a1a1a;
+  }
 }
 
 body.lavender-latte-mode {
@@ -174,6 +206,11 @@ body.lavender-latte-mode {
 
   .theme-toggle {
     color: #4a4a4a;
+  }
+
+  .notification {
+    background-color: rgba(147, 112, 219, 0.8);
+    color: #ffffff;
   }
 
   .footer {
