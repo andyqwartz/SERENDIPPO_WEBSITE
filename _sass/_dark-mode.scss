@@ -1,0 +1,74 @@
+/* Styles pour le mode sombre */
+body.dark-mode {
+  background-color: #000000;
+  color: #ffffff; /* Texte blanc, pas jaune */
+  
+  a {
+    color: #ffffff; /* Liens en blanc */
+  }
+  
+  /* Header en mode sombre */
+  .site-header {
+    background-color: #000000; /* Même couleur que le fond pour unification */
+  }
+  
+  /* Logo en négatif */
+  .site-image {
+    filter: invert(1); /* Inversion complète pour le logo */
+  }
+  
+  /* Styles pour les titres - en blanc, pas en jaune */
+  h1, h2, h3, h4, h5, h6 {
+    color: #ffffff;
+  }
+  
+  /* Menu en mode sombre */
+  .menu-icon {
+    filter: invert(1); /* Inversion des icônes du menu */
+  }
+  
+  /* Menu modal en mode sombre */
+  .menu-list.show {
+    background-color: rgba(0, 0, 0, 0.9) !important;
+    backdrop-filter: blur(8px);
+  }
+  
+  /* Liens du menu en mode sombre */
+  .menu-link {
+    color: #ffffff !important;
+  }
+  
+  /* Éléments de contenu */
+  table, th, td {
+    border: 1px solid #ffffff;
+  }
+  
+  blockquote {
+    border-left: 0.25em solid #444;
+    color: #dddddd;
+  }
+  
+  /* Footer en mode sombre */
+  .footer {
+    background-color: #000000;
+  }
+}
+
+/* Style du bouton dark mode (visible en mode clair) */
+.dark-mode-toggle {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  position: absolute;
+  top: 25px; /* Aligné verticalement avec le bouton de menu */
+  right: 25px;
+  z-index: 100;
+  color: #000;
+  font-size: 1.5rem;
+  padding: 5px;
+}
+
+/* Style du bouton en mode sombre */
+body.dark-mode .dark-mode-toggle {
+  color: #ffffff;
+}
