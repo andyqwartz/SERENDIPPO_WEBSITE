@@ -129,68 +129,55 @@ th, td {
   right: 1rem;
   background: none;
   border: none;
-  font-size: 1.5rem;
   cursor: pointer;
-  z-index: 1000;
+  font-size: 1.5rem;
   padding: 0.5rem;
-  border-radius: 50%;
-  transition: background-color 0.3s;
+  position: relative;
+  transition: transform 0.3s ease;
 
   &:hover {
-    background-color: rgba(0, 0, 0, 0.1);
+    transform: scale(1.1);
   }
 }
 
-// Dark mode styles
-.dark-mode {
+.footer .theme-toggle {
+  margin-left: 1rem;
+  vertical-align: middle;
+}
+
+body.dark-mode {
   background-color: #1a1a1a;
   color: #ffffff;
 
   a {
     color: #bb86fc;
     &:hover {
-      color: #9966cc;
+      color: #e9b4ff;
     }
-  }
-
-  .menu {
-    background-color: #2d2d2d;
-  }
-
-  .footer {
-    background-color: #2d2d2d;
   }
 
   .theme-toggle {
-    &:hover {
-      background-color: rgba(255, 255, 255, 0.1);
-    }
+    color: #ffffff;
   }
 }
 
-// Macchiato mode styles
-.macchiato-mode {
-  background-color: #f3e5f5;
-  color: #4a148c;
+body.lavender-latte-mode {
+  background-color: #e6e6fa;
+  color: #4a4a4a;
 
   a {
-    color: #6a1b9a;
+    color: #9370db;
     &:hover {
-      color: #4a148c;
+      color: #7b68ee;
     }
-  }
-
-  .menu {
-    background-color: #e1bee7;
-  }
-
-  .footer {
-    background-color: #e1bee7;
   }
 
   .theme-toggle {
-    &:hover {
-      background-color: rgba(74, 20, 140, 0.1);
-    }
+    color: #4a4a4a;
+  }
+
+  .footer {
+    background-color: #d8bfd8;
   }
 }
+
