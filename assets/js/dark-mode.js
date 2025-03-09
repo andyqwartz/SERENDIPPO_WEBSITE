@@ -6,6 +6,13 @@
 document.addEventListener('DOMContentLoaded', function() {
   console.log("Dark mode script loaded");
   const darkModeToggle = document.getElementById('dark-mode-toggle');
+  
+  // Exit early if the dark mode toggle doesn't exist
+  if (!darkModeToggle) {
+    console.log("Dark mode toggle not found, skipping dark mode initialization");
+    return;
+  }
+  
   const body = document.body;
   const icon = darkModeToggle.querySelector('i');
   
@@ -20,14 +27,14 @@ document.addEventListener('DOMContentLoaded', function() {
     if (isDark) {
       body.classList.add('dark-mode');
       if (icon) {
-        icon.classList.remove('fa-moon');
-        icon.classList.add('fa-sun');
+        icon.classList.remove('fa-moon-o');
+        icon.classList.add('fa-sun-o');
       }
     } else {
       body.classList.remove('dark-mode');
       if (icon) {
-        icon.classList.remove('fa-sun');
-        icon.classList.add('fa-moon');
+        icon.classList.remove('fa-sun-o');
+        icon.classList.add('fa-moon-o');
       }
     }
   }

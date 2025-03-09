@@ -30,25 +30,17 @@ document.addEventListener('DOMContentLoaded', function () {
         });
     }
     
-    // Store the original dark mode toggle click handler
-    let originalDarkModeClickHandler = null;
-    
+    // Only handle dark mode toggle override if it exists
     if (darkModeToggle) {
-        // Save all existing event listeners
-        const originalDarkModeToggleClone = darkModeToggle.cloneNode(true);
-        darkModeToggle.parentNode.replaceChild(originalDarkModeToggleClone, darkModeToggle);
-        // Update the reference
-        const updatedDarkModeToggle = document.getElementById('dark-mode-toggle');
-        
         // Add a custom click event that checks for purple macchiato mode
-        updatedDarkModeToggle.addEventListener('click', function(e) {
+        darkModeToggle.addEventListener('click', function(e) {
             // If in purple macchiato mode, prevent default action and do nothing
             if (document.body.classList.contains('purple-macchiato-mode')) {
                 e.preventDefault();
                 e.stopPropagation();
                 return false;
             }
-        });
+        }, true); // Use capturing to ensure we handle the event first
     }
 
     // Secret Purple Macchiato Mode
