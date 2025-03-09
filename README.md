@@ -1,26 +1,30 @@
-# SERENDIPPO
+# README
 
-A minimalist digital sanctuary curated by ANDY.
+Welcome to my personal website! This project is built with a minimalist design in mind—clean, straightforward, and focused on delivering a powerful user experience.
 
-## Essence
+## About This Website
 
-This space exists at the intersection of design and purpose—where creativity meets intention. The site embodies calculated simplicity with a focus on meaningful interaction.
+This site is a personal space where I share my projects, thoughts, and creative endeavors. It is built using the **Millennial Template** created by LeNPAUL, which provides a timeless and elegant foundation.
 
-## Architecture
+The design is intended to keep the focus on content and creativity without unnecessary clutter. Every element has been carefully chosen to contribute to a seamless and engaging experience.
 
-Built on the Millennial foundation, enhanced with custom elements:
-- Refined aesthetic presentation
-- Optimized user pathways
-- Strategic content delivery
-- Hidden elements await discovery
+## Template & Credits
 
-## Acknowledgments
+- **Template:** Millennial Template by LeNPAUL
+- **Special Thanks:** Zhang – thank you very much for your precious help !
 
-- **Design Base:** Millennial
-- **Special Recognition:** Zhang
+## Minimalism in Design
 
-## Philosophy
+At the heart of this website is a minimalist philosophy that emphasizes:
+- **Clarity:** Ensuring that every piece of content is easily accessible.
+- **Simplicity:** Avoiding overcomplication in both layout and navigation.
+- **Impact:** Using visual elements sparingly to create a lasting impression.
+- **Mystery:** Some elements remain hidden, waiting to be discovered.
+
+## Final Thoughts
+
+Thank you for taking the time to explore my website. I hope you enjoy the blend of minimalist design and functional elegance. 
 
 "In simplicity lies complexity; in darkness, revelation."
 
-![Serendippo](/assets/img/logo.png)
+![Logo](/assets/img/logo.png)
