@@ -1,9 +1,10 @@
 ---
 layout: post
-title: "MY ARTWORK"
-author: "ANDY"
-categories: documentation
+title: "MY-ARTWORK"
+author: "SERENDIPPO"
+categories: [documentation]
 tags: [documentation, sample]
+image: ANDY_ARTWORK.jpeg
 ---
 
 <h2 align="center">MY ARTWORK</h2>
