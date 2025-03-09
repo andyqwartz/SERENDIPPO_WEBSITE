@@ -3,13 +3,14 @@ document.addEventListener('DOMContentLoaded', function () {
     const menuList = document.querySelector('.menu-list');
     const icon1 = document.querySelector('.icon1');
     const icon2 = document.querySelector('.icon2');
+    const overlay = document.getElementById('menu-overlay');
     const body = document.body;
 
-    // Create and add moon toggle to header
+    // Create and add moon toggle to menu
     const themeToggle = document.createElement('button');
     themeToggle.innerHTML = '🌙';
     themeToggle.className = 'theme-toggle';
-    document.querySelector('.menu').appendChild(themeToggle);
+    menuIcon.appendChild(themeToggle);
 
     // Create notification element
     const notification = document.createElement('div');
@@ -26,7 +27,8 @@ document.addEventListener('DOMContentLoaded', function () {
     }
 
     // Dark mode toggle
-    themeToggle.addEventListener('click', function() {
+    themeToggle.addEventListener('click', function(e) {
+        e.stopPropagation(); // Prevent menu from opening
         body.classList.toggle('dark-mode');
         if (body.classList.contains('dark-mode')) {
             themeToggle.innerHTML = '☀️';
@@ -82,6 +84,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
     menuIcon.addEventListener('click', function () {
         menuList.classList.toggle('show');
+        overlay.classList.toggle('show');
         if (menuList.classList.contains('show')) {
             icon1.style.display = 'none';
             icon2.style.display = 'block';
@@ -89,6 +92,13 @@ document.addEventListener('DOMContentLoaded', function () {
             icon1.style.display = 'block';
             icon2.style.display = 'none';
         }
+    });
+
+    overlay.addEventListener('click', function() {
+        menuList.classList.remove('show');
+        overlay.classList.remove('show');
+        icon1.style.display = 'block';
+        icon2.style.display = 'none';
     });
 
     // Ensure consistent footer across all pages
