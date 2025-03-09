@@ -7,6 +7,10 @@
   box-shadow: none !important;
   padding: 0 !important;
   outline: none !important;
+  font-size: 1.5rem !important;
+  display: block !important;
+  opacity: 1 !important;
+  visibility: visible !important;
 }
 
 .dark-mode-toggle i,
@@ -18,6 +22,10 @@
   box-shadow: none !important;
   padding: 0 !important;
   outline: none !important;
+  display: inline-block !important;
+  font-size: 1.5rem !important;
+  opacity: 1 !important;
+  visibility: visible !important;
 }
 
 /* Ensure moon icon in purple macchiato mode has no background and is white */
@@ -29,6 +37,8 @@ body.purple-macchiato-mode .dark-mode-toggle i {
   color: white !important;
   filter: brightness(0) invert(1) !important;
   cursor: default !important; /* Show default cursor to indicate it's not clickable */
+  opacity: 1 !important;
+  visibility: visible !important;
 }
 
 /* Disable pointer events in purple macchiato mode for dark mode toggle */
@@ -39,6 +49,8 @@ body.purple-macchiato-mode .dark-mode-toggle {
 /* Fix for any icon containers */
 .dark-mode-toggle * {
   background-color: transparent !important;
+  opacity: 1 !important;
+  visibility: visible !important;
 }
 
 /* Fix icon in any mode */
@@ -46,6 +58,9 @@ i.fa-moon-o, i.fa-sun-o {
   background-color: transparent !important;
   border-radius: 0 !important;
   box-shadow: none !important;
+  display: inline-block !important;
+  opacity: 1 !important;
+  visibility: visible !important;
 }
 
 /* Make sure site logo and menu buttons are white in purple mode */
@@ -54,4 +69,19 @@ body.purple-macchiato-mode .menu-icon,
 body.purple-macchiato-mode .icon1,
 body.purple-macchiato-mode .icon2 {
   filter: brightness(0) invert(1) !important; /* Force white color */
+}
+
+/* Explicitly ensure the fa-moon-o icon is visible */
+.fa-moon-o:before {
+  content: "\f186" !important; /* Moon icon unicode */
+  display: inline-block !important;
+  visibility: visible !important;
+  opacity: 1 !important;
+}
+
+.fa-sun-o:before {
+  content: "\f185" !important; /* Sun icon unicode */
+  display: inline-block !important;
+  visibility: visible !important;
+  opacity: 1 !important;
 } 

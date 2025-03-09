@@ -63,6 +63,7 @@ document.addEventListener('DOMContentLoaded', function() {
   
   // Écouter les changements de préférence système
   try {
+    // Using the modern addEventListener instead of deprecated addListener
     darkModeMediaQuery.addEventListener('change', function(e) {
       const newIsDark = e.matches;
       console.log("System preference changed to:", newIsDark ? "dark" : "light");
@@ -73,14 +74,19 @@ document.addEventListener('DOMContentLoaded', function() {
     });
   } catch (error) {
     console.log("Error with media query listener:", error);
-    // Fallback pour les navigateurs plus anciens
-    darkModeMediaQuery.addListener(function(e) {
-      const newIsDark = e.matches;
-      console.log("System preference changed to:", newIsDark ? "dark" : "light");
-      if (localStorage.getItem('darkMode') === null) {
-        applyDarkMode(newIsDark);
-      }
-    });
+    // Fallback pour les navigateurs plus anciens en utilisant addEventListener
+    try {
+      // Try alternative syntax for older browsers
+      darkModeMediaQuery.addEventListener('change', function(e) {
+        const newIsDark = e.matches;
+        console.log("System preference changed to:", newIsDark ? "dark" : "light");
+        if (localStorage.getItem('darkMode') === null) {
+          applyDarkMode(newIsDark);
+        }
+      });
+    } catch (fallbackError) {
+      console.log("Fallback also failed:", fallbackError);
+    }
   }
   
   // Gestionnaire de clic sur le bouton
