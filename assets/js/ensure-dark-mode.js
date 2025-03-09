@@ -11,7 +11,7 @@
       console.log("Dark mode toggle not found, creating it immediately");
       
       // Create the toggle button
-      var darkModeToggle = document.createElement('button');
+      const darkModeToggle = document.createElement('button');
       darkModeToggle.id = 'dark-mode-toggle';
       darkModeToggle.className = 'dark-mode-toggle';
       darkModeToggle.setAttribute('aria-label', 'Toggle Dark Mode');
@@ -31,7 +31,7 @@
       darkModeToggle.style.cursor = 'pointer';
       
       // Create the icon
-      var icon = document.createElement('i');
+      const icon = document.createElement('i');
       icon.className = 'fa fa-moon-o';
       icon.setAttribute('aria-hidden', 'true');
       
@@ -44,11 +44,11 @@
       darkModeToggle.appendChild(icon);
       
       // Add to body as soon as it's available
-      var addToggleToBody = function() {
+      const addToggleToBody = function() {
         if (document.body) {
           // Try to insert after header if it exists
-          var header = document.querySelector('.site-header');
-          if (header && header.parentNode) {
+          const header = document.querySelector('.site-header');
+          if (header?.parentNode) {
             header.parentNode.insertBefore(darkModeToggle, header.nextSibling);
           } else {
             // Otherwise, insert at the beginning of body
