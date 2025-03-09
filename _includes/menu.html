@@ -1,17 +1,17 @@
 <menu class="menu">
   <div class="menu-icon" id="menu-icon">
-    <img src="{{ site.url }}{{ site.baseurl }}/assets/img/menu_icon_1.png" alt="Icon 1" class="icon icon1">
-    <img src="{{ site.url }}{{ site.baseurl }}/assets/img/menu_icon_2.png" alt="Icon 2" class="icon icon2">
+    <img src="assets/img/menu_icon_1.png" alt="Icon 1" class="icon icon1">
+    <img src="assets/img/menu_icon_2.png" alt="Icon 2" class="icon icon2">
   </div>
 
     <div class="menu-list">
       {% for item in site.data.settings.menu %}
-        <a href="{{ site.url }}{{ site.baseurl }}/{{ item.url }}" class="menu-link">{{ item.name }}</a>
+        <a href="{{ site.github.url }}/{{ item.url }}" class="menu-link">{{ item.name }}</a>
       {% endfor %}
       {% for item in site.data.settings.social %}
         <a href="{{ item.link }}" class="menu-link" target="_blank"><i class="fa fa-{{ item.icon }}" aria-hidden="true"></i></a>
       {% endfor %}
     </div>
-    <script src="{{ site.url }}{{ site.baseurl }}/script.js"></script>
+    <script src="script.js"></script>
   
 </menu>
