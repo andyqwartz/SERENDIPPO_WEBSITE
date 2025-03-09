@@ -11,7 +11,7 @@ The design is intended to keep the focus on content and creativity without unnec
 ## Template & Credits
 
 - **Template:** Millennial Template by LeNPAUL
-- **Special Thanks:** Zhang – thank you very much for your precious help !
+- **Special Thanks:** Zhang – thank you very much for your precious help!
 
 ## Minimalism in Design
 
