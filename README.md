@@ -27,4 +27,6 @@ Thank you for taking the time to explore my website. I hope you enjoy the blend 
 
 "In simplicity lies complexity; in darkness, revelation."
 
-![Logo](/assets/img/logo.png)
+<p align="center">
+  <img src="/assets/img/logo.png" alt="Logo" style="filter: brightness(0) invert(1);">
+</p>
