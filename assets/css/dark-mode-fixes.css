@@ -15,9 +15,8 @@ body.dark-mode #dark-mode-toggle {
   right: 25px !important;
 }
 
-/* White color and text shadow for better visibility of the icon in dark mode */
+/* White color and text shadow for better visibility of the moon icon in dark mode */
 body.dark-mode #dark-mode-toggle i.fa,
-body.dark-mode #dark-mode-toggle i.fa-sun-o,
 body.dark-mode #dark-mode-toggle i.fa-moon-o {
   color: #ffffff !important;
   text-shadow: 0 0 5px rgba(0,0,0,0.8) !important;
@@ -26,9 +25,9 @@ body.dark-mode #dark-mode-toggle i.fa-moon-o {
   visibility: visible !important;
 }
 
-/* Special style for sun icon in dark mode */
-body.dark-mode .fa-sun-o:before {
-  content: "\f185" !important; /* Sun icon unicode */
+/* Special style for moon icon in dark mode */
+body.dark-mode .fa-moon-o:before {
+  content: "\f186" !important; /* Moon icon unicode */
   color: #ffffff !important;
   display: inline-block !important;
   opacity: 1 !important;
@@ -67,7 +66,7 @@ body.dark-mode #dark-mode-toggle:hover {
   100% { text-shadow: 0 0 5px rgba(255,255,255,0.3); }
 }
 
-/* Apply the glow animation to the dark mode icon */
+/* Apply the glow animation to the dark mode moon icon */
 body.dark-mode #dark-mode-toggle i {
   animation: glow 2s infinite;
 } 

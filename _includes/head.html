@@ -40,12 +40,33 @@
   
   <!-- Inline style for dark mode toggle as a last resort -->
   <style>
-    body.dark-mode #dark-mode-toggle,
-    body.dark-mode #dark-mode-toggle i {
-      color: #ffffff !important;
+    /* Force moon icon visibility in all modes */
+    #dark-mode-toggle,
+    #dark-mode-toggle i.fa,
+    #dark-mode-toggle i.fa-moon-o {
+      display: block !important;
       visibility: visible !important;
       opacity: 1 !important;
-      display: block !important;
+    }
+    
+    /* White moon in dark mode */
+    body.dark-mode #dark-mode-toggle,
+    body.dark-mode #dark-mode-toggle i.fa-moon-o {
+      color: #ffffff !important;
+    }
+    
+    /* Black moon in light mode */
+    body:not(.dark-mode) #dark-mode-toggle,
+    body:not(.dark-mode) #dark-mode-toggle i.fa-moon-o {
+      color: #000000 !important;
+    }
+    
+    /* Always show moon icon */
+    .fa-moon-o:before {
+      content: "\f186" !important;
+      display: inline-block !important;
+      visibility: visible !important;
+      opacity: 1 !important;
     }
   </style>
 </head>

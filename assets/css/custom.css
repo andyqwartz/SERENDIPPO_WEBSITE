@@ -26,8 +26,7 @@
 
 .dark-mode-toggle i,
 .dark-mode-toggle i.fa,
-.dark-mode-toggle i.fa-moon-o,
-.dark-mode-toggle i.fa-sun-o {
+.dark-mode-toggle i.fa-moon-o {
   background-color: transparent !important;
   border: none !important;
   box-shadow: none !important;
@@ -55,8 +54,7 @@ body.dark-mode .dark-mode-toggle {
 
 body.dark-mode .dark-mode-toggle i,
 body.dark-mode .dark-mode-toggle i.fa,
-body.dark-mode .dark-mode-toggle i.fa-moon-o,
-body.dark-mode .dark-mode-toggle i.fa-sun-o {
+body.dark-mode .dark-mode-toggle i.fa-moon-o {
   color: #ffffff !important;
   opacity: 1 !important;
   visibility: visible !important;
@@ -89,8 +87,8 @@ body.purple-macchiato-mode .dark-mode-toggle {
   color: inherit !important;
 }
 
-/* Fix icon in any mode */
-i.fa-moon-o, i.fa-sun-o {
+/* Fix moon icon in any mode */
+i.fa-moon-o {
   background-color: transparent !important;
   border-radius: 0 !important;
   box-shadow: none !important;
@@ -117,21 +115,6 @@ body.purple-macchiato-mode .icon2 {
   opacity: 1 !important;
   font-size: inherit !important;
   color: inherit !important;
-}
-
-.fa-sun-o:before {
-  content: "\f185" !important; /* Sun icon unicode */
-  display: inline-block !important;
-  visibility: visible !important;
-  opacity: 1 !important;
-  font-size: inherit !important;
-  color: inherit !important;
-}
-
-/* Better visibility for sun icon in dark mode */
-body.dark-mode .fa-sun-o:before {
-  color: #ffffff !important;
-  text-shadow: 0 0 5px rgba(0, 0, 0, 0.5) !important;
 }
 
 /* Ensure the Font Awesome font is available */

@@ -33,7 +33,7 @@ function createDarkModeToggle() {
   toggle.className = 'dark-mode-toggle';
   toggle.setAttribute('aria-label', 'Toggle Dark Mode');
   
-  // Create the icon
+  // Create the moon icon (always use moon)
   const icon = document.createElement('i');
   icon.className = 'fa fa-moon-o';
   icon.setAttribute('aria-hidden', 'true');
@@ -63,9 +63,12 @@ function ensureIconExists(darkModeToggle) {
   // If icon is not found, create it
   if (!icon) {
     const newIcon = document.createElement('i');
-    newIcon.className = 'fa fa-moon-o';
+    newIcon.className = 'fa fa-moon-o'; // Always use moon icon
     newIcon.setAttribute('aria-hidden', 'true');
     darkModeToggle.appendChild(newIcon);
+  } else {
+    // Make sure it's the moon icon
+    icon.className = 'fa fa-moon-o';
   }
 }
 
@@ -186,27 +189,30 @@ function applyDarkMode(body, darkModeToggle, isDark) {
     darkModeToggle.style.color = '#000000'; // Black in light mode
   }
   
-  updateIcon(darkModeToggle, isDark);
+  // Always keep the moon icon, but update its color based on the mode
+  updateMoonIcon(darkModeToggle, isDark);
 }
 
 /**
- * Updates the icon to reflect the current mode
+ * Updates the moon icon color based on the mode
  * @param {HTMLElement} darkModeToggle The dark mode toggle button
  * @param {boolean} isDark Whether dark mode is active
  */
-function updateIcon(darkModeToggle, isDark) {
+function updateMoonIcon(darkModeToggle, isDark) {
   const currentIcon = darkModeToggle.querySelector('i');
   if (currentIcon) {
+    // Ensure it's always the moon icon
+    if (!currentIcon.classList.contains('fa-moon-o')) {
+      currentIcon.className = 'fa fa-moon-o';
+    }
+    
+    // Just update the color based on the mode
     if (isDark) {
-      currentIcon.classList.remove('fa-moon-o');
-      currentIcon.classList.add('fa-sun-o');
-      // Ensure the sun icon is visible in dark mode
+      // White moon in dark mode
       currentIcon.style.color = '#ffffff';
       currentIcon.style.textShadow = '0 0 5px rgba(0,0,0,0.5)';
     } else {
-      currentIcon.classList.remove('fa-sun-o');
-      currentIcon.classList.add('fa-moon-o');
-      // Reset styles for moon icon in light mode
+      // Black moon in light mode
       currentIcon.style.color = '#000000';
       currentIcon.style.textShadow = 'none';
     }
@@ -236,6 +242,9 @@ function applyVisibilityStyles(darkModeToggle, body) {
   // Add some extra visibility for the icon
   const icon = darkModeToggle.querySelector('i');
   if (icon) {
+    // Ensure it's the moon icon
+    icon.className = 'fa fa-moon-o';
+    
     icon.style.display = 'inline-block';
     icon.style.visibility = 'visible';
     icon.style.opacity = '1';

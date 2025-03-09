@@ -24,13 +24,13 @@
       darkModeToggle.style.top = '25px';
       darkModeToggle.style.right = '25px';
       darkModeToggle.style.zIndex = '9999';
-      darkModeToggle.style.color = '#000';
+      darkModeToggle.style.color = document.body.classList.contains('dark-mode') ? '#fff' : '#000';
       darkModeToggle.style.fontSize = '1.5rem';
       darkModeToggle.style.backgroundColor = 'transparent';
       darkModeToggle.style.border = 'none';
       darkModeToggle.style.cursor = 'pointer';
       
-      // Create the icon
+      // Create the moon icon
       const icon = document.createElement('i');
       icon.className = 'fa fa-moon-o';
       icon.setAttribute('aria-hidden', 'true');
@@ -39,6 +39,7 @@
       icon.style.display = 'inline-block';
       icon.style.visibility = 'visible';
       icon.style.opacity = '1';
+      icon.style.color = document.body.classList.contains('dark-mode') ? '#fff' : '#000';
       
       // Append the icon to the button
       darkModeToggle.appendChild(icon);
@@ -63,6 +64,26 @@
       
       // Start the process of adding to body
       addToggleToBody();
+    } else {
+      // Ensure existing dark mode toggle has the moon icon
+      const existingToggle = document.getElementById('dark-mode-toggle');
+      const existingIcon = existingToggle.querySelector('i');
+      
+      // If icon exists but is not a moon, replace it
+      if (existingIcon) {
+        if (!existingIcon.classList.contains('fa-moon-o')) {
+          existingIcon.className = 'fa fa-moon-o';
+        }
+      } else {
+        // If no icon exists, add the moon icon
+        const newIcon = document.createElement('i');
+        newIcon.className = 'fa fa-moon-o';
+        newIcon.setAttribute('aria-hidden', 'true');
+        newIcon.style.display = 'inline-block';
+        newIcon.style.visibility = 'visible';
+        newIcon.style.opacity = '1';
+        existingToggle.appendChild(newIcon);
+      }
     }
   }
   
