@@ -5,16 +5,46 @@
  */
 document.addEventListener('DOMContentLoaded', function() {
   console.log("Dark mode script loaded");
-  const darkModeToggle = document.getElementById('dark-mode-toggle');
   
-  // Exit early if the dark mode toggle doesn't exist
+  // First check if the toggle exists
+  let darkModeToggle = document.getElementById('dark-mode-toggle');
+  
+  // If it doesn't exist, create it
   if (!darkModeToggle) {
-    console.log("Dark mode toggle not found, skipping dark mode initialization");
-    return;
+    console.log("Dark mode toggle not found, creating it dynamically");
+    darkModeToggle = document.createElement('button');
+    darkModeToggle.id = 'dark-mode-toggle';
+    darkModeToggle.className = 'dark-mode-toggle';
+    darkModeToggle.setAttribute('aria-label', 'Toggle Dark Mode');
+    
+    // Create the icon
+    const icon = document.createElement('i');
+    icon.className = 'fa fa-moon-o';
+    icon.setAttribute('aria-hidden', 'true');
+    
+    // Append the icon to the button
+    darkModeToggle.appendChild(icon);
+    
+    // Insert the toggle after the header
+    const header = document.querySelector('.site-header');
+    if (header && header.parentNode) {
+      header.parentNode.insertBefore(darkModeToggle, header.nextSibling);
+    } else {
+      // Fallback - insert at the beginning of the body
+      document.body.insertBefore(darkModeToggle, document.body.firstChild);
+    }
   }
   
   const body = document.body;
   const icon = darkModeToggle.querySelector('i');
+  
+  // If icon is still not found, create it
+  if (!icon && darkModeToggle) {
+    const newIcon = document.createElement('i');
+    newIcon.className = 'fa fa-moon-o';
+    newIcon.setAttribute('aria-hidden', 'true');
+    darkModeToggle.appendChild(newIcon);
+  }
   
   // Par défaut, commencer en mode clair (sans classe dark-mode)
   if (body.classList.contains('dark-mode')) {
@@ -26,15 +56,17 @@ document.addEventListener('DOMContentLoaded', function() {
     console.log("Applying mode:", isDark ? "dark" : "light");
     if (isDark) {
       body.classList.add('dark-mode');
-      if (icon) {
-        icon.classList.remove('fa-moon-o');
-        icon.classList.add('fa-sun-o');
+      const currentIcon = darkModeToggle.querySelector('i');
+      if (currentIcon) {
+        currentIcon.classList.remove('fa-moon-o');
+        currentIcon.classList.add('fa-sun-o');
       }
     } else {
       body.classList.remove('dark-mode');
-      if (icon) {
-        icon.classList.remove('fa-sun-o');
-        icon.classList.add('fa-moon-o');
+      const currentIcon = darkModeToggle.querySelector('i');
+      if (currentIcon) {
+        currentIcon.classList.remove('fa-sun-o');
+        currentIcon.classList.add('fa-moon-o');
       }
     }
   }
@@ -74,12 +106,10 @@ document.addEventListener('DOMContentLoaded', function() {
     });
   } catch (error) {
     console.log("Error with media query listener:", error);
-    // Fallback pour les navigateurs plus anciens en utilisant addEventListener
+    // Try alternative approach
     try {
-      // Try alternative syntax for older browsers
-      darkModeMediaQuery.addEventListener('change', function(e) {
+      window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', function(e) {
         const newIsDark = e.matches;
-        console.log("System preference changed to:", newIsDark ? "dark" : "light");
         if (localStorage.getItem('darkMode') === null) {
           applyDarkMode(newIsDark);
         }
@@ -96,4 +126,18 @@ document.addEventListener('DOMContentLoaded', function() {
     applyDarkMode(isDarkMode);
     localStorage.setItem('darkMode', String(isDarkMode));
   });
+  
+  // Make the toggle visible with inline style as a last resort
+  darkModeToggle.style.display = 'block';
+  darkModeToggle.style.visibility = 'visible';
+  darkModeToggle.style.opacity = '1';
+  darkModeToggle.style.position = 'absolute';
+  darkModeToggle.style.top = '25px';
+  darkModeToggle.style.right = '25px';
+  darkModeToggle.style.zIndex = '100';
+  darkModeToggle.style.color = body.classList.contains('dark-mode') ? '#fff' : '#000';
+  darkModeToggle.style.fontSize = '1.5rem';
+  darkModeToggle.style.backgroundColor = 'transparent';
+  darkModeToggle.style.border = 'none';
+  darkModeToggle.style.cursor = 'pointer';
 }); 

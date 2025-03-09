@@ -11,6 +11,17 @@
   display: block !important;
   opacity: 1 !important;
   visibility: visible !important;
+  position: absolute !important;
+  top: 25px !important;
+  right: 25px !important;
+  z-index: 9999 !important;
+  cursor: pointer !important;
+  width: auto !important;
+  height: auto !important;
+  min-width: 30px !important;
+  min-height: 30px !important;
+  overflow: visible !important;
+  pointer-events: auto !important;
 }
 
 .dark-mode-toggle i,
@@ -26,6 +37,12 @@
   font-size: 1.5rem !important;
   opacity: 1 !important;
   visibility: visible !important;
+  color: inherit !important;
+  width: auto !important;
+  height: auto !important;
+  overflow: visible !important;
+  margin: 0 !important;
+  text-shadow: none !important;
 }
 
 /* Ensure moon icon in purple macchiato mode has no background and is white */
@@ -51,6 +68,7 @@ body.purple-macchiato-mode .dark-mode-toggle {
   background-color: transparent !important;
   opacity: 1 !important;
   visibility: visible !important;
+  color: inherit !important;
 }
 
 /* Fix icon in any mode */
@@ -61,6 +79,8 @@ i.fa-moon-o, i.fa-sun-o {
   display: inline-block !important;
   opacity: 1 !important;
   visibility: visible !important;
+  font-size: 1.5rem !important;
+  color: inherit !important;
 }
 
 /* Make sure site logo and menu buttons are white in purple mode */
@@ -77,6 +97,8 @@ body.purple-macchiato-mode .icon2 {
   display: inline-block !important;
   visibility: visible !important;
   opacity: 1 !important;
+  font-size: inherit !important;
+  color: inherit !important;
 }
 
 .fa-sun-o:before {
@@ -84,4 +106,19 @@ body.purple-macchiato-mode .icon2 {
   display: inline-block !important;
   visibility: visible !important;
   opacity: 1 !important;
+  font-size: inherit !important;
+  color: inherit !important;
+}
+
+/* Ensure the Font Awesome font is available */
+@font-face {
+  font-family: 'FontAwesome';
+  src: url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/fonts/fontawesome-webfont.eot');
+  src: url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/fonts/fontawesome-webfont.eot?#iefix') format('embedded-opentype'),
+       url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/fonts/fontawesome-webfont.woff2') format('woff2'),
+       url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/fonts/fontawesome-webfont.woff') format('woff'),
+       url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/fonts/fontawesome-webfont.ttf') format('truetype'),
+       url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/fonts/fontawesome-webfont.svg#fontawesomeregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
 } 
