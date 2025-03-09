@@ -3,7 +3,7 @@
   width: $container-width;
   position: fixed;
   background-color: white;
-  z-index: 1;
+  z-index: 1000;
   left:50%;
   top:0;
   transform: translateX(-50%);
@@ -14,8 +14,18 @@
   height: auto; 
   display: block;
   margin: 0 auto;
+  z-index: 1001;
 }
+
 .centered-image {
+  position: relative;
   top:15px;
   text-align: center;
+  z-index: 1001;
+}
+
+@media (max-width: $container-width) {
+  .site-header {
+    width: 100%;
+  }
 }

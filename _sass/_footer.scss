@@ -27,3 +27,17 @@
   color: #9a9a9a;
   font-size:0.8rem;
 }
+
+.legal-links {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-size: 0.8rem;
+}
+
+.legal-links a {
+  color: #9a9a9a;
+  text-decoration: none;
+  &:hover {
+    text-decoration: underline;
+  }
+}

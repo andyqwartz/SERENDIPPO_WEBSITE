@@ -1,0 +1,45 @@
+/* Finnhub Stock Widget Styles */
+.stock-widget {
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  padding: 15px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  font-family: 'Pixelify Sans', sans-serif;
+}
+
+.stock-widget h3 {
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.stock-price {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.stock-change {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.stock-change.positive {
+  color: #28a745;
+}
+
+.stock-change.negative {
+  color: #dc3545;
+}
+
+.loading {
+  color: #6c757d;
+  font-style: italic;
+}
+
+.error {
+  color: #dc3545;
+  font-style: italic;
+} 
