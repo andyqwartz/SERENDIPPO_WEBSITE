@@ -1,13 +1,36 @@
 <footer class="footer">
-  <nav class="social-icons-container">
-    {% for item in site.data.settings.social %}
-      <a href="{{ item.link }}" class="social-icon-link fa fa-{{ item.icon }}" target="_blank" aria-label="{{ item.name }}" rel="noopener noreferrer"></a>
-    {% endfor %}
-  </nav>
-  <div class="legal-links">
-    <a href="{{ site.github.url }}/TERMS/">Terms of Use</a>
+  <div class="footer-content">
+    <a href="{{ site.url }}/TERMS">Terms of Use</a> | <a href="{{ site.url }}/PRIVACY">Privacy Policy</a>
   </div>
-  <div class="footer-description">
-    <a href="{{ site.github.url }}/" aria-label="GitHub link">{{ site.title }} by {{ site.author }}</a>
+  <div class="footer-content">
+    SERENDIPPO by SERENDIPPO
+  </div>
+  <div class="dark-mode-toggle">
+    <i class="fas fa-moon"></i>
   </div>
 </footer>
+
+<script>
+  // Dark mode toggle
+  const darkModeToggle = document.querySelector('.dark-mode-toggle');
+  darkModeToggle.addEventListener('click', () => {
+    document.body.classList.toggle('dark-mode');
+    localStorage.setItem('darkMode', document.body.classList.contains('dark-mode'));
+  });
+
+  // Check for saved dark mode preference
+  if (localStorage.getItem('darkMode') === 'true') {
+    document.body.classList.add('dark-mode');
+  }
+
+  // Lavender Latte Mode Easter Egg
+  let logoClicks = 0;
+  const logo = document.querySelector('.menu-icon');
+  logo.addEventListener('click', () => {
+    logoClicks++;
+    if (logoClicks === 5) {
+      document.body.classList.toggle('lavender-latte-mode');
+      logoClicks = 0;
+    }
+  });
+</script>
