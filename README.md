@@ -11,7 +11,7 @@ The design is intended to keep the focus on content and creativity without unnec
 ## Template & Credits
 
 - **Template:** Millennial Template by LeNPAUL
-- **Special Thanks:** Zhang – thank you very much for your invaluable help!
+- **Special Thanks:** Zhang – thank you very much for your precious help!
 
 ## Minimalism in Design
 
@@ -19,11 +19,14 @@ At the heart of this website is a minimalist philosophy that emphasizes:
 - **Clarity:** Ensuring that every piece of content is easily accessible.
 - **Simplicity:** Avoiding overcomplication in both layout and navigation.
 - **Impact:** Using visual elements sparingly to create a lasting impression.
+- **Mystery:** Some elements remain hidden, waiting to be discovered.
 
 ## Final Thoughts
 
-Thank you for taking the time to explore my website. I hope you enjoy the blend of minimalist design and functional elegance. Your feedback is always welcome, so feel free to reach out with any questions or suggestions.
+Thank you for taking the time to explore my website. I hope you enjoy the blend of minimalist design and functional elegance. 
 
-Enjoy your visit!
+"In simplicity lies complexity; in darkness, revelation."
 
-![Logo](/assets/img/DEFICIT_LOGO_1024.png)
+<p align="center">
+  <img src="/assets/img/logo.png" alt="Logo" style="filter: invert(1);">
+</p>
