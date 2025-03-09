@@ -1,0 +1,57 @@
+/* Custom styles to fix specific issues */
+
+/* Fix for the moon icon in dark mode toggle to remove frame/background */
+.dark-mode-toggle {
+  background-color: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+  padding: 0 !important;
+  outline: none !important;
+}
+
+.dark-mode-toggle i,
+.dark-mode-toggle i.fa,
+.dark-mode-toggle i.fa-moon-o,
+.dark-mode-toggle i.fa-sun-o {
+  background-color: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+  padding: 0 !important;
+  outline: none !important;
+}
+
+/* Ensure moon icon in purple macchiato mode has no background and is white */
+body.purple-macchiato-mode .dark-mode-toggle,
+body.purple-macchiato-mode .dark-mode-toggle i {
+  background-color: transparent !important;
+  box-shadow: none !important;
+  border: none !important;
+  color: white !important;
+  filter: brightness(0) invert(1) !important;
+  cursor: default !important; /* Show default cursor to indicate it's not clickable */
+}
+
+/* Disable pointer events in purple macchiato mode for dark mode toggle */
+body.purple-macchiato-mode .dark-mode-toggle {
+  pointer-events: none !important; /* Completely disable interactions */
+}
+
+/* Fix for any icon containers */
+.dark-mode-toggle * {
+  background-color: transparent !important;
+}
+
+/* Fix icon in any mode */
+i.fa-moon-o, i.fa-sun-o {
+  background-color: transparent !important;
+  border-radius: 0 !important;
+  box-shadow: none !important;
+}
+
+/* Make sure site logo and menu buttons are white in purple mode */
+body.purple-macchiato-mode .site-image,
+body.purple-macchiato-mode .menu-icon,
+body.purple-macchiato-mode .icon1,
+body.purple-macchiato-mode .icon2 {
+  filter: brightness(0) invert(1) !important; /* Force white color */
+} 

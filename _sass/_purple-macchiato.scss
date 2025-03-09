@@ -1,0 +1,103 @@
+/* Styles for the secret Purple Macchiato mode */
+body.purple-macchiato-mode {
+  background-color: #9370DB; /* Lavender/mauve purple background */
+  color: #ffffff; /* White text */
+  
+  a {
+    color: #ffffff; /* Links in white */
+  }
+  
+  /* Header in purple macchiato mode */
+  .site-header {
+    background-color: #9370DB; /* Same as background for unified look */
+  }
+  
+  /* Ensure logo is white - apply inversion if needed */
+  .site-image {
+    filter: brightness(0) invert(1); /* Make sure logo is white */
+  }
+  
+  /* Styles for headings - in white */
+  h1, h2, h3, h4, h5, h6 {
+    color: #ffffff;
+  }
+  
+  /* Menu in purple macchiato mode - keep icons white */
+  .menu-icon {
+    filter: brightness(0) invert(1); /* Ensure menu icon is white */
+  }
+  
+  /* Make sure menu icons are white */
+  .icon1, .icon2 {
+    filter: brightness(0) invert(1) !important; /* Force white icons */
+  }
+  
+  /* Menu modal in purple macchiato mode */
+  .menu-list.show {
+    background-color: rgba(147, 112, 219, 0.9) !important; /* Semi-transparent lavender */
+    backdrop-filter: blur(8px);
+  }
+  
+  /* Menu links in purple macchiato mode - keep white */
+  .menu-link {
+    color: #ffffff !important;
+  }
+  
+  /* Content elements */
+  table, th, td {
+    border: 1px solid #ffffff;
+  }
+  
+  blockquote {
+    border-left: 0.25em solid #B19CD9; /* Lighter lavender */
+    color: #f0e6ff; /* Very light purple */
+  }
+  
+  /* Footer in purple macchiato mode */
+  .footer {
+    background-color: #9370DB;
+  }
+  
+  /* Add a subtle accent color for some elements */
+  button, input[type="submit"], .btn {
+    background-color: #B19CD9; /* Lighter lavender */
+    color: #ffffff; /* White text */
+  }
+  
+  /* Links hover effect */
+  a:hover {
+    color: #e6e6fa; /* Lavender color on hover */
+  }
+  
+  /* Fix for dark mode toggle button moon icon */
+  .dark-mode-toggle {
+    background-color: transparent !important;
+    border: none !important;
+    box-shadow: none !important;
+    color: #ffffff !important;
+  }
+  
+  /* Remove frame from moon icon and make it white */
+  .dark-mode-toggle i {
+    color: #ffffff !important;
+    background-color: transparent !important;
+    box-shadow: none !important;
+    padding: 0 !important;
+    border: none !important;
+    filter: brightness(0) invert(1) !important; /* Ensure moon icon is white */
+  }
+  
+  /* Ensure all icons in purple mode have no background frame */
+  i.fa, i.fas, i.far, .fa-moon, .fa-sun {
+    background-color: transparent !important;
+    box-shadow: none !important;
+    border: none !important;
+  }
+  
+  /* Additional fix for the dark mode toggle button */
+  .dark-mode-toggle::before, 
+  .dark-mode-toggle::after {
+    display: none !important;
+    background: transparent !important;
+  }
+} 
