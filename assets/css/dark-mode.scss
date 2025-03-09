@@ -1,0 +1,68 @@
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #1a1a1a;
+    color: #e0e0e0;
+  }
+
+  a {
+    color: #d090f2;
+    &:hover {
+      color: #b76de3;
+    }
+  }
+
+  .container {
+    background-color: #242424;
+  }
+
+  .menu-content a {
+    color: #d090f2;
+    &:hover {
+      color: #b76de3;
+    }
+  }
+
+  .social-icons a {
+    color: #d090f2;
+    &:hover {
+      color: #b76de3;
+    }
+  }
+
+  .post-title {
+    color: #e0e0e0;
+  }
+
+  .post-date {
+    color: #888;
+  }
+
+  code {
+    background-color: #333;
+    color: #e0e0e0;
+  }
+
+  pre {
+    background-color: #333;
+    code {
+      color: #e0e0e0;
+    }
+  }
+
+  blockquote {
+    border-left-color: #d090f2;
+    background-color: #2a2a2a;
+  }
+
+  table {
+    th, td {
+      border-color: #444;
+    }
+    th {
+      background-color: #333;
+    }
+    tr:nth-child(even) {
+      background-color: #2a2a2a;
+    }
+  }
+} 
