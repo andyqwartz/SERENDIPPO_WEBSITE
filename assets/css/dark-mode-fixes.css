@@ -1,0 +1,72 @@
+/* Special fixes for the dark mode toggle to ensure it's always visible */
+
+/* Make toggle button extremely visible in dark mode with important styles */
+body.dark-mode #dark-mode-toggle {
+  color: #ffffff !important;
+  opacity: 1 !important;
+  visibility: visible !important;
+  display: block !important;
+  z-index: 9999 !important;
+  background-color: transparent !important;
+  box-shadow: none !important;
+  border: none !important;
+  position: absolute !important;
+  top: 25px !important;
+  right: 25px !important;
+}
+
+/* White color and text shadow for better visibility of the moon icon in dark mode */
+body.dark-mode #dark-mode-toggle i.fa,
+body.dark-mode #dark-mode-toggle i.fa-moon-o {
+  color: #ffffff !important;
+  text-shadow: 0 0 5px rgba(0,0,0,0.8) !important;
+  background-color: transparent !important;
+  opacity: 1 !important;
+  visibility: visible !important;
+}
+
+/* Special style for moon icon in dark mode */
+body.dark-mode .fa-moon-o:before {
+  content: "\f186" !important; /* Moon icon unicode */
+  color: #ffffff !important;
+  display: inline-block !important;
+  opacity: 1 !important;
+  visibility: visible !important;
+  font-size: inherit !important;
+  text-shadow: 0 0 8px rgba(255,255,255,0.5) !important; /* White glow for better visibility */
+  filter: none !important;
+}
+
+/* Add a slight visual indicator to make it more noticeable in dark mode */
+body.dark-mode #dark-mode-toggle:hover {
+  transform: scale(1.1) !important;
+  transition: transform 0.2s ease !important;
+}
+
+/* Special compatibility for Firefox */
+@-moz-document url-prefix() {
+  body.dark-mode #dark-mode-toggle i {
+    color: #ffffff !important;
+    opacity: 1 !important;
+  }
+}
+
+/* Special compatibility for Safari */
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  body.dark-mode #dark-mode-toggle i {
+    color: #ffffff !important;
+    opacity: 1 !important;
+  }
+}
+
+/* Add a special glow effect in dark mode */
+@keyframes glow {
+  0% { text-shadow: 0 0 5px rgba(255,255,255,0.3); }
+  50% { text-shadow: 0 0 8px rgba(255,255,255,0.6); }
+  100% { text-shadow: 0 0 5px rgba(255,255,255,0.3); }
+}
+
+/* Apply the glow animation to the dark mode moon icon */
+body.dark-mode #dark-mode-toggle i {
+  animation: glow 2s infinite;
+} 

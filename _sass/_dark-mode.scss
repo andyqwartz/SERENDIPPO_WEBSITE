@@ -1,0 +1,90 @@
+/* Styles pour le mode sombre */
+body.dark-mode {
+  background-color: #000000;
+  color: #ffffff; /* Texte blanc, pas jaune */
+  
+  a {
+    color: #ffffff; /* Liens en blanc */
+  }
+  
+  /* Header en mode sombre */
+  .site-header {
+    background-color: #000000; /* Même couleur que le fond pour unification */
+  }
+  
+  /* Logo en négatif */
+  .site-image {
+    filter: invert(1); /* Inversion complète pour le logo */
+  }
+  
+  /* Styles pour les titres - en blanc, pas en jaune */
+  h1, h2, h3, h4, h5, h6 {
+    color: #ffffff;
+  }
+  
+  /* Menu en mode sombre */
+  .menu-icon {
+    filter: invert(1); /* Inversion des icônes du menu */
+  }
+  
+  /* Menu modal en mode sombre */
+  .menu-list.show {
+    background-color: rgba(0, 0, 0, 0.9) !important;
+    backdrop-filter: blur(8px);
+  }
+  
+  /* Liens du menu en mode sombre */
+  .menu-link {
+    color: #ffffff !important;
+  }
+  
+  /* Éléments de contenu */
+  table, th, td {
+    border: 1px solid #ffffff;
+  }
+  
+  blockquote {
+    border-left: 0.25em solid #444;
+    color: #dddddd;
+  }
+  
+  /* Footer en mode sombre */
+  .footer {
+    background-color: #000000;
+  }
+
+  /* Style spécifique pour le bouton en mode sombre */
+  .dark-mode-toggle {
+    position: fixed !important;
+    top: 25px !important;
+    right: 25px !important;
+    z-index: 9999 !important;
+    color: #ffffff !important;
+    background-color: transparent !important;
+    border: none !important;
+    box-shadow: none !important;
+    padding: 0 !important;
+    cursor: pointer !important;
+  }
+
+  /* Style de l'icône en mode sombre */
+  .dark-mode-toggle i {
+    color: #ffffff !important;
+    font-size: 1.5rem !important;
+    text-shadow: 0 0 5px rgba(0, 0, 0, 0.5) !important;
+  }
+}
+
+/* Style de base du bouton (en mode clair) */
+.dark-mode-toggle {
+  position: fixed !important;
+  top: 25px !important;
+  right: 25px !important;
+  z-index: 9999 !important;
+  background-color: transparent !important;
+  border: none !important;
+  cursor: pointer !important;
+  color: #000 !important;
+  font-size: 1.5rem !important;
+  padding: 0 !important;
+}

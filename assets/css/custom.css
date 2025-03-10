@@ -1,0 +1,71 @@
+/* Custom styles to fix specific issues */
+
+/* Ensure Font Awesome is loaded correctly */
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');
+
+/* Base styles for dark mode toggle */
+.dark-mode-toggle {
+  position: fixed !important;
+  top: 25px !important;
+  right: 25px !important;
+  z-index: 999999 !important;
+  cursor: pointer !important;
+  width: 30px !important;
+  height: 30px !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  background: none !important;
+  border: none !important;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+/* Moon icon base styles */
+.dark-mode-toggle i.fa-moon-o {
+  font-family: 'FontAwesome' !important;
+  font-size: 24px !important;
+  color: #000000 !important; /* Black in light mode */
+  display: block !important;
+  visibility: visible !important;
+  opacity: 1 !important;
+}
+
+/* Force white moon in dark mode */
+body.dark-mode .dark-mode-toggle i.fa-moon-o {
+  color: #ffffff !important;
+}
+
+/* Force white moon in lavender mode */
+body.lavender-latte-mode .dark-mode-toggle i.fa-moon-o {
+  color: #ffffff !important;
+}
+
+/* Mobile adjustments */
+@media screen and (max-width: 768px) {
+  .dark-mode-toggle {
+    top: 20px !important;
+    right: 20px !important;
+  }
+}
+
+/* Make sure site logo and menu buttons are white in lavender latte mode */
+body.lavender-latte-mode .site-image,
+body.lavender-latte-mode .menu-icon,
+body.lavender-latte-mode .icon1,
+body.lavender-latte-mode .icon2 {
+  filter: brightness(0) invert(1) !important;
+}
+
+/* Ensure the Font Awesome font is available */
+@font-face {
+  font-family: 'FontAwesome';
+  src: url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/fonts/fontawesome-webfont.eot');
+  src: url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/fonts/fontawesome-webfont.eot?#iefix') format('embedded-opentype'),
+       url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/fonts/fontawesome-webfont.woff2') format('woff2'),
+       url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/fonts/fontawesome-webfont.woff') format('woff'),
+       url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/fonts/fontawesome-webfont.ttf') format('truetype'),
+       url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/fonts/fontawesome-webfont.svg#fontawesomeregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+} 

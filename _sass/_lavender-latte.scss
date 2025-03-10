@@ -1,0 +1,124 @@
+/* Styles for the secret Lavender Latte mode */
+body.lavender-latte-mode {
+  background-color: #6a5acd; /* Slate Blue - un mauve lavande plus sombre */
+  color: #ffffff; /* White text */
+  
+  a {
+    color: #e6d8ff !important; /* Lighter lavender color for footer and general links */
+    text-decoration: none;
+    transition: color 0.3s;
+    font-weight: 500;
+  }
+  
+  /* Specific styling for content links */
+  .post-content a,
+  .page-content a {
+    color: #d4c4ff !important; /* Slightly darker for better readability in content */
+    font-weight: 600;
+  }
+  
+  /* Header in Lavender Latte mode */
+  .site-header {
+    background-color: #6a5acd; /* Same as background for unified look */
+  }
+  
+  /* Ensure logo is white - apply inversion if needed */
+  .site-image {
+    filter: brightness(0) invert(1); /* Make sure logo is white */
+  }
+  
+  /* Styles for headings - in white */
+  h1, h2, h3, h4, h5, h6 {
+    color: #ffffff;
+  }
+  
+  /* Menu in Lavender Latte mode - keep icons white */
+  .menu-icon {
+    filter: brightness(0) invert(1); /* Ensure menu icon is white */
+  }
+  
+  /* Make sure menu icons are white */
+  .icon1, .icon2 {
+    filter: brightness(0) invert(1) !important; /* Force white icons */
+  }
+  
+  /* Menu modal in Lavender Latte mode */
+  .menu-list.show {
+    background-color: rgba(106, 90, 205, 0.9) !important; /* Semi-transparent slate blue */
+    backdrop-filter: blur(8px);
+  }
+  
+  /* Menu links in Lavender Latte mode - keep white */
+  .menu-link {
+    color: #ffffff !important;
+  }
+  
+  /* Content elements */
+  table, th, td {
+    border: 1px solid #ffffff;
+  }
+  
+  blockquote {
+    border-left: 0.25em solid #8a7feb; /* Lighter lavender */
+    color: #f0e6ff; /* Very light purple */
+  }
+  
+  /* Footer in Lavender Latte mode */
+  .footer {
+    background-color: #6a5acd;
+  }
+  
+  /* Add a subtle accent color for some elements */
+  button, input[type="submit"], .btn {
+    background-color: #8a7feb; /* Lighter lavender */
+    color: #ffffff; /* White text */
+  }
+  
+  /* Links hover effect */
+  a:hover {
+    color: #ffffff !important; /* White on hover for maximum contrast */
+    border-color: #ffffff !important; 
+    text-decoration: underline;
+  }
+  
+  .post-content a:hover,
+  .page-content a:hover {
+    color: #ffffff !important;
+    text-decoration: underline;
+    text-shadow: 0 0 8px rgba(255,255,255,0.3); /* Subtle glow effect on hover */
+  }
+  
+  /* Fix for dark mode toggle button moon icon */
+  .dark-mode-toggle {
+    background-color: transparent !important;
+    border: none !important;
+    box-shadow: none !important;
+    color: #ffffff !important;
+  }
+  
+  /* Remove frame from moon icon and make it white */
+  .dark-mode-toggle i {
+    color: #ffffff !important;
+    background-color: transparent !important;
+    box-shadow: none !important;
+    padding: 0 !important;
+    border: none !important;
+    filter: brightness(0) invert(1) !important; /* Ensure moon icon is white */
+  }
+  
+  /* Ensure all icons in Lavender Latte mode have no background frame */
+  i.fa, i.fas, i.far, .fa-moon, .fa-sun {
+    background-color: transparent !important;
+    box-shadow: none !important;
+    border: none !important;
+  }
+  
+  /* Additional fix for the dark mode toggle button */
+  .dark-mode-toggle::before, 
+  .dark-mode-toggle::after {
+    display: none !important;
+    background: transparent !important;
+  }
+
+  /* La notification est désormais gérée uniquement par le script JavaScript */
+} 

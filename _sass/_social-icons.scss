@@ -1,0 +1,29 @@
+// Mixin for social media icons with transition effects and hover color change
+@mixin social-media-icon($color, $transition-time) {
+  -webkit-transition: $transition-time;
+  transition: $transition-time;
+  &:hover {
+    color: $color;
+  }
+  display: inline-block; // Ensure the element is suitable for transformation
+  transform: scale(1.5); // Adjust scale value as needed to increase icon size
+  transition: transform 0.3s ease, color 0.3s ease; // Smooth transition for transform and color
+}
+
+// Specific styles for each social media icon
+.social-icon-link {
+  padding: 5px;
+  
+  // Apply the mixin with color and transition time
+  &.fa-envelope { @include social-media-icon($envelope-color, 0.3s); }
+  &.fa-twitter { @include social-media-icon($twitter-color, 0.3s); }
+  &.fa-instagram { @include social-media-icon($instagram-color, 0.3s); }
+  &.fa-github { @include social-media-icon($github-color, 0.3s); }
+  &.fa-linkedin { @include social-media-icon($linkedin-color, 0.3s); }
+  &.fa-facebook { @include social-media-icon($facebook-color, 0.3s); }
+  &.fa-google-plus { @include social-media-icon($google-color, 0.3s); }
+  &.fa-pinterest { @include social-media-icon($pinterest-color, 0.3s); }
+  &.fa-medium { @include social-media-icon($medium-color, 0.3s); }
+  &.fa-codepen { @include social-media-icon($codepen-color, 0.3s); }
+  &.fa-rss-square { @include social-media-icon($rss-color, 0.3s); }
+}

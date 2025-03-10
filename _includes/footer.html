@@ -1,0 +1,13 @@
+<footer class="footer">
+  <nav class="social-icons-container">
+    {% for item in site.data.settings.social %}
+      <a href="{{ item.link }}" class="social-icon-link fa fa-{{ item.icon }}" target="_blank" aria-label="{{ item.name }}" rel="noopener noreferrer"></a>
+    {% endfor %}
+  </nav>
+  <div class="legal-links" style="text-align: center; font-size: 0.9em;">
+    <a href="{{ site.github.url }}/TERMS/">Terms of Use</a> • <a href="{{ site.github.url }}/PRIVACY/">Privacy Policy</a>
+  </div>
+  <div class="footer-description">
+    <a href="{{ site.github.url }}/" aria-label="GitHub link">{{ site.title }} by {{ site.author }}</a>
+  </div>
+</footer>

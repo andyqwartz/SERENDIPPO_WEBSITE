@@ -1,0 +1,26 @@
+.site-header {
+  min-height:100px;
+  width: $container-width;
+  position: fixed;
+  background-color: white;
+  z-index: 1000;
+  left:50%;
+  top:0;
+  transform: translateX(-50%);
+}
+
+.site-image {
+  width:100px;
+  height: auto; 
+  display: block;
+  margin: 0 auto;
+  position: relative;
+  z-index: 1000;
+}
+
+.centered-image {
+  top:15px;
+  text-align: center;
+  position: relative;
+  z-index: 1000;
+}

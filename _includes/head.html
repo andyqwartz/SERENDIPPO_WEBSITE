@@ -1,0 +1,73 @@
+<head>
+  <title>
+    {% if page.title == "Home" %}
+      {{ site.title }} 
+    {% else %}
+      {{ page.title }} | {{ site.title }}
+    {% endif %}
+  </title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="utf-8">
+  <!-- Font Awesome early load to ensure icons are available -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+  <!-- Ensure dark mode toggle script runs as early as possible -->
+  <script src="{{ site.github.url }}/assets/js/ensure-dark-mode.js"></script>
+  <link rel="stylesheet" href="{{ site.github.url }}/assets/css/main.css">
+  <link rel="stylesheet" href="{{ site.github.url }}/assets/css/syntax.css">
+  <!-- Custom CSS for fixes -->
+  <link rel="stylesheet" href="{{ site.github.url }}/assets/css/custom.css">
+  <!-- Special fixes for dark mode toggle visibility -->
+  <link rel="stylesheet" href="{{ site.github.url }}/assets/css/dark-mode-fixes.css">
+  <!-- Use Atom -->
+  {% feed_meta %}
+  <!-- RSS-v2.0
+  <link href="{{ site.github.url }}/rss-feed.xml" type="application/rss+xml" rel="alternate" title="{{ site.title }} | {{ site.description }}"/>
+  //-->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto|Source+Code+Pro">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans&family=Scada&family=Tektur&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <script type="text/javascript" async
+    src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML">
+  </script>
+  <!-- Google Analytics -->
+  {% include google-analytics.html %}
+  <!-- Use Jekyll SEO plugin -->
+  {% seo %}
+  <!-- Dark Mode Script -->
+  <script src="{{ site.github.url }}/assets/js/dark-mode.js"></script>
+  
+  <!-- Inline style for dark mode toggle as a last resort -->
+  <style>
+    /* Force moon icon visibility in all modes */
+    #dark-mode-toggle,
+    #dark-mode-toggle i.fa,
+    #dark-mode-toggle i.fa-moon-o {
+      display: block !important;
+      visibility: visible !important;
+      opacity: 1 !important;
+    }
+    
+    /* White moon in dark mode */
+    body.dark-mode #dark-mode-toggle,
+    body.dark-mode #dark-mode-toggle i.fa-moon-o {
+      color: #ffffff !important;
+    }
+    
+    /* Black moon in light mode */
+    body:not(.dark-mode) #dark-mode-toggle,
+    body:not(.dark-mode) #dark-mode-toggle i.fa-moon-o {
+      color: #000000 !important;
+    }
+    
+    /* Always show moon icon */
+    .fa-moon-o:before {
+      content: "\f186" !important;
+      display: inline-block !important;
+      visibility: visible !important;
+      opacity: 1 !important;
+    }
+  </style>
+</head>
