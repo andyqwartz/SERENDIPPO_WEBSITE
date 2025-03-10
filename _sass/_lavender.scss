@@ -1,67 +1,63 @@
-// Lavender mode styles
-body.lavender-mode {
-  background-color: #f3e5f5;
-  color: #4a148c;
+// Variables
+$lavender-primary: #d090f2;
+$lavender-secondary: #b76de3;
+$lavender-light: #f5e6ff;
+$lavender-dark: #4a2b5f;
 
-  a {
-    color: #7b1fa2;
+// Base theme
+body {
+  accent-color: $lavender-primary;
+}
+
+a {
+  color: $lavender-primary;
+  &:hover {
+    color: $lavender-secondary;
+  }
+}
+
+.site-title {
+  color: $lavender-dark;
+}
+
+.menu-content a {
+  color: $lavender-primary;
+  &:hover {
+    color: $lavender-secondary;
+  }
+}
+
+.social-icons a {
+  color: $lavender-primary;
+  &:hover {
+    color: $lavender-secondary;
+  }
+}
+
+.featured-posts {
+  border-color: $lavender-light;
+}
+
+.featured-posts h2 {
+  color: $lavender-dark;
+}
+
+.pagination {
+  a, span {
+    color: $lavender-primary;
     &:hover {
-      color: #6a1b9a;
+      background-color: $lavender-light;
     }
   }
+}
 
-  .container {
-    background-color: #faf5fb;
-  }
+blockquote {
+  border-left-color: $lavender-primary;
+}
 
-  .menu-content a {
-    color: #7b1fa2;
-    &:hover {
-      color: #6a1b9a;
-    }
-  }
-
-  .social-icons a {
-    color: #7b1fa2;
-    &:hover {
-      color: #6a1b9a;
-    }
-  }
-
-  .post-title {
-    color: #4a148c;
-  }
-
-  .post-date {
-    color: #9c27b0;
-  }
-
-  code {
-    background-color: #e1bee7;
-    color: #4a148c;
-  }
-
-  pre {
-    background-color: #e1bee7;
-    code {
-      color: #4a148c;
-    }
-  }
-
-  blockquote {
-    border-left-color: #9c27b0;
-    background-color: #f3e5f5;
-  }
-
-  table {
-    th, td {
-      border-color: #ce93d8;
-    }
-    th {
-      background-color: #e1bee7;
-    }
-    tr:nth-child(even) {
-      background-color: #f3e5f5;
-    }
+button, .button {
+  background-color: $lavender-primary;
+  &:hover {
+    background-color: $lavender-secondary;
   }
 } 

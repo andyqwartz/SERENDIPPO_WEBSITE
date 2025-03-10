@@ -26,8 +26,16 @@ $medium-color: #00AB6C;
 $codepen-color: black;
 $rss-color: #ff6600;
 
+@import "base";
 @import "syntax";
 @import "dark-mode";
 @import "lavender";
+@import "code";
+@import "header";
+@import "footer";
+@import "menu";
+@import "social-icons";
+@import "post";
+@import "home";
 
 // Base styles and layouts will be imported from the theme
