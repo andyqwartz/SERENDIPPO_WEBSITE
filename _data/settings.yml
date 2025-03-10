@@ -17,7 +17,7 @@ menu:
 - {name: 'AQUA',            url: 'aqua.html'}
 # Available social icons are powered by Font Awesome, so you can use any icon that they offer
 social:
-- {icon: 'mail', link:   'mailto:management@serendippo.me'}
+- {icon: 'envelope-o', link:   'mailto:management@serendippo.me'}
 - {icon: 'twitter', link:    'https://twitter.com/Andrea98Schwarz'}
 - {icon: 'instagram', link:  'https://instagram.com/cohenjoachim/'}
 - {icon: 'phone', link: 'tel:+33183646758'}
