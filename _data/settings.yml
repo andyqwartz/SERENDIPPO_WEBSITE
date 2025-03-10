@@ -11,19 +11,17 @@ menu:
 - {name: 'ANDY',       url: 'ANDY'}
 - {name: 'MUSIC',            url: 'MUSIC'}
 - {name: 'ARTWORK', url: 'MY-ARTWORK'}
+- {name: 'DEFICIT',              url: 'DEFICIT'}
 - {name: 'SOURCE',  url: 'SOURCE'}
 - {name: 'SIAN',  url: 'SIAN'}
-- {name: 'DEFICIT',              url: 'DEFICIT'}
 - {name: 'AQUA',            url: 'aqua.html'}
 # Available social icons are powered by Font Awesome, so you can use any icon that they offer
 social:
-- {icon: 'cloud', link: 'https://mastodon.social/@andy777'}
 - {icon: 'paper-plane', link:   'mailto:management@serendippo.me'}
 - {icon: 'code', link:    'https://twitter.com/Andrea98Schwarz'}
-- {icon: 'bug', link:   'https://www.facebook.com/cohenjoachim98/'}
-- {icon: 'tag', link:  'https://instagram.com/cohenjoachim/'}
+- {icon: 'instagram', link:  'https://instagram.com/cohenjoachim/'}
 - {icon: 'phone', link: 'tel:+33183646758'}
-- {icon: 'comment', link: 'https://bsky.app/profile/andyqwartz.bsky.social'}
+- {icon: 'cloud', link: 'https://bsky.app/profile/andyqwartz.bsky.social'}
 - {icon: 'telegram', link: 'https://t.me/serendippo_AndyQwartz'}
 
 
