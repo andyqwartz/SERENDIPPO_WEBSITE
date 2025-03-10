@@ -121,4 +121,9 @@ body.lavender-latte-mode {
   }
 
   /* La notification est désormais gérée uniquement par le script JavaScript */
+  
+  /* Transcription text color fix */
+  .transcript-content {
+    color: #ffffff;
+  }
 } 
