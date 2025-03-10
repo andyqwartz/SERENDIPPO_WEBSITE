@@ -2,8 +2,8 @@
 layout: post
 title: "MY ARTWORK"
 author: "ANDY"
-categories: documentation
-tags: [documentation, sample]
+categories: [documentation, spiritualité]
+tags: [témoignage, alimentation, spiritualité, macrobiotique, sample, documentation, andy]
 ---
 
 <h2 align="center">MY ARTWORK</h2>
