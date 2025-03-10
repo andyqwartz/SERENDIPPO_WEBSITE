@@ -4,6 +4,7 @@ title: "MY ARTWORK"
 author: "ANDY"
 categories: [documentation, spiritualité]
 tags: [témoignage, alimentation, spiritualité, macrobiotique, sample, documentation, andy]
+image: SOURCE_GLITCH.jpeg
 ---
 
 <h2 align="center">MY ARTWORK</h2>
