@@ -7,11 +7,19 @@ paginate:            5
 markdown:            kramdown
 highlighter:         rouge
 permalink:           /:title
-plugins:             [jekyll-paginate, jekyll-sitemap, jekyll-feed, jekyll-seo-tag]
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-github-metadata
 
 # Customise atom feed settings (this is where Jekyll-Feed gets configuration information)
 title:		           "SERENDIPPO"
+description:        "SERENDIPPO's Official Website"
 author:              "SERENDIPPO"
+url:                "https://andyqwartz.github.io"
+baseurl:            "/SERENDIPPO_WEBSITE"
 
 # RSS 2.0 can be used instead of Atom by uncommenting following two lines
 #feed:
