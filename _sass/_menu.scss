@@ -56,3 +56,34 @@
     backdrop-filter:blur(8px);
     z-index: 1000; 
   }
+
+  /* Media queries pour les petits écrans */
+  @media screen and (max-width: 768px) {
+    .menu-link {
+      font-size: 24px;
+      padding: 8px;
+    }
+    
+    .menu-list.show {
+      padding: 10px 0;
+    }
+    
+    .menu-list li {
+      margin: 5px 0;
+    }
+  }
+
+  @media screen and (max-width: 480px) {
+    .menu-link {
+      font-size: 20px;
+      padding: 6px;
+    }
+    
+    .menu-list.show {
+      padding: 5px 0;
+    }
+    
+    .menu-list li {
+      margin: 3px 0;
+    }
+  }
