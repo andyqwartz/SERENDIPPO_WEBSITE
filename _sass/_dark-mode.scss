@@ -74,16 +74,13 @@ body.dark-mode {
     text-shadow: 0 0 5px rgba(0, 0, 0, 0.5) !important;
   }
 
-  /* Assurer la visibilité du texte de transcription */
-  .transcript-wrapper .transcript-container .transcript-content,
-  .transcript-wrapper .transcript-container .transcript-content * {
+  .transcript-content {
     color: #ffffff !important;
-    background-color: transparent !important;
-  }
-
-  /* Transcription en mode sombre */
-  .transcript-container {
-    background-color: rgba(255, 255, 255, 0.1) !important;
+    opacity: 1 !important;
+    text-shadow: none !important;
+    background: #1a1a1a !important;
+    border-radius: 12px !important;
+    padding: 20px !important;
   }
 }
 
