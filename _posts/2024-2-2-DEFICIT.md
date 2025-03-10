@@ -1,10 +1,10 @@
 ---
 layout: post
 title: "DEFICIT"
-author: "ANDY"
+author: "SERENDIPPO"
 categories: [documentation]
-#tags: [documentation, sample]
-image: DEFICIT_LOGO_1024.png
+tags: [documentation, sample]
+image: DEFICIT.png
 ---
 <br /> 
 <h2 align="center">DEFICIT CORP</h2>

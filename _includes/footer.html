@@ -1,13 +1,50 @@
 <footer class="footer">
+  <div class="footer-description">
+    <a href="{{ site.github.url }}/" aria-label="GitHub link">{{ site.title }} by {{ site.author }}</a>
+  </div>
+  <div class="dark-mode-toggle">
+    <button id="darkModeToggle" aria-label="Toggle dark mode">
+      <i class="fa fa-moon"></i>
+    </button>
+  </div>
   <nav class="social-icons-container">
     {% for item in site.data.settings.social %}
       <a href="{{ item.link }}" class="social-icon-link fa fa-{{ item.icon }}" target="_blank" aria-label="{{ item.name }}" rel="noopener noreferrer"></a>
     {% endfor %}
   </nav>
   <div class="legal-links">
-    <a href="{{ site.github.url }}/TERMS/">Terms of Use</a>
-  </div>
-  <div class="footer-description">
-    <a href="{{ site.github.url }}/" aria-label="GitHub link">{{ site.title }} by {{ site.author }}</a>
+    <a href="{{ site.github.url }}/TERMS/">Terms of Use</a> | <a href="{{ site.github.url }}/PRIVACY/">Privacy Policy</a>
   </div>
 </footer>
+
+<script>
+  // Dark mode toggle functionality
+  const darkModeToggle = document.getElementById('darkModeToggle');
+  const darkModeKey = 'darkMode';
+  
+  // Check for saved dark mode preference
+  const savedDarkMode = localStorage.getItem(darkModeKey);
+  if (savedDarkMode === 'enabled') {
+    document.body.classList.add('dark-mode');
+  }
+  
+  darkModeToggle.addEventListener('click', () => {
+    document.body.classList.toggle('dark-mode');
+    const isDarkMode = document.body.classList.contains('dark-mode');
+    localStorage.setItem(darkModeKey, isDarkMode ? 'enabled' : 'disabled');
+  });
+
+  // Lavender mode Easter egg
+  let logoClickCount = 0;
+  const logo = document.querySelector('.site-title');
+  if (logo) {
+    logo.addEventListener('click', (e) => {
+      e.preventDefault();
+      logoClickCount++;
+      if (logoClickCount === 5) {
+        document.body.classList.toggle('lavender-mode');
+        logoClickCount = 0;
+      }
+    });
+  }
+</script>

@@ -21,6 +21,8 @@ social:
 - {icon: 'twitter', link:    'https://twitter.com/Andrea98Schwarz'}
 - {icon: 'facebook', link:   'https://www.facebook.com/cohenjoachim98/'}
 - {icon: 'instagram', link:  'https://instagram.com/cohenjoachim/'}
+- {icon: 'mastodon', link:   'https://mastodon.social/@andy777'}
+- {icon: 'cloud', link:      'https://bsky.app/profile/andyqwartz.bsky.social'}
 # Customize site text
   #pagination:
   #next_page: 'Newer'

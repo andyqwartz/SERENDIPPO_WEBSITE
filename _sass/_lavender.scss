@@ -1,0 +1,63 @@
+// Variables
+$lavender-primary: #d090f2;
+$lavender-secondary: #b76de3;
+$lavender-light: #f5e6ff;
+$lavender-dark: #4a2b5f;
+
+// Base theme
+body {
+  accent-color: $lavender-primary;
+}
+
+a {
+  color: $lavender-primary;
+  &:hover {
+    color: $lavender-secondary;
+  }
+}
+
+.site-title {
+  color: $lavender-dark;
+}
+
+.menu-content a {
+  color: $lavender-primary;
+  &:hover {
+    color: $lavender-secondary;
+  }
+}
+
+.social-icons a {
+  color: $lavender-primary;
+  &:hover {
+    color: $lavender-secondary;
+  }
+}
+
+.featured-posts {
+  border-color: $lavender-light;
+}
+
+.featured-posts h2 {
+  color: $lavender-dark;
+}
+
+.pagination {
+  a, span {
+    color: $lavender-primary;
+    &:hover {
+      background-color: $lavender-light;
+    }
+  }
+}
+
+blockquote {
+  border-left-color: $lavender-primary;
+}
+
+button, .button {
+  background-color: $lavender-primary;
+  &:hover {
+    background-color: $lavender-secondary;
+  }
+} 
