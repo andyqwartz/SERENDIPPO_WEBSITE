@@ -18,11 +18,11 @@ menu:
 # Available social icons are powered by Font Awesome, so you can use any icon that they offer
 social:
 - {icon: 'envelope-o', link:   'mailto:management@serendippo.me'}
-- {icon: 'twitter', link:    'https://twitter.com/Andrea98Schwarz'}
-- {icon: 'instagram', link:  'https://instagram.com/cohenjoachim/'}
-- {icon: 'phone', link: 'tel:+33183646758'}
-- {icon: 'telegram', link: 'https://t.me/serendippo_AndyQwartz'}
-- {icon: 'cloud', link: 'https://bsky.app/profile/andyqwartz.bsky.social'}
+- {icon: 'twitter-o', link:    'https://twitter.com/Andrea98Schwarz'}
+- {icon: 'instagram-o', link:  'https://instagram.com/cohenjoachim/'}
+- {icon: 'phone-o', link: 'tel:+33183646758'}
+- {icon: 'telegram-o', link: 'https://t.me/serendippo_AndyQwartz'}
+- {icon: 'cloud-o', link: 'https://bsky.app/profile/andyqwartz.bsky.social'}
 
 
 # Customize site text
