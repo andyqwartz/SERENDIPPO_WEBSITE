@@ -74,9 +74,16 @@ body.dark-mode {
     text-shadow: 0 0 5px rgba(0, 0, 0, 0.5) !important;
   }
 
-  /* Transcription text color fix */
-  .transcript-content {
-    color: #ffffff;
+  /* Assurer la visibilité du texte de transcription */
+  .transcript-wrapper .transcript-container .transcript-content,
+  .transcript-wrapper .transcript-container .transcript-content * {
+    color: #ffffff !important;
+    background-color: transparent !important;
+  }
+
+  /* Transcription en mode sombre */
+  .transcript-container {
+    background-color: rgba(255, 255, 255, 0.1) !important;
   }
 }
 

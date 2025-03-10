@@ -122,8 +122,15 @@ body.lavender-latte-mode {
 
   /* La notification est désormais gérée uniquement par le script JavaScript */
   
-  /* Transcription text color fix */
-  .transcript-content {
-    color: #ffffff;
+  /* Assurer la visibilité du texte de transcription */
+  .transcript-wrapper .transcript-container .transcript-content,
+  .transcript-wrapper .transcript-container .transcript-content * {
+    color: #ffffff !important;
+    background-color: transparent !important;
+  }
+
+  /* Transcription en mode lavender */
+  .transcript-container {
+    background-color: rgba(255, 255, 255, 0.1) !important;
   }
 } 
