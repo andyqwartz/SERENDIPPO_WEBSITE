@@ -17,13 +17,12 @@ menu:
 - {name: 'AQUA',            url: 'aqua.html'}
 # Available social icons are powered by Font Awesome, so you can use any icon that they offer
 social:
-- {icon: 'paper-plane', link:   'mailto:management@serendippo.me'}
-- {icon: 'code', link:    'https://twitter.com/Andrea98Schwarz'}
+- {icon: 'mail', link:   'mailto:management@serendippo.me'}
+- {icon: 'twitter', link:    'https://twitter.com/Andrea98Schwarz'}
 - {icon: 'instagram', link:  'https://instagram.com/cohenjoachim/'}
 - {icon: 'phone', link: 'tel:+33183646758'}
-- {icon: 'cloud', link: 'https://bsky.app/profile/andyqwartz.bsky.social'}
 - {icon: 'telegram', link: 'https://t.me/serendippo_AndyQwartz'}
-
+- {icon: 'cloud', link: 'https://bsky.app/profile/andyqwartz.bsky.social'}
 
 
 # Customize site text
