@@ -8,7 +8,6 @@ google-ID: 'G-VEXLHLGV38'
 
 menu:
 - {name: 'BIO',  url: 'BIO'}
-- {name: 'ANDY',       url: 'ANDY'}
 - {name: 'MUSIC',            url: 'MUSIC'}
 - {name: 'ARTWORK', url: 'MY-ARTWORK'}
 - {name: 'DEFICIT',              url: 'DEFICIT'}
