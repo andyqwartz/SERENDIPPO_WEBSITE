@@ -27,7 +27,7 @@ $codepen-color: black;
 $rss-color: #ff6600;
 
 @import "syntax";
-@import "dark-mode";
-@import "lavender";
+@import "_dark-mode";
+@import "_lavender";
 
 // Base styles and layouts will be imported from the theme

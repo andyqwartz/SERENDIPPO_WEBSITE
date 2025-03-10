@@ -1,0 +1,67 @@
+// Lavender mode styles
+body.lavender-mode {
+  background-color: #f3e5f5;
+  color: #4a148c;
+
+  a {
+    color: #7b1fa2;
+    &:hover {
+      color: #6a1b9a;
+    }
+  }
+
+  .container {
+    background-color: #faf5fb;
+  }
+
+  .menu-content a {
+    color: #7b1fa2;
+    &:hover {
+      color: #6a1b9a;
+    }
+  }
+
+  .social-icons a {
+    color: #7b1fa2;
+    &:hover {
+      color: #6a1b9a;
+    }
+  }
+
+  .post-title {
+    color: #4a148c;
+  }
+
+  .post-date {
+    color: #9c27b0;
+  }
+
+  code {
+    background-color: #e1bee7;
+    color: #4a148c;
+  }
+
+  pre {
+    background-color: #e1bee7;
+    code {
+      color: #4a148c;
+    }
+  }
+
+  blockquote {
+    border-left-color: #9c27b0;
+    background-color: #f3e5f5;
+  }
+
+  table {
+    th, td {
+      border-color: #ce93d8;
+    }
+    th {
+      background-color: #e1bee7;
+    }
+    tr:nth-child(even) {
+      background-color: #f3e5f5;
+    }
+  }
+} 
