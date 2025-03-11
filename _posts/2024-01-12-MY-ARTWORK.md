@@ -13,48 +13,66 @@ image: SOURCE_GLITCH.jpeg
   width: 100%;
   max-width: 800px;
   margin: 2em auto;
-  padding: 20px;
+  padding: 2.5em;
   background: rgba(0,0,0,0.05);
   border: 1px solid rgba(0,0,0,0.1);
   border-radius: 8px;
   box-shadow: 0 2px 8px rgba(0,0,0,0.05);
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
 }
 
 .navigation-instructions h4 {
-  width: 100%;
   text-align: center;
-  margin-bottom: 1em;
+  margin-bottom: 1.5em;
+  font-size: 1.2em;
 }
 
-.navigation-instructions div {
+.navigation-instructions .nav-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.2em;
+}
+
+.navigation-instructions .nav-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 0.5em;
+  text-align: center;
   width: 100%;
-  max-width: 600px;
-  margin: 0 auto;
+}
+
+.navigation-instructions .nav-row strong {
+  margin-right: 0.5em;
 }
 
 .navigation-instructions kbd {
   background: rgba(0,0,0,0.1);
-  padding: 2px 6px;
-  border-radius: 3px;
+  padding: 0.3em 0.6em;
+  border-radius: 4px;
+  font-size: 0.9em;
+  margin: 0 0.2em;
   display: inline-block;
-  margin: 0 2px;
+  min-width: 1.5em;
+  text-align: center;
 }
 
-.navigation-instructions p {
-  width: 100%;
+.navigation-instructions .note {
   text-align: center;
-  margin: 1em 0;
+  font-size: 0.9em;
+  font-style: italic;
+  margin: 0.5em 0;
+}
+
+.navigation-instructions .gallery-link {
+  text-align: center;
+  margin-top: 1em;
 }
 
 .navigation-instructions a {
   display: inline-block;
-  margin: 0 auto;
-  padding: 8px 16px;
+  padding: 0.8em 1.6em;
   background: rgba(208, 144, 242, 0.1);
   border-radius: 4px;
   text-decoration: none;
@@ -248,19 +266,28 @@ Quelques documents consultables illustrant la richesse de cette expression visue
 <!-- Instructions de navigation bilingues / Bilingual Navigation Instructions -->
 <div class="navigation-instructions">
 <h4>Instructions de Navigation / Navigation Instructions</h4>
-<div>
-<strong>Déplacement / Movement:</strong> <kbd>ZQSD</kbd> / <kbd>WASD</kbd><br>
-<strong>Vue / View:</strong> Souris pour explorer l'espace / Mouse to explore space<br>
-<strong>Contrôles / Controls:</strong> <kbd>Échap</kbd> / <kbd>Escape</kbd> pour libérer/capturer la souris / to toggle mouse control
+<div class="nav-content">
+  <div class="nav-row">
+    <strong>Déplacement / Movement:</strong>
+    <span><kbd>Z</kbd><kbd>Q</kbd><kbd>S</kbd><kbd>D</kbd> / <kbd>W</kbd><kbd>A</kbd><kbd>S</kbd><kbd>D</kbd></span>
+  </div>
+  <div class="nav-row">
+    <strong>Vue / View:</strong>
+    <span>Souris pour explorer l'espace / Mouse to explore space</span>
+  </div>
+  <div class="nav-row">
+    <strong>Contrôles / Controls:</strong>
+    <span><kbd>Échap</kbd> / <kbd>Escape</kbd> pour libérer/capturer la souris / to toggle mouse control</span>
+  </div>
+  <div class="note">
+    <em>Note: AZERTY (FR) or QWERTY (EN) keyboard layout</em>
+  </div>
+  <div class="gallery-link">
+    <a href="https://andyqwartz.github.io/ANDY_GALLERY/build" target="_blank">
+      Open Gallery in Full Screen / Ouvrir la Galerie en Plein Écran
+    </a>
+  </div>
 </div>
-<p>
-<em>Note: AZERTY (FR) or QWERTY (EN) keyboard layout</em>
-</p>
-<p>
-<a href="https://andyqwartz.github.io/ANDY_GALLERY/build" target="_blank">
-Open Gallery in Full Screen / Ouvrir la Galerie en Plein Écran
-</a>
-</p>
 </div>
 
 <div class="iframe-container">
