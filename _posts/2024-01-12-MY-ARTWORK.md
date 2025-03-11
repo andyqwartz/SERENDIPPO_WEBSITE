@@ -19,12 +19,50 @@ image: SOURCE_GLITCH.jpeg
   border-radius: 8px;
   box-shadow: 0 2px 8px rgba(0,0,0,0.05);
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.navigation-instructions h4 {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 1em;
+}
+
+.navigation-instructions div {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
 }
 
 .navigation-instructions kbd {
   background: rgba(0,0,0,0.1);
   padding: 2px 6px;
   border-radius: 3px;
+  display: inline-block;
+  margin: 0 2px;
+}
+
+.navigation-instructions p {
+  width: 100%;
+  text-align: center;
+  margin: 1em 0;
+}
+
+.navigation-instructions a {
+  display: inline-block;
+  margin: 0 auto;
+  padding: 8px 16px;
+  background: rgba(208, 144, 242, 0.1);
+  border-radius: 4px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.navigation-instructions a:hover {
+  background: rgba(208, 144, 242, 0.2);
 }
 
 /* Style for sections */
@@ -142,6 +180,7 @@ image: SOURCE_GLITCH.jpeg
 <a href="#english-version">English Version ↓</a>
 </div>
 
+<!-- VERSION FRANÇAISE -->
 <div align="center">
 <h2>MY ARTWORK</h2>
 </div>
@@ -192,7 +231,9 @@ Quelques documents consultables illustrant la richesse de cette expression visue
 <p align="center">
 <img width="60%" src="/assets/img/ANDYCELLOCLEMENT.png" alt="Portrait d'ANDY">
 </p>
-
+<p align="center">
+<img width="60%" src="/assets/img/ANDY_ARTWORK.jpeg" alt="Andy's Art work">
+</p>
 <!-- Section Sources -->
 <div class="section-container" style="text-align: center; font-size: 0.9em;">
 <p>Sources : Les documents et archives utilisés pour la construction de cette galerie proviennent de sources primaires et de publications référencées, actualisées régulièrement.</p>
@@ -207,15 +248,15 @@ Quelques documents consultables illustrant la richesse de cette expression visue
 <!-- Instructions de navigation bilingues / Bilingual Navigation Instructions -->
 <div class="navigation-instructions">
 <h4>Instructions de Navigation / Navigation Instructions</h4>
-<div style="text-align: center; line-height: 1.6;">
+<div>
 <strong>Déplacement / Movement:</strong> <kbd>ZQSD</kbd> / <kbd>WASD</kbd><br>
 <strong>Vue / View:</strong> Souris pour explorer l'espace / Mouse to explore space<br>
 <strong>Contrôles / Controls:</strong> <kbd>Échap</kbd> / <kbd>Escape</kbd> pour libérer/capturer la souris / to toggle mouse control
 </div>
-<p style="text-align: center; font-size: 0.9em; margin-top: 10px;">
+<p>
 <em>Note: AZERTY (FR) or QWERTY (EN) keyboard layout</em>
 </p>
-<p style="text-align: center; margin-top: 15px;">
+<p>
 <a href="https://andyqwartz.github.io/ANDY_GALLERY/build" target="_blank">
 Open Gallery in Full Screen / Ouvrir la Galerie en Plein Écran
 </a>
@@ -226,41 +267,18 @@ Open Gallery in Full Screen / Ouvrir la Galerie en Plein Écran
 <iframe src="https://andyqwartz.github.io/ANDY_GALLERY/build" allowfullscreen></iframe>
 </div>
 
+<!-- ENGLISH VERSION -->
 <div class="section-separator">
 <hr>
 <div id="english-version"></div>
 </div>
 
-<!-- VERSION ANGLAISE -->
 <div align="center">
 <h2>MY ARTWORK</h2>
 </div>
 
 <div align="justify">
 <p>Immerse yourself in ANDY's visual universe, where glitch aesthetics merge with the poetry of creative movement. This virtual gallery invites you on a dreamlike journey through daring works that bear witness to an ever‐evolving artistic heritage.</p>
-</div>
-
-<!-- Virtual gallery -->
-<div class="iframe-container">
-<iframe src="https://andyqwartz.github.io/ANDY_GALLERY/build" allowfullscreen></iframe>
-</div>
-
-<!-- Navigation instructions (EN version) -->
-<div class="navigation-instructions">
-<h4>Navigation Instructions</h4>
-<div style="text-align: center; line-height: 1.6;">
-<strong>Movement:</strong> <kbd>WASD</kbd><br>
-<strong>View:</strong> Use your mouse to explore the space<br>
-<strong>Controls:</strong> <kbd>Escape</kbd> to toggle mouse control
-</div>
-<p style="text-align: center; font-size: 0.9em; margin-top: 10px;">
-<em>Note: These commands are designed for a QWERTY keyboard.</em>
-</p>
-<p style="text-align: center; margin-top: 15px;">
-<a href="https://andyqwartz.github.io/ANDY_GALLERY/build" target="_blank">
-Open the Gallery in Full Screen
-</a>
-</p>
 </div>
 
 <!-- Selected Works -->
@@ -305,8 +323,11 @@ A curated selection of documents illustrating this visual expression.
 <p align="center">
 <img width="60%" src="/assets/img/ANDYCELLOCLEMENT.png" alt="ANDY portrait">
 </p>
+</p>
+<p align="center">
+<img width="60%" src="/assets/img/ANDY_ARTWORK.jpeg" alt="Andy's Art work">
 
-<!-- Sources (EN) -->
+<!-- Sources -->
 <div class="section-container" style="text-align: center; font-size: 0.9em;">
 <p>Sources: The documents and archives used in constructing this gallery are drawn from primary sources and referenced publications, updated as needed.</p>
 </div>
