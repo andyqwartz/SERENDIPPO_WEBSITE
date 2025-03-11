@@ -10,73 +10,85 @@ image: SOURCE_GLITCH.jpeg
 <style>
 /* Style for navigation instructions */
 .navigation-instructions {
-  width: 100%;
-  max-width: 800px;
-  margin: 2em auto;
-  padding: 2.5em;
-  background: rgba(0,0,0,0.05);
-  border: 1px solid rgba(0,0,0,0.1);
-  border-radius: 8px;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  width: 100% !important;
+  max-width: 800px !important;
+  margin: 2.5em auto !important;
+  padding: 2.5em !important;
+  background: rgba(0,0,0,0.05) !important;
+  border: 1px solid rgba(0,0,0,0.1) !important;
+  border-radius: 8px !important;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05) !important;
+  display: block !important;
+  text-align: center !important;
+}
+
+.navigation-instructions * {
+  text-align: center !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
 }
 
 .navigation-instructions h4 {
-  text-align: center;
-  margin-bottom: 1.5em;
-  font-size: 1.2em;
+  margin-bottom: 1.5em !important;
+  font-size: 1.2em !important;
+  width: 100% !important;
 }
 
 .navigation-instructions .nav-content {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 1.2em;
+  width: 100% !important;
+  max-width: 600px !important;
+  margin: 0 auto !important;
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  gap: 1.2em !important;
 }
 
 .navigation-instructions .nav-row {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-wrap: wrap;
-  gap: 0.5em;
-  text-align: center;
-  width: 100%;
+  width: 100% !important;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  gap: 0.5em !important;
+  flex-wrap: wrap !important;
 }
 
 .navigation-instructions .nav-row strong {
-  margin-right: 0.5em;
+  margin-right: 0.5em !important;
 }
 
 .navigation-instructions kbd {
-  background: rgba(0,0,0,0.1);
-  padding: 0.3em 0.6em;
-  border-radius: 4px;
-  font-size: 0.9em;
-  margin: 0 0.2em;
-  display: inline-block;
-  min-width: 1.5em;
-  text-align: center;
+  background: rgba(0,0,0,0.1) !important;
+  padding: 0.3em 0.6em !important;
+  border-radius: 4px !important;
+  font-size: 0.9em !important;
+  margin: 0 0.2em !important;
+  display: inline-block !important;
+  min-width: 1.5em !important;
 }
 
 .navigation-instructions .note {
-  text-align: center;
-  font-size: 0.9em;
-  font-style: italic;
-  margin: 0.5em 0;
+  width: 100% !important;
+  text-align: center !important;
+  font-size: 0.9em !important;
+  font-style: italic !important;
+  margin: 0.5em auto !important;
 }
 
 .navigation-instructions .gallery-link {
-  text-align: center;
-  margin-top: 1em;
+  width: 100% !important;
+  text-align: center !important;
+  margin-top: 1em !important;
 }
 
 .navigation-instructions a {
-  display: inline-block;
-  padding: 0.8em 1.6em;
-  background: rgba(208, 144, 242, 0.1);
-  border-radius: 4px;
-  text-decoration: none;
-  transition: all 0.3s ease;
+  display: inline-block !important;
+  padding: 0.8em 1.6em !important;
+  background: rgba(208, 144, 242, 0.1) !important;
+  border-radius: 4px !important;
+  text-decoration: none !important;
+  transition: all 0.3s ease !important;
+  margin: 0 auto !important;
 }
 
 .navigation-instructions a:hover {
