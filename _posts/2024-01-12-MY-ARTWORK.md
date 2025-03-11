@@ -53,16 +53,39 @@ image: SOURCE_GLITCH.jpeg
 }
 
 /* Style for Instagram embeds */
+.instagram-container {
+  width: 100%;
+  max-width: 800px;
+  margin: 2em auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2em;
+}
+
 .instagram-media {
-  background: #FFF;
-  border: 0;
-  border-radius: 3px;
-  box-shadow: 0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15);
-  margin: 1px;
-  max-width: 540px;
-  min-width: 326px;
-  padding: 0;
-  width: calc(100% - 2px);
+  background: var(--bg-color, #FFF) !important;
+  border: 0 !important;
+  border-radius: 8px !important;
+  box-shadow: 0 0 1px 0 rgba(var(--shadow-color, 0,0,0),0.5),0 1px 10px 0 rgba(var(--shadow-color, 0,0,0),0.15) !important;
+  margin: 1px auto !important;
+  max-width: 540px !important;
+  min-width: 326px !important;
+  padding: 0 !important;
+  width: calc(100% - 2px) !important;
+}
+
+/* Dark mode adaptations */
+.dark-mode .instagram-media,
+.macchiato .instagram-media {
+  --bg-color: #1a1b26;
+  --shadow-color: 255,255,255;
+}
+
+/* Lavender latte mode adaptations */
+.lavender-latte-mode .instagram-media {
+  --bg-color: #f5f0ff;
+  --shadow-color: 75,0,130;
 }
 </style>
 
@@ -119,10 +142,12 @@ Quelques documents consultables illustrant la richesse de cette expression visue
 <div class="section-container">
 <h3 align="center">Instantanés Visuels</h3>
 
+<div class="instagram-container">
 <blockquote class="instagram-media" data-instgrm-captioned data-instgrm-permalink="https://www.instagram.com/p/C5p9sOMrYaS/?utm_source=ig_embed&amp;utm_campaign=loading" data-instgrm-version="14"></blockquote>
 <blockquote class="instagram-media" data-instgrm-captioned data-instgrm-permalink="https://www.instagram.com/p/C5p9fEQrZZx/?utm_source=ig_embed&amp;utm_campaign=loading" data-instgrm-version="14"></blockquote>
 <blockquote class="instagram-media" data-instgrm-captioned data-instgrm-permalink="https://www.instagram.com/p/C5p8YtTL9lw/?utm_source=ig_embed&amp;utm_campaign=loading" data-instgrm-version="14"></blockquote>
 <blockquote class="instagram-media" data-instgrm-captioned data-instgrm-permalink="https://www.instagram.com/p/C5p8h2ZLSH7/?utm_source=ig_embed&amp;utm_campaign=loading" data-instgrm-version="14"></blockquote>
+</div>
 <script async src="//www.instagram.com/embed.js"></script>
 </div>
 
@@ -199,10 +224,12 @@ A curated selection of documents illustrating this visual expression.
 <div class="section-container">
 <h3 align="center">Instagram Snapshots</h3>
 
+<div class="instagram-container">
 <blockquote class="instagram-media" data-instgrm-captioned data-instgrm-permalink="https://www.instagram.com/p/C5p9sOMrYaS/?utm_source=ig_embed&amp;utm_campaign=loading" data-instgrm-version="14"></blockquote>
 <blockquote class="instagram-media" data-instgrm-captioned data-instgrm-permalink="https://www.instagram.com/p/C5p9fEQrZZx/?utm_source=ig_embed&amp;utm_campaign=loading" data-instgrm-version="14"></blockquote>
 <blockquote class="instagram-media" data-instgrm-captioned data-instgrm-permalink="https://www.instagram.com/p/C5p8YtTL9lw/?utm_source=ig_embed&amp;utm_campaign=loading" data-instgrm-version="14"></blockquote>
 <blockquote class="instagram-media" data-instgrm-captioned data-instgrm-permalink="https://www.instagram.com/p/C5p8h2ZLSH7/?utm_source=ig_embed&amp;utm_campaign=loading" data-instgrm-version="14"></blockquote>
+</div>
 <script async src="//www.instagram.com/embed.js"></script>
 </div>
 
