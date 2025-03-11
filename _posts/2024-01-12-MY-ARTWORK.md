@@ -8,82 +8,6 @@ image: SOURCE_GLITCH.jpeg
 ---
 
 <style>
-/* Style global pour le centrage */
-.post-content {
-  width: 100% !important;
-  max-width: 800px !important;
-  margin: 0 auto !important;
-  display: flex !important;
-  flex-direction: column !important;
-  align-items: center !important;
-}
-
-.post-content * {
-  text-align: center !important;
-  margin-left: auto !important;
-  margin-right: auto !important;
-}
-
-/* Style pour les sections */
-.section-container {
-  width: 100% !important;
-  max-width: 800px !important;
-  margin: 2em auto !important;
-  padding: 1.5em !important;
-  display: flex !important;
-  flex-direction: column !important;
-  align-items: center !important;
-}
-
-/* Style pour la navigation */
-.navigation-instructions {
-  width: 100% !important;
-  max-width: 800px !important;
-  margin: 2.5em auto !important;
-  padding: 2.5em !important;
-  background: rgba(0,0,0,0.05) !important;
-  border: 1px solid rgba(0,0,0,0.1) !important;
-  border-radius: 8px !important;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.05) !important;
-  display: flex !important;
-  flex-direction: column !important;
-  align-items: center !important;
-}
-
-.navigation-instructions * {
-  text-align: center !important;
-  margin-left: auto !important;
-  margin-right: auto !important;
-}
-
-/* Style pour les iframes */
-.iframe-container {
-  width: 100% !important;
-  max-width: 800px !important;
-  margin: 2em auto !important;
-  position: relative !important;
-  padding-bottom: 56.25% !important;
-  height: 0 !important;
-  overflow: hidden !important;
-}
-
-.iframe-container iframe {
-  position: absolute !important;
-  top: 0 !important;
-  left: 0 !important;
-  width: 100% !important;
-  height: 100% !important;
-  border: 0 !important;
-}
-
-/* Style pour les images */
-img {
-  max-width: 100% !important;
-  height: auto !important;
-  margin: 1em auto !important;
-  display: block !important;
-}
-
 /* Style for navigation instructions */
 .navigation-instructions {
   width: 100% !important;
@@ -94,8 +18,10 @@ img {
   border: 1px solid rgba(0,0,0,0.1) !important;
   border-radius: 8px !important;
   box-shadow: 0 2px 8px rgba(0,0,0,0.05) !important;
-  display: block !important;
-  text-align: center !important;
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  justify-content: center !important;
 }
 
 .navigation-instructions * {
