@@ -244,11 +244,7 @@ Quelques documents consultables illustrant la richesse de cette expression visue
 <div class="section-container" style="text-align: center; font-size: 0.9em;">
 <p>Sources : Les documents et archives utilisés pour la construction de cette galerie proviennent de sources primaires et de publications référencées, actualisées régulièrement.</p>
 </div>
-<br />
-<br />
-<div align="center">⁂</div>
-<br />
-<br />
+
 <!-- Galerie Virtuelle Commune / Shared Virtual Gallery -->
 <div class="section-separator">
 <hr>
@@ -267,23 +263,22 @@ Quelques documents consultables illustrant la richesse de cette expression visue
     <em>Note : Ces commandes sont basées sur un clavier AZERTY. Pour QWERTY, utilisez les touches WASD.</em>
   </div>
   <div class="gallery-link">
-     <p style="text-align: center; margin-top: 15px;">
-    <a href="https://andyqwartz.github.io/ANDY_GALLERY/build" target="_blank" style="color: var(--link-color); text-decoration: none; transition: color 0.3s ease;">
+    <a href="https://andyqwartz.github.io/ANDY_GALLERY/build" target="_blank">
       Ouvrir la Galerie en Plein Écran / Open Gallery in Full Screen
     </a>
-<br />
-       <br />
+  </div>
+</div>
+
 <!-- ENGLISH VERSION -->
 <div class="section-separator">
 <hr>
 <div id="english-version"></div>
 </div>
-<br />
-<br />
-<div align="center">⁂</div>
-<br />
-<div align="center">MY ARTWORK</h2>
-  <br />
+
+<div align="center">
+<h2>MY ARTWORK</h2>
+</div>
+
 <div align="justify">
 <p>Immerse yourself in ANDY's visual universe, where glitch aesthetics merge with the poetry of creative movement. This virtual gallery invites you on a dreamlike journey through daring works that bear witness to an ever‐evolving artistic heritage.</p>
 </div>
