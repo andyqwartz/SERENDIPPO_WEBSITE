@@ -87,9 +87,60 @@ image: SOURCE_GLITCH.jpeg
   --bg-color: #f5f0ff;
   --shadow-color: 75,0,130;
 }
+
+/* Add styles for language navigation and section separator */
+.language-nav {
+  text-align: right;
+  margin: 1em 0;
+  padding: 0.5em;
+  background: rgba(208, 144, 242, 0.1);
+  border-radius: 4px;
+}
+
+.language-nav a {
+  color: var(--link-color, #d090f2);
+  text-decoration: none;
+  padding: 0.3em 0.6em;
+  border-radius: 3px;
+  transition: all 0.3s ease;
+}
+
+.language-nav a:hover {
+  background: rgba(208, 144, 242, 0.2);
+}
+
+.section-separator {
+  width: 100%;
+  max-width: 800px;
+  margin: 3em auto;
+  text-align: center;
+  position: relative;
+}
+
+.section-separator hr {
+  border: 0;
+  height: 2px;
+  background: var(--separator-color, rgba(208, 144, 242, 0.3));
+  margin: 2em 0;
+}
+
+/* Dark mode adaptations */
+.dark-mode .section-separator hr,
+.macchiato .section-separator hr {
+  background: var(--separator-color, rgba(208, 144, 242, 0.5));
+}
+
+/* Lavender latte mode adaptations */
+.lavender-latte-mode .section-separator hr {
+  background: var(--separator-color, rgba(75, 0, 130, 0.2));
+}
 </style>
 
 <div class="post-content">
+
+<div class="language-nav">
+<a href="#english-version">English Version ↓</a>
+</div>
 
 <div align="center">
 <h2>MY ARTWORK</h2>
@@ -97,29 +148,6 @@ image: SOURCE_GLITCH.jpeg
 
 <div align="justify">
 <p>Plongez dans l'univers visuel d'ANDY, où s'entrelacent l'esthétique glitch et la poésie du geste créatif. Cette galerie virtuelle vous convie à une promenade onirique au cœur d'œuvres audacieuses, témoins d'un héritage artistique en perpétuelle réinvention.</p>
-</div>
-
-<!-- Galerie virtuelle -->
-<div class="iframe-container">
-<iframe src="https://andyqwartz.github.io/ANDY_GALLERY/build" allowfullscreen></iframe>
-</div>
-
-<!-- Instructions de navigation (version FR) -->
-<div class="navigation-instructions">
-<h4>Instructions de Navigation</h4>
-<div style="text-align: center; line-height: 1.6;">
-<strong>Déplacement :</strong> <kbd>ZQSD</kbd><br>
-<strong>Vue :</strong> Souris pour explorer l'espace<br>
-<strong>Contrôles :</strong> <kbd>Échap</kbd> pour libérer/capturer la souris
-</div>
-<p style="text-align: center; font-size: 0.9em; margin-top: 10px;">
-<em>Note : Ces commandes sont conçues pour un clavier AZERTY.</em>
-</p>
-<p style="text-align: center; margin-top: 15px;">
-<a href="https://andyqwartz.github.io/ANDY_GALLERY/build" target="_blank">
-Ouvrir la Galerie en Plein Écran
-</a>
-</p>
 </div>
 
 <!-- Sélection d'œuvres -->
@@ -170,7 +198,38 @@ Quelques documents consultables illustrant la richesse de cette expression visue
 <p>Sources : Les documents et archives utilisés pour la construction de cette galerie proviennent de sources primaires et de publications référencées, actualisées régulièrement.</p>
 </div>
 
-<div align="center">⁂</div>
+<!-- Galerie Virtuelle Commune / Shared Virtual Gallery -->
+<div class="section-separator">
+<hr>
+<h2 align="center">Virtual Gallery / Galerie Virtuelle</h2>
+</div>
+
+<!-- Instructions de navigation bilingues / Bilingual Navigation Instructions -->
+<div class="navigation-instructions">
+<h4>Instructions de Navigation / Navigation Instructions</h4>
+<div style="text-align: center; line-height: 1.6;">
+<strong>Déplacement / Movement:</strong> <kbd>ZQSD</kbd> / <kbd>WASD</kbd><br>
+<strong>Vue / View:</strong> Souris pour explorer l'espace / Mouse to explore space<br>
+<strong>Contrôles / Controls:</strong> <kbd>Échap</kbd> / <kbd>Escape</kbd> pour libérer/capturer la souris / to toggle mouse control
+</div>
+<p style="text-align: center; font-size: 0.9em; margin-top: 10px;">
+<em>Note: AZERTY (FR) or QWERTY (EN) keyboard layout</em>
+</p>
+<p style="text-align: center; margin-top: 15px;">
+<a href="https://andyqwartz.github.io/ANDY_GALLERY/build" target="_blank">
+Open Gallery in Full Screen / Ouvrir la Galerie en Plein Écran
+</a>
+</p>
+</div>
+
+<div class="iframe-container">
+<iframe src="https://andyqwartz.github.io/ANDY_GALLERY/build" allowfullscreen></iframe>
+</div>
+
+<div class="section-separator">
+<hr>
+<div id="english-version"></div>
+</div>
 
 <!-- VERSION ANGLAISE -->
 <div align="center">
