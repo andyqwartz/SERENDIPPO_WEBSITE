@@ -3,7 +3,6 @@ layout: post
 title: "PRIVACY POLICY"
 author: "ANDY"
 categories: [documentation]
-image: 
 permalink: /PRIVACY/
 ---
 
