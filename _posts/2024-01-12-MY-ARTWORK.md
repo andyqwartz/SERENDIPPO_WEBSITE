@@ -244,7 +244,7 @@ Quelques documents consultables illustrant la richesse de cette expression visue
 <div class="section-container" style="text-align: center; font-size: 0.9em;">
 <p>Sources : Les documents et archives utilisés pour la construction de cette galerie proviennent de sources primaires et de publications référencées, actualisées régulièrement.</p>
 </div>
-
+<br />
 <br />
 <div align="center">⁂</div>
 <br />
@@ -282,10 +282,8 @@ Quelques documents consultables illustrant la richesse de cette expression visue
 <br />
 <div align="center">⁂</div>
 <br />
-<div align="center">
-<h2>MY ARTWORK</h2>
-</div>
-
+<div align="center">MY ARTWORK</h2>
+  <br />
 <div align="justify">
 <p>Immerse yourself in ANDY's visual universe, where glitch aesthetics merge with the poetry of creative movement. This virtual gallery invites you on a dreamlike journey through daring works that bear witness to an ever‐evolving artistic heritage.</p>
 </div>
