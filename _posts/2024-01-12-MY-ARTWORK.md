@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Andy Qwartz Online Gallery"
+title: "The Andy Qwartz Online Gallery"
 author: "SERENDIPPO"
 categories: [documentation, music, andy]
 tags: [art, music, andy, glitch, sample, documentation]
