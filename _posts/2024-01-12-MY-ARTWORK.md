@@ -10,91 +10,55 @@ image: SOURCE_GLITCH.jpeg
 <style>
 /* Style for navigation instructions */
 .navigation-instructions {
-  width: 100% !important;
-  max-width: 800px !important;
-  margin: 2.5em auto !important;
-  padding: 2.5em !important;
-  background: rgba(0,0,0,0.05) !important;
-  border: 1px solid rgba(0,0,0,0.1) !important;
-  border-radius: 8px !important;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.05) !important;
-  display: flex !important;
-  flex-direction: column !important;
-  align-items: center !important;
-  justify-content: center !important;
-}
-
-.navigation-instructions * {
-  text-align: center !important;
-  margin-left: auto !important;
-  margin-right: auto !important;
+  width: 100%;
+  max-width: 800px;
+  margin: 2em auto;
+  padding: 20px;
+  background: rgba(0, 0, 0, 0.05);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
 }
 
 .navigation-instructions h4 {
-  margin-bottom: 1.5em !important;
-  font-size: 1.2em !important;
-  width: 100% !important;
+  text-align: center;
+  margin-bottom: 15px;
+  color: var(--text-color);
 }
 
 .navigation-instructions .nav-content {
-  width: 100% !important;
-  max-width: 600px !important;
-  margin: 0 auto !important;
-  display: flex !important;
-  flex-direction: column !important;
-  align-items: center !important;
-  gap: 1.2em !important;
-}
-
-.navigation-instructions .nav-row {
-  width: 100% !important;
-  display: flex !important;
-  justify-content: center !important;
-  align-items: center !important;
-  gap: 0.5em !important;
-  flex-wrap: wrap !important;
-}
-
-.navigation-instructions .nav-row strong {
-  margin-right: 0.5em !important;
+  text-align: center;
+  line-height: 1.6;
+  color: var(--text-color);
 }
 
 .navigation-instructions kbd {
-  background: rgba(0,0,0,0.1) !important;
-  padding: 0.3em 0.6em !important;
-  border-radius: 4px !important;
-  font-size: 0.9em !important;
-  margin: 0 0.2em !important;
-  display: inline-block !important;
-  min-width: 1.5em !important;
+  background: rgba(0,0,0,0.1);
+  padding: 2px 6px;
+  border-radius: 3px;
+  margin: 0 2px;
 }
 
 .navigation-instructions .note {
-  width: 100% !important;
-  text-align: center !important;
-  font-size: 0.9em !important;
-  font-style: italic !important;
-  margin: 0.5em auto !important;
+  text-align: center;
+  font-size: 0.9em;
+  margin-top: 10px;
+  color: var(--text-color);
 }
 
 .navigation-instructions .gallery-link {
-  width: 100% !important;
-  text-align: center !important;
-  margin-top: 1em !important;
+  text-align: center;
+  margin-top: 15px;
 }
 
 .navigation-instructions a {
-  display: inline-block !important;
-  padding: 0.8em 1.6em !important;
-  background: rgba(208, 144, 242, 0.1) !important;
-  border-radius: 4px !important;
-  text-decoration: none !important;
-  transition: all 0.3s ease !important;
-  margin: 0 auto !important;
-}
-
-.navigation-instructions a:hover {
-  background: rgba(208, 144, 242, 0.2);
+  color: var(--link-color);
+  text-decoration: none;
+  transition: color 0.3s ease;
 }
 
 /* Style for sections */
@@ -279,29 +243,20 @@ Quelques documents consultables illustrant la richesse de cette expression visue
 
 <!-- Instructions de navigation bilingues / Bilingual Navigation Instructions -->
 <div class="navigation-instructions">
-<h4>Instructions de Navigation / Navigation Instructions</h4>
-<div class="nav-content">
-  <div class="nav-row">
-    <strong>Déplacement / Movement:</strong>
-    <span><kbd>Z</kbd><kbd>Q</kbd><kbd>S</kbd><kbd>D</kbd> / <kbd>W</kbd><kbd>A</kbd><kbd>S</kbd><kbd>D</kbd></span>
-  </div>
-  <div class="nav-row">
-    <strong>Vue / View:</strong>
-    <span>Souris pour explorer l'espace / Mouse to explore space</span>
-  </div>
-  <div class="nav-row">
-    <strong>Contrôles / Controls:</strong>
-    <span><kbd>Échap</kbd> / <kbd>Escape</kbd> pour libérer/capturer la souris / to toggle mouse control</span>
+  <h4>Instructions de Navigation / Navigation Instructions</h4>
+  <div class="nav-content">
+    <strong>Déplacement / Movement:</strong> <kbd>ZQSD</kbd> / <kbd>WASD</kbd><br>
+    <strong>Vue / View:</strong> Souris pour regarder autour / Mouse to look around<br>
+    <strong>Contrôles / Controls:</strong> <kbd>Échap</kbd> / <kbd>Escape</kbd> pour libérer/capturer la souris / to toggle mouse control
   </div>
   <div class="note">
-    <em>Note: AZERTY (FR) or QWERTY (EN) keyboard layout</em>
+    <em>Note : Ces commandes sont basées sur un clavier AZERTY. Pour QWERTY, utilisez les touches WASD.</em>
   </div>
   <div class="gallery-link">
-    <a href="https://andyqwartz.github.io/ANDY_GALLERY/build" target="_blank">
-      Open Gallery in Full Screen / Ouvrir la Galerie en Plein Écran
+    <a href="https://www.serendippo.me/MY-ARTWORK/" target="_blank">
+      Ouvrir la Galerie en Plein Écran / Open Gallery in Full Screen
     </a>
   </div>
-</div>
 </div>
 
 <div class="iframe-container">
