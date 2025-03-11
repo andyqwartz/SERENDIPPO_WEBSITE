@@ -127,7 +127,7 @@ image: SOURCE_GLITCH.jpeg
   text-align: right;
   margin: 1em 0;
   padding: 0.5em;
-  background: rgba(208, 144, 242, 0.1);
+  background: rgba(208, 144, 242, 0.05);
   border-radius: 4px;
 }
 
@@ -137,10 +137,12 @@ image: SOURCE_GLITCH.jpeg
   padding: 0.3em 0.6em;
   border-radius: 3px;
   transition: all 0.3s ease;
+  opacity: 0.7;
 }
 
 .language-nav a:hover {
-  background: rgba(208, 144, 242, 0.2);
+  background: rgba(208, 144, 242, 0.1);
+  opacity: 1;
 }
 
 .section-separator {
@@ -167,6 +169,14 @@ image: SOURCE_GLITCH.jpeg
 /* Lavender latte mode adaptations */
 .lavender-latte-mode .section-separator hr {
   background: var(--separator-color, rgba(75, 0, 130, 0.2));
+}
+
+/* English version anchor adjustment */
+#english-version {
+  display: block;
+  height: 100px;
+  margin-top: -100px;
+  visibility: hidden;
 }
 </style>
 
@@ -319,9 +329,9 @@ A curated selection of documents illustrating this visual expression.
 <p align="center">
 <img width="60%" src="/assets/img/ANDYCELLOCLEMENT.png" alt="ANDY portrait">
 </p>
-</p>
 <p align="center">
 <img width="60%" src="/assets/img/ANDY_ARTWORK.jpeg" alt="Andy's Art work">
+</p>
 
 <!-- Sources -->
 <div class="section-container" style="text-align: center; font-size: 0.9em;">
