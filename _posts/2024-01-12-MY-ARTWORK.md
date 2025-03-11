@@ -2,8 +2,227 @@
 layout: post
 title: "MY ARTWORK"
 author: "ANDY"
-categories: [documentation, music, glitch, andy]
-tags: [art, music, spiritualité, glitch, sample, documentation, andy]
+categories: [documentation, music, andy]
+tags: [art, music, andy, glitch, sample, documentation]
 image: SOURCE_GLITCH.jpeg
 ---
-<div align="center"> <h2>MY ARTWORK</h2> </div> <div align="justify"> <p> Plongez dans l’univers visuel d’ANDY, où s’entrelacent l’esthétique glitch et la poésie du geste créatif. Cette galerie virtuelle vous convie à une promenade onirique au cœur d’œuvres audacieuses, témoins d’un héritage artistique en perpétuelle réinvention. </p> </div> <!-- Galerie virtuelle --> <div style="overflow: hidden; padding-top: 56.25%; position: relative; width: 100%;"> <iframe src="https://andyqwartz.github.io/ANDY_GALLERY/build" style="border: 0; height: 100%; left: 0; position: absolute; top: 0; width: 100%;" frameborder="0" allowfullscreen></iframe> </div> <!-- Instructions de navigation (version FR) --> <div style="width: 100%; max-width: 800px; margin: 2em auto; padding: 20px; background: rgba(0,0,0,0.05); border: 1px solid rgba(0,0,0,0.1); border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.05); display: flex; flex-direction: column; align-items: center; box-sizing: border-box;"> <h4 style="text-align: center; margin-bottom: 15px; color: var(--text-color);">Instructions de Navigation</h4> <div style="text-align: center; line-height: 1.6; color: var(--text-color);"> <strong>Déplacement :</strong> <kbd style="background: rgba(0,0,0,0.1); padding: 2px 6px; border-radius: 3px;">ZQSD</kbd><br> <strong>Vue :</strong> Souris pour explorer l’espace<br> <strong>Contrôles :</strong> <kbd style="background: rgba(0,0,0,0.1); padding: 2px 6px; border-radius: 3px;">Échap</kbd> pour libérer/capturer la souris </div> <p style="text-align: center; font-size: 0.9em; margin-top: 10px; color: var(--text-color);"> <em>Note : Ces commandes sont conçues pour un clavier AZERTY.</em> </p> <p style="text-align: center; margin-top: 15px;"> <a href="https://andyqwartz.github.io/ANDY_GALLERY/build" target="_blank" style="color: var(--link-color); text-decoration: none; transition: color 0.3s ease;"> Ouvrir la Galerie en Plein Écran </a> </p> </div> <!-- Sélection d’œuvres --> <div style="width: 100%; max-width: 800px; margin: 0 auto;"> <h3 align="center">Œuvres Sélectionnées</h3> <p align="center" style="font-style: italic; margin-bottom: 1em;"> Quelques documents consultables illustrant la richesse de cette expression visuelle. </p> </div> <div style="overflow: hidden; padding-top: 75%; position: relative; width: 100%; margin-bottom: 2em;"> <iframe src="https://drive.google.com/file/d/1N9uEJo7und-fCMWxxfFmvsDZ4H5NYaNq/preview" style="border: 0; height: 100%; left: 0; position: absolute; top: 0; width: 100%;" frameborder="0" allowfullscreen></iframe> </div> <div style="overflow: hidden; padding-top: 75%; position: relative; width: 100%; margin-bottom: 2em;"> <iframe src="https://drive.google.com/file/d/1-nH9yNfpP1FXhjcxEzoEWdciGOlcjteJ/preview" style="border: 0; height: 100%; left: 0; position: absolute; top: 0; width: 100%;" frameborder="0" allowfullscreen></iframe> </div> <!-- Intégration Instagram --> <div style="width: 100%; max-width: 800px; margin: 2em auto;"> <h3 align="center">Instantanés Visuels</h3> </div> <!-- Bloc Instagram 1 --> <blockquote class="instagram-media" data-instgrm-captioned data-instgrm-permalink="https://www.instagram.com/p/C5p9sOMrYaS/?utm_source=ig_embed&amp;utm_campaign=loading" data-instgrm-version="14" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:540px; min-width:326px; padding:0; width:calc(100% - 2px);"> <!-- (Contenu du bloc Instagram préservé tel quel) --> </blockquote> <script async src="//www.instagram.com/embed.js"></script> <!-- Bloc Instagram 2 --> <blockquote class="instagram-media" data-instgrm-captioned data-instgrm-permalink="https://www.instagram.com/p/C5p9fEQrZZx/?utm_source=ig_embed&amp;utm_campaign=loading" data-instgrm-version="14" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:540px; min-width:326px; padding:0; width:calc(100% - 2px);"> <!-- (Contenu du bloc Instagram préservé tel quel) --> </blockquote> <script async src="//www.instagram.com/embed.js"></script> <!-- Bloc Instagram 3 --> <blockquote class="instagram-media" data-instgrm-captioned data-instgrm-permalink="https://www.instagram.com/p/C5p8YtTL9lw/?utm_source=ig_embed&amp;utm_campaign=loading" data-instgrm-version="14" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:540px; min-width:326px; padding:0; width:calc(100% - 2px);"> <!-- (Contenu du bloc Instagram préservé tel quel) --> </blockquote> <script async src="//www.instagram.com/embed.js"></script> <!-- Bloc Instagram 4 --> <blockquote class="instagram-media" data-instgrm-captioned data-instgrm-permalink="https://www.instagram.com/p/C5p8h2ZLSH7/?utm_source=ig_embed&amp;utm_campaign=loading" data-instgrm-version="14" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:540px; min-width:326px; padding:0; width:calc(100% - 2px);"> <!-- (Contenu du bloc Instagram préservé tel quel) --> </blockquote> <script async src="//www.instagram.com/embed.js"></script> <!-- L'Évolution d'ANDY --> <div style="width: 100%; max-width: 800px; margin: 3em auto;"> <h3 align="center">L'Évolution d'ANDY</h3> <div align="justify" style="line-height: 1.6;"> <p> Andy, précédemment connu sous le nom de Joachim Cohen, incarne une transformation audacieuse. Tandis que ses œuvres d’antan restent des jalons appréciés, il s’engage désormais sur des voies novatrices, fusionnant la virtuosité du glitch art à une sensibilité visuelle renouvelée. Inspiré par un riche héritage musical et une quête esthétique passionnée, il réinvente son identité avec une élégance rare, invitant le spectateur à une immersion totale dans son univers en perpétuel mouvement. </p> <p> Son parcours se dévoile tantôt dans la rigueur d’une composition soignée, tantôt dans l’effervescence d’une scénographie improvisée, offrant ainsi un regard singulier sur la métamorphose artistique. </p> </div> </div> <!-- Image représentative --> <p align="center" style="margin-top: 20px;"> <img width="60%" src="/assets/img/ANDYCELLOCLEMENT.png" alt="Portrait d'ANDY"> </p> <!-- Section Sources --> <div style="width: 100%; max-width: 800px; margin: 3em auto; text-align: center; font-size: 0.9em;"> <p> Sources : Les documents et archives utilisés pour la construction de cette galerie proviennent de sources primaires et de publications référencées, actualisées régulièrement. </p> </div> <div align="center">⁂</div> <!-- VERSION ANGLAISE --> <div align="center"> <h2>MY ARTWORK</h2> </div> <div align="justify"> <p> Immerse yourself in ANDY’s visual universe, where glitch aesthetics merge with the poetry of creative movement. This virtual gallery invites you on a dreamlike journey through daring works that bear witness to an ever‐evolving artistic heritage. </p> </div> <!-- Virtual gallery --> <div style="overflow: hidden; padding-top: 56.25%; position: relative; width: 100%;"> <iframe src="https://andyqwartz.github.io/ANDY_GALLERY/build" style="border: 0; height: 100%; left: 0; position: absolute; top: 0; width: 100%;" frameborder="0" allowfullscreen></iframe> </div> <!-- Navigation instructions (EN version) --> <div style="width: 100%; max-width: 800px; margin: 2em auto; padding: 20px; background: rgba(0,0,0,0.05); border: 1px solid rgba(0,0,0,0.1); border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.05); display: flex; flex-direction: column; align-items: center; box-sizing: border-box;"> <h4 style="text-align: center; margin-bottom: 15px; color: var(--text-color);">Navigation Instructions</h4> <div style="text-align: center; line-height: 1.6; color: var(--text-color);"> <strong>Movement:</strong> <kbd style="background: rgba(0,0,0,0.1); padding: 2px 6px; border-radius: 3px;">WASD</kbd><br> <strong>View:</strong> Use your mouse to explore the space<br> <strong>Controls:</strong> <kbd style="background: rgba(0,0,0,0.1); padding: 2px 6px; border-radius: 3px;">Escape</kbd> to toggle mouse control </div> <p style="text-align: center; font-size: 0.9em; margin-top: 10px; color: var(--text-color);"> <em>Note: These commands are designed for a QWERTY keyboard.</em> </p> <p style="text-align: center; margin-top: 15px;"> <a href="https://andyqwartz.github.io/ANDY_GALLERY/build" target="_blank" style="color: var(--link-color); text-decoration: none; transition: color 0.3s ease;"> Open the Gallery in Full Screen </a> </p> </div> <!-- Selected Works --> <div style="width: 100%; max-width: 800px; margin: 0 auto;"> <h3 align="center">Selected Works</h3> <p align="center" style="font-style: italic; margin-bottom: 1em;"> A curated selection of documents illustrating this visual expression. </p> </div> <div style="overflow: hidden; padding-top: 75%; position: relative; width: 100%; margin-bottom: 2em;"> <iframe src="https://drive.google.com/file/d/1N9uEJo7und-fCMWxxfFmvsDZ4H5NYaNq/preview" style="border: 0; height: 100%; left: 0; position: absolute; top: 0; width: 100%;" frameborder="0" allowfullscreen></iframe> </div> <div style="overflow: hidden; padding-top: 75%; position: relative; width: 100%; margin-bottom: 2em;"> <iframe src="https://drive.google.com/file/d/1-nH9yNfpP1FXhjcxEzoEWdciGOlcjteJ/preview" style="border: 0; height: 100%; left: 0; position: absolute; top: 0; width: 100%;" frameborder="0" allowfullscreen></iframe> </div> <!-- Instagram Snapshots --> <div style="width: 100%; max-width: 800px; margin: 2em auto;"> <h3 align="center">Instagram Snapshots</h3> </div> <!-- Instagram Block 1 --> <blockquote class="instagram-media" data-instgrm-captioned data-instgrm-permalink="https://www.instagram.com/p/C5p9sOMrYaS/?utm_source=ig_embed&amp;utm_campaign=loading" data-instgrm-version="14" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:540px; min-width:326px; padding:0; width:calc(100% - 2px);"> <!-- (Instagram embed content remains unchanged) --> </blockquote> <script async src="//www.instagram.com/embed.js"></script> <!-- Instagram Block 2 --> <blockquote class="instagram-media" data-instgrm-captioned data-instgrm-permalink="https://www.instagram.com/p/C5p9fEQrZZx/?utm_source=ig_embed&amp;utm_campaign=loading" data-instgrm-version="14" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:540px; min-width:326px; padding:0; width:calc(100% - 2px);"> <!-- (Instagram embed content remains unchanged) --> </blockquote> <script async src="//www.instagram.com/embed.js"></script> <!-- Instagram Block 3 --> <blockquote class="instagram-media" data-instgrm-captioned data-instgrm-permalink="https://www.instagram.com/p/C5p8YtTL9lw/?utm_source=ig_embed&amp;utm_campaign=loading" data-instgrm-version="14" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:540px; min-width:326px; padding:0; width:calc(100% - 2px);"> <!-- (Instagram embed content remains unchanged) --> </blockquote> <script async src="//www.instagram.com/embed.js"></script> <!-- Instagram Block 4 --> <blockquote class="instagram-media" data-instgrm-captioned data-instgrm-permalink="https://www.instagram.com/p/C5p8h2ZLSH7/?utm_source=ig_embed&amp;utm_campaign=loading" data-instgrm-version="14" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:540px; min-width:326px; padding:0; width:calc(100% - 2px);"> <!-- (Instagram embed content remains unchanged) --> </blockquote> <script async src="//www.instagram.com/embed.js"></script> <!-- The Evolution of ANDY --> <div style="width: 100%; max-width: 800px; margin: 3em auto;"> <h3 align="center">The Evolution of ANDY</h3> <div align="justify" style="line-height: 1.6;"> <p> Andy, formerly known as Joachim Cohen, marks a bold transformation in his artistic journey. While his earlier works remain cherished milestones, he now ventures into uncharted creative territories, merging glitch aesthetics with a renewed visual sensitivity. Drawing upon an exceptional musical heritage and an impassioned quest for innovation, he redefines his identity with rare elegance, inviting the viewer to fully immerse in his ever‑evolving universe. </p> <p> This metamorphosis is revealed through compositions that oscillate between meticulous craft and spontaneous stage improvisation, offering a singular perspective on artistic renewal. </p> </div> </div> <!-- Representative Image --> <p align="center" style="margin-top: 20px;"> <img width="60%" src="/assets/img/ANDYCELLOCLEMENT.png" alt="ANDY portrait"> </p> <!-- Sources (EN) --> <div style="width: 100%; max-width: 800px; margin: 3em auto; text-align: center; font-size: 0.9em;"> <p> Sources: The documents and archives used in constructing this gallery are drawn from primary sources and referenced publications, updated as needed. </p> </div>
+
+<style>
+/* Style for navigation instructions */
+.navigation-instructions {
+  width: 100%;
+  max-width: 800px;
+  margin: 2em auto;
+  padding: 20px;
+  background: rgba(0,0,0,0.05);
+  border: 1px solid rgba(0,0,0,0.1);
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  text-align: center;
+}
+
+.navigation-instructions kbd {
+  background: rgba(0,0,0,0.1);
+  padding: 2px 6px;
+  border-radius: 3px;
+}
+
+/* Style for sections */
+.section-container {
+  width: 100%;
+  max-width: 800px;
+  margin: 2em auto;
+}
+
+/* Style for iframes */
+.iframe-container {
+  overflow: hidden;
+  padding-top: 56.25%;
+  position: relative;
+  width: 100%;
+  margin-bottom: 2em;
+}
+
+.iframe-container iframe {
+  border: 0;
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+/* Style for Instagram embeds */
+.instagram-media {
+  background: #FFF;
+  border: 0;
+  border-radius: 3px;
+  box-shadow: 0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15);
+  margin: 1px;
+  max-width: 540px;
+  min-width: 326px;
+  padding: 0;
+  width: calc(100% - 2px);
+}
+</style>
+
+<div class="post-content">
+
+<div align="center">
+<h2>MY ARTWORK</h2>
+</div>
+
+<div align="justify">
+<p>Plongez dans l'univers visuel d'ANDY, où s'entrelacent l'esthétique glitch et la poésie du geste créatif. Cette galerie virtuelle vous convie à une promenade onirique au cœur d'œuvres audacieuses, témoins d'un héritage artistique en perpétuelle réinvention.</p>
+</div>
+
+<!-- Galerie virtuelle -->
+<div class="iframe-container">
+<iframe src="https://andyqwartz.github.io/ANDY_GALLERY/build" allowfullscreen></iframe>
+</div>
+
+<!-- Instructions de navigation (version FR) -->
+<div class="navigation-instructions">
+<h4>Instructions de Navigation</h4>
+<div style="text-align: center; line-height: 1.6;">
+<strong>Déplacement :</strong> <kbd>ZQSD</kbd><br>
+<strong>Vue :</strong> Souris pour explorer l'espace<br>
+<strong>Contrôles :</strong> <kbd>Échap</kbd> pour libérer/capturer la souris
+</div>
+<p style="text-align: center; font-size: 0.9em; margin-top: 10px;">
+<em>Note : Ces commandes sont conçues pour un clavier AZERTY.</em>
+</p>
+<p style="text-align: center; margin-top: 15px;">
+<a href="https://andyqwartz.github.io/ANDY_GALLERY/build" target="_blank">
+Ouvrir la Galerie en Plein Écran
+</a>
+</p>
+</div>
+
+<!-- Sélection d'œuvres -->
+<div class="section-container">
+<h3 align="center">Œuvres Sélectionnées</h3>
+<p align="center" style="font-style: italic;">
+Quelques documents consultables illustrant la richesse de cette expression visuelle.
+</p>
+</div>
+
+<div class="iframe-container">
+<iframe src="https://drive.google.com/file/d/1N9uEJo7und-fCMWxxfFmvsDZ4H5NYaNq/preview" allowfullscreen></iframe>
+</div>
+
+<div class="iframe-container">
+<iframe src="https://drive.google.com/file/d/1-nH9yNfpP1FXhjcxEzoEWdciGOlcjteJ/preview" allowfullscreen></iframe>
+</div>
+
+<!-- Intégration Instagram -->
+<div class="section-container">
+<h3 align="center">Instantanés Visuels</h3>
+
+<blockquote class="instagram-media" data-instgrm-captioned data-instgrm-permalink="https://www.instagram.com/p/C5p9sOMrYaS/?utm_source=ig_embed&amp;utm_campaign=loading" data-instgrm-version="14"></blockquote>
+<blockquote class="instagram-media" data-instgrm-captioned data-instgrm-permalink="https://www.instagram.com/p/C5p9fEQrZZx/?utm_source=ig_embed&amp;utm_campaign=loading" data-instgrm-version="14"></blockquote>
+<blockquote class="instagram-media" data-instgrm-captioned data-instgrm-permalink="https://www.instagram.com/p/C5p8YtTL9lw/?utm_source=ig_embed&amp;utm_campaign=loading" data-instgrm-version="14"></blockquote>
+<blockquote class="instagram-media" data-instgrm-captioned data-instgrm-permalink="https://www.instagram.com/p/C5p8h2ZLSH7/?utm_source=ig_embed&amp;utm_campaign=loading" data-instgrm-version="14"></blockquote>
+<script async src="//www.instagram.com/embed.js"></script>
+</div>
+
+<!-- L'Évolution d'ANDY -->
+<div class="section-container">
+<h3 align="center">L'Évolution d'ANDY</h3>
+<div align="justify">
+<p>Andy, précédemment connu sous le nom de Joachim Cohen, incarne une transformation audacieuse. Tandis que ses œuvres d'antan restent des jalons appréciés, il s'engage désormais sur des voies novatrices, fusionnant la virtuosité du glitch art à une sensibilité visuelle renouvelée. Inspiré par un riche héritage musical et une quête esthétique passionnée, il réinvente son identité avec une élégance rare, invitant le spectateur à une immersion totale dans son univers en perpétuel mouvement.</p>
+<p>Son parcours se dévoile tantôt dans la rigueur d'une composition soignée, tantôt dans l'effervescence d'une scénographie improvisée, offrant ainsi un regard singulier sur la métamorphose artistique.</p>
+</div>
+</div>
+
+<!-- Image représentative -->
+<p align="center">
+<img width="60%" src="/assets/img/ANDYCELLOCLEMENT.png" alt="Portrait d'ANDY">
+</p>
+
+<!-- Section Sources -->
+<div class="section-container" style="text-align: center; font-size: 0.9em;">
+<p>Sources : Les documents et archives utilisés pour la construction de cette galerie proviennent de sources primaires et de publications référencées, actualisées régulièrement.</p>
+</div>
+
+<div align="center">⁂</div>
+
+<!-- VERSION ANGLAISE -->
+<div align="center">
+<h2>MY ARTWORK</h2>
+</div>
+
+<div align="justify">
+<p>Immerse yourself in ANDY's visual universe, where glitch aesthetics merge with the poetry of creative movement. This virtual gallery invites you on a dreamlike journey through daring works that bear witness to an ever‐evolving artistic heritage.</p>
+</div>
+
+<!-- Virtual gallery -->
+<div class="iframe-container">
+<iframe src="https://andyqwartz.github.io/ANDY_GALLERY/build" allowfullscreen></iframe>
+</div>
+
+<!-- Navigation instructions (EN version) -->
+<div class="navigation-instructions">
+<h4>Navigation Instructions</h4>
+<div style="text-align: center; line-height: 1.6;">
+<strong>Movement:</strong> <kbd>WASD</kbd><br>
+<strong>View:</strong> Use your mouse to explore the space<br>
+<strong>Controls:</strong> <kbd>Escape</kbd> to toggle mouse control
+</div>
+<p style="text-align: center; font-size: 0.9em; margin-top: 10px;">
+<em>Note: These commands are designed for a QWERTY keyboard.</em>
+</p>
+<p style="text-align: center; margin-top: 15px;">
+<a href="https://andyqwartz.github.io/ANDY_GALLERY/build" target="_blank">
+Open the Gallery in Full Screen
+</a>
+</p>
+</div>
+
+<!-- Selected Works -->
+<div class="section-container">
+<h3 align="center">Selected Works</h3>
+<p align="center" style="font-style: italic;">
+A curated selection of documents illustrating this visual expression.
+</p>
+</div>
+
+<div class="iframe-container">
+<iframe src="https://drive.google.com/file/d/1N9uEJo7und-fCMWxxfFmvsDZ4H5NYaNq/preview" allowfullscreen></iframe>
+</div>
+
+<div class="iframe-container">
+<iframe src="https://drive.google.com/file/d/1-nH9yNfpP1FXhjcxEzoEWdciGOlcjteJ/preview" allowfullscreen></iframe>
+</div>
+
+<!-- Instagram Snapshots -->
+<div class="section-container">
+<h3 align="center">Instagram Snapshots</h3>
+
+<blockquote class="instagram-media" data-instgrm-captioned data-instgrm-permalink="https://www.instagram.com/p/C5p9sOMrYaS/?utm_source=ig_embed&amp;utm_campaign=loading" data-instgrm-version="14"></blockquote>
+<blockquote class="instagram-media" data-instgrm-captioned data-instgrm-permalink="https://www.instagram.com/p/C5p9fEQrZZx/?utm_source=ig_embed&amp;utm_campaign=loading" data-instgrm-version="14"></blockquote>
+<blockquote class="instagram-media" data-instgrm-captioned data-instgrm-permalink="https://www.instagram.com/p/C5p8YtTL9lw/?utm_source=ig_embed&amp;utm_campaign=loading" data-instgrm-version="14"></blockquote>
+<blockquote class="instagram-media" data-instgrm-captioned data-instgrm-permalink="https://www.instagram.com/p/C5p8h2ZLSH7/?utm_source=ig_embed&amp;utm_campaign=loading" data-instgrm-version="14"></blockquote>
+<script async src="//www.instagram.com/embed.js"></script>
+</div>
+
+<!-- The Evolution of ANDY -->
+<div class="section-container">
+<h3 align="center">The Evolution of ANDY</h3>
+<div align="justify">
+<p>Andy, formerly known as Joachim Cohen, marks a bold transformation in his artistic journey. While his earlier works remain cherished milestones, he now ventures into uncharted creative territories, merging glitch aesthetics with a renewed visual sensitivity. Drawing upon an exceptional musical heritage and an impassioned quest for innovation, he redefines his identity with rare elegance, inviting the viewer to fully immerse in his ever‑evolving universe.</p>
+<p>This metamorphosis is revealed through compositions that oscillate between meticulous craft and spontaneous stage improvisation, offering a singular perspective on artistic renewal.</p>
+</div>
+</div>
+
+<!-- Representative Image -->
+<p align="center">
+<img width="60%" src="/assets/img/ANDYCELLOCLEMENT.png" alt="ANDY portrait">
+</p>
+
+<!-- Sources (EN) -->
+<div class="section-container" style="text-align: center; font-size: 0.9em;">
+<p>Sources: The documents and archives used in constructing this gallery are drawn from primary sources and referenced publications, updated as needed.</p>
+</div>
+
+</div>
