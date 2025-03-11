@@ -11,12 +11,32 @@ plugins:             [jekyll-paginate, jekyll-sitemap, jekyll-feed, jekyll-seo-t
 
 # Customise atom feed settings (this is where Jekyll-Feed gets configuration information)
 title:		           "SERENDIPPO"
+description:         "Explorations spirituelles et culturelles"
 author:              "SERENDIPPO"
 
 # Site URL settings
 baseurl:             ""
 url:                 "https://www.serendippo.me"
 
+# SEO and Open Graph settings
+twitter:
+  username:          Andrea98Schwarz
+  card:              summary_large_image
+
+social:
+  name: SERENDIPPO
+  links:
+    - https://twitter.com/Andrea98Schwarz
+    - https://instagram.com/cohenjoachim
+    - https://bsky.app/profile/andyqwartz.bsky.social
+
+# Default image for social sharing
+defaults:
+  - scope:
+      path: ""
+    values:
+      image: /assets/img/logo.png
+      
 # RSS 2.0 can be used instead of Atom by uncommenting following two lines
 #feed:
 #  path: rss-feed.xml
