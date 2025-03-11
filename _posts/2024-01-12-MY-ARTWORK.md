@@ -263,14 +263,10 @@ Quelques documents consultables illustrant la richesse de cette expression visue
     <em>Note : Ces commandes sont basées sur un clavier AZERTY. Pour QWERTY, utilisez les touches WASD.</em>
   </div>
   <div class="gallery-link">
-    <a href="https://www.serendippo.me/MY-ARTWORK/" target="_blank">
+    <a href="https://andyqwartz.github.io/ANDY_GALLERY/build" target="_blank">
       Ouvrir la Galerie en Plein Écran / Open Gallery in Full Screen
     </a>
   </div>
-</div>
-
-<div class="iframe-container">
-<iframe src="https://andyqwartz.github.io/ANDY_GALLERY/build" allowfullscreen></iframe>
 </div>
 
 <!-- ENGLISH VERSION -->
