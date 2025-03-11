@@ -11,7 +11,7 @@ plugins:             [jekyll-paginate, jekyll-sitemap, jekyll-feed, jekyll-seo-t
 
 # Customise atom feed settings (this is where Jekyll-Feed gets configuration information)
 title:		           "SERENDIPPO"
-description:         "Explorations spirituelles et culturelles"
+description:         "Andy's Space"
 author:              "SERENDIPPO"
 
 # Site URL settings
@@ -35,7 +35,7 @@ defaults:
   - scope:
       path: ""
     values:
-      image: /assets/img/logo.png
+      image: /assets/img/logo_white-2.png
       
 # RSS 2.0 can be used instead of Atom by uncommenting following two lines
 #feed:
