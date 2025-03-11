@@ -2,7 +2,7 @@
 layout: post
 title: "MY ARTWORK"
 author: "ANDY"
-categories: [documentation, spiritualité]
+categories: [documentation, music, glitch, andy]
 tags: [art, music, spiritualité, glitch, sample, documentation, andy]
 image: SOURCE_GLITCH.jpeg
 ---
