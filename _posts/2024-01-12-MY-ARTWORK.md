@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "MY ARTWORK"
-author: "ANDY"
+title: "Andy Qwartz Online Gallery"
+author: "SERENDIPPO"
 categories: [documentation, music, andy]
 tags: [art, music, andy, glitch, sample, documentation]
 image: SOURCE_GLITCH.jpeg
