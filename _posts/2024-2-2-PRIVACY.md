@@ -4,6 +4,7 @@ title: "PRIVACY POLICY"
 author: "ANDY"
 categories: [documentation]
 permalink: /PRIVACY/
+image: logo.png
 ---
 
 <br /> 
