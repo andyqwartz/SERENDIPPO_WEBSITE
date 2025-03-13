@@ -111,6 +111,11 @@ image: logo_white-2.png
             z-index: 1000;
         }
     </style>
+    <style>
+      header, footer {
+        display: none !important;
+      }
+    </style>
 </head>
 <body>
     <h1 class="fade-in">NON POSSUM FUGERE</h1>
