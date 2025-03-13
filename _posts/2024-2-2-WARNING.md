@@ -142,7 +142,7 @@ image: logo_white-2.png
 
     <script>
         let failedAttempts = 0;
-        const correctName = "LUCIFER";
+        const correctName = "SERENDIPPO";
 
         setTimeout(() => {
             document.querySelector("body").style.background = "#300000";
