@@ -4,7 +4,7 @@ title: "WARNING"
 author: "SERENDIPPO"
 categories: [WARNING]
 permalink: /WARNING/
-image: logo.png
+image: logo_white-2.png
 ---
 
 <html lang="la">
