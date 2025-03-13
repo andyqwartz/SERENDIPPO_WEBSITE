@@ -6,7 +6,7 @@ categories: [WARNING]
 permalink: /WARNING/
 image: logo.png
 ---
-<!DOCTYPE html>
+
 <html lang="la">
 <head>
     <meta charset="UTF-8">
