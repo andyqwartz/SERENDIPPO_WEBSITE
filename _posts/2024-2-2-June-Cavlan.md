@@ -137,7 +137,7 @@ a[href*="youtube.com"]:hover, a[href*="soundcloud.com"]:hover {
   visibility: hidden;
 }
 
-/* Add styles for video containers */
+/* Adjust video containers for different aspect ratios */
 .video-container {
   width: 100%;
   max-width: 800px;
@@ -150,10 +150,21 @@ a[href*="youtube.com"]:hover, a[href*="soundcloud.com"]:hover {
 
 .video-wrapper {
   position: relative;
-  padding-bottom: 56.25%;
   height: 0;
   overflow: hidden;
   border-radius: 8px;
+}
+
+/* 16:9 aspect ratio for YouTube */
+.video-wrapper.widescreen {
+  padding-bottom: 56.25%;
+}
+
+/* 9:16 aspect ratio for TikTok */
+.video-wrapper.vertical {
+  padding-bottom: 177.78%;
+  max-width: 325px;
+  margin: 0 auto;
 }
 
 .video-wrapper iframe,
@@ -195,9 +206,9 @@ Cette version féminine apporte une résonance nouvelle au morceau, tout en rest
 Deux interprétations distinctes sont à considérer : la première, une vidéo amateur publiée par l'artiste sur TikTok, et la seconde, une performance professionnelle réalisée dans le cadre du projet « Live Room », filmée au Bridge Recording Studio avec orchestre et publiée officiellement sur YouTube.
 
 <div class="video-container">
-  <div class="video-wrapper">
+  <div class="video-wrapper vertical">
     <!-- TikTok embed code -->
-    <blockquote class="tiktok-embed" cite="https://www.tiktok.com/@junecavlanjazz/video/7407629017584520490" data-video-id="7407629017584520490" style="max-width: 605px;min-width: 325px;" > <section> <a target="_blank" title="@junecavlanjazz" href="https://www.tiktok.com/@junecavlanjazz?refer=embed">@junecavlanjazz</a> More Sondheim in celebration of my latest single. Click link in bio to listen! <a title="jazzsinger" target="_blank" href="https://www.tiktok.com/tag/jazzsinger?refer=embed">#jazzsinger</a> <a title="jazz" target="_blank" href="https://www.tiktok.com/tag/jazz?refer=embed">#jazz</a> <a title="sondheim" target="_blank" href="https://www.tiktok.com/tag/sondheim?refer=embed">#sondheim</a> <a title="newmusic" target="_blank" href="https://www.tiktok.com/tag/newmusic?refer=embed">#newmusic</a> <a title="junecavlan" target="_blank" href="https://www.tiktok.com/tag/junecavlan?refer=embed">#junecavlan</a> <a title="singer" target="_blank" href="https://www.tiktok.com/tag/singer?refer=embed">#singer</a> <a title="jazztok" target="_blank" href="https://www.tiktok.com/tag/jazztok?refer=embed">#jazztok</a> <a title="trending" target="_blank" href="https://www.tiktok.com/tag/trending?refer=embed">#trending</a> <a title="musicaltheater" target="_blank" href="https://www.tiktok.com/tag/musicaltheater?refer=embed">#musicaltheater</a> <a title="stephensondheim" target="_blank" href="https://www.tiktok.com/tag/stephensondheim?refer=embed">#stephensondheim</a> <a title="ladieswholunch" target="_blank" href="https://www.tiktok.com/tag/ladieswholunch?refer=embed">#ladieswholunch</a> <a title="nyc" target="_blank" href="https://www.tiktok.com/tag/nyc?refer=embed">#nyc</a> <a title="fyp" target="_blank" href="https://www.tiktok.com/tag/fyp?refer=embed">#fyp</a> <a title="showtunes" target="_blank" href="https://www.tiktok.com/tag/showtunes?refer=embed">#showtunes</a> <a title="broadway" target="_blank" href="https://www.tiktok.com/tag/broadway?refer=embed">#broadway</a> <a title="stephensondheim" target="_blank" href="https://www.tiktok.com/tag/stephensondheim?refer=embed">#stephensondheim</a> <a target="_blank" title="♬ original sound - June Cavlan" href="https://www.tiktok.com/music/original-sound-7407628956842855214?refer=embed">♬ original sound - June Cavlan</a> </section> </blockquote> <script async src="https://www.tiktok.com/embed.js"></script>
+    <blockquote class="tiktok-embed" cite="https://www.tiktok.com/@junecavlanjazz/video/7407629017584520490" data-video-id="7407629017584520490" style="max-width: 325px;min-width: 325px;" > <section> <a target="_blank" title="@junecavlanjazz" href="https://www.tiktok.com/@junecavlanjazz?refer=embed">@junecavlanjazz</a> More Sondheim in celebration of my latest single. Click link in bio to listen! <a title="jazzsinger" target="_blank" href="https://www.tiktok.com/tag/jazzsinger?refer=embed">#jazzsinger</a> <a title="jazz" target="_blank" href="https://www.tiktok.com/tag/jazz?refer=embed">#jazz</a> <a title="sondheim" target="_blank" href="https://www.tiktok.com/tag/sondheim?refer=embed">#sondheim</a> <a title="newmusic" target="_blank" href="https://www.tiktok.com/tag/newmusic?refer=embed">#newmusic</a> <a title="junecavlan" target="_blank" href="https://www.tiktok.com/tag/junecavlan?refer=embed">#junecavlan</a> <a title="singer" target="_blank" href="https://www.tiktok.com/tag/singer?refer=embed">#singer</a> <a title="jazztok" target="_blank" href="https://www.tiktok.com/tag/jazztok?refer=embed">#jazztok</a> <a title="trending" target="_blank" href="https://www.tiktok.com/tag/trending?refer=embed">#trending</a> <a title="musicaltheater" target="_blank" href="https://www.tiktok.com/tag/musicaltheater?refer=embed">#musicaltheater</a> <a title="stephensondheim" target="_blank" href="https://www.tiktok.com/tag/stephensondheim?refer=embed">#stephensondheim</a> <a title="ladieswholunch" target="_blank" href="https://www.tiktok.com/tag/ladieswholunch?refer=embed">#ladieswholunch</a> <a title="nyc" target="_blank" href="https://www.tiktok.com/tag/nyc?refer=embed">#nyc</a> <a title="fyp" target="_blank" href="https://www.tiktok.com/tag/fyp?refer=embed">#fyp</a> <a title="showtunes" target="_blank" href="https://www.tiktok.com/tag/showtunes?refer=embed">#showtunes</a> <a title="broadway" target="_blank" href="https://www.tiktok.com/tag/broadway?refer=embed">#broadway</a> <a title="stephensondheim" target="_blank" href="https://www.tiktok.com/tag/stephensondheim?refer=embed">#stephensondheim</a> <a target="_blank" title="♬ original sound - June Cavlan" href="https://www.tiktok.com/music/original-sound-7407628956842855214?refer=embed">♬ original sound - June Cavlan</a> </section> </blockquote> <script async src="https://www.tiktok.com/embed.js"></script>
   </div>
 </div>
 
@@ -210,7 +221,7 @@ Dans la version TikTok, June Cavlan est assise seule à son piano. Cette posture
 À l'inverse, dans l'enregistrement « Live Room », June Cavlan interprète le morceau debout, accompagnée par Luther S. Allison au piano ainsi qu'un ensemble à cordes dirigé par Jackson A. Waters (également co-arrangeur). Ce changement d'environnement altère légèrement la stabilité rythmique et harmonique, engendrant une subtile désynchronisation entre la voix et l'accompagnement instrumental. Ce phénomène est notamment lié à la « mémoire corporelle » que l'artiste avait initialement acquise en position assise.
 
 <div class="video-container">
-  <div class="video-wrapper">
+  <div class="video-wrapper widescreen">
     <iframe src="https://www.youtube.com/embed/f_OSbfV7WdU?si=_TyPV7Q334JJNVsi" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
   </div>
 </div>
@@ -250,7 +261,7 @@ Lieu : The Bridge Recording Studio
   <hr>
 </div>
 
-### Conclusion critique (par ANDY Quartz)
+<h3>Conclusion critique (par ANDY Quartz)</h3>
 
 La démarche artistique de June Cavlan mérite d'être poursuivie dans la voie intime et minimaliste, garantissant une interprétation musicale optimale et pleinement respectueuse de son talent. Tout en appréciant les choix orchestraux ambitieux, une attention particulière portée à l'intégrité corporelle et vocale initialement acquise en conditions intimes permettrait à cette artiste prometteuse d'atteindre une expressivité encore plus profonde.
 
@@ -282,9 +293,9 @@ This feminine version brings a new resonance to the piece while remaining faithf
 Two distinct interpretations are to be considered: the first, an amateur video published by the artist on TikTok, and the second, a professional performance realized as part of the "Live Room" project, filmed at Bridge Recording Studio with orchestra and officially published on YouTube.
 
 <div class="video-container">
-  <div class="video-wrapper">
+  <div class="video-wrapper vertical">
     <!-- TikTok embed code -->
-    <blockquote class="tiktok-embed" cite="https://www.tiktok.com/@junecavlanjazz/video/7407629017584520490" data-video-id="7407629017584520490" style="max-width: 605px;min-width: 325px;" > <section> <a target="_blank" title="@junecavlanjazz" href="https://www.tiktok.com/@junecavlanjazz?refer=embed">@junecavlanjazz</a> More Sondheim in celebration of my latest single. Click link in bio to listen! <a title="jazzsinger" target="_blank" href="https://www.tiktok.com/tag/jazzsinger?refer=embed">#jazzsinger</a> <a title="jazz" target="_blank" href="https://www.tiktok.com/tag/jazz?refer=embed">#jazz</a> <a title="sondheim" target="_blank" href="https://www.tiktok.com/tag/sondheim?refer=embed">#sondheim</a> <a title="newmusic" target="_blank" href="https://www.tiktok.com/tag/newmusic?refer=embed">#newmusic</a> <a title="junecavlan" target="_blank" href="https://www.tiktok.com/tag/junecavlan?refer=embed">#junecavlan</a> <a title="singer" target="_blank" href="https://www.tiktok.com/tag/singer?refer=embed">#singer</a> <a title="jazztok" target="_blank" href="https://www.tiktok.com/tag/jazztok?refer=embed">#jazztok</a> <a title="trending" target="_blank" href="https://www.tiktok.com/tag/trending?refer=embed">#trending</a> <a title="musicaltheater" target="_blank" href="https://www.tiktok.com/tag/musicaltheater?refer=embed">#musicaltheater</a> <a title="stephensondheim" target="_blank" href="https://www.tiktok.com/tag/stephensondheim?refer=embed">#stephensondheim</a> <a title="ladieswholunch" target="_blank" href="https://www.tiktok.com/tag/ladieswholunch?refer=embed">#ladieswholunch</a> <a title="nyc" target="_blank" href="https://www.tiktok.com/tag/nyc?refer=embed">#nyc</a> <a title="fyp" target="_blank" href="https://www.tiktok.com/tag/fyp?refer=embed">#fyp</a> <a title="showtunes" target="_blank" href="https://www.tiktok.com/tag/showtunes?refer=embed">#showtunes</a> <a title="broadway" target="_blank" href="https://www.tiktok.com/tag/broadway?refer=embed">#broadway</a> <a title="stephensondheim" target="_blank" href="https://www.tiktok.com/tag/stephensondheim?refer=embed">#stephensondheim</a> <a target="_blank" title="♬ original sound - June Cavlan" href="https://www.tiktok.com/music/original-sound-7407628956842855214?refer=embed">♬ original sound - June Cavlan</a> </section> </blockquote> <script async src="https://www.tiktok.com/embed.js"></script>
+    <blockquote class="tiktok-embed" cite="https://www.tiktok.com/@junecavlanjazz/video/7407629017584520490" data-video-id="7407629017584520490" style="max-width: 325px;min-width: 325px;" > <section> <a target="_blank" title="@junecavlanjazz" href="https://www.tiktok.com/@junecavlanjazz?refer=embed">@junecavlanjazz</a> More Sondheim in celebration of my latest single. Click link in bio to listen! <a title="jazzsinger" target="_blank" href="https://www.tiktok.com/tag/jazzsinger?refer=embed">#jazzsinger</a> <a title="jazz" target="_blank" href="https://www.tiktok.com/tag/jazz?refer=embed">#jazz</a> <a title="sondheim" target="_blank" href="https://www.tiktok.com/tag/sondheim?refer=embed">#sondheim</a> <a title="newmusic" target="_blank" href="https://www.tiktok.com/tag/newmusic?refer=embed">#newmusic</a> <a title="junecavlan" target="_blank" href="https://www.tiktok.com/tag/junecavlan?refer=embed">#junecavlan</a> <a title="singer" target="_blank" href="https://www.tiktok.com/tag/singer?refer=embed">#singer</a> <a title="jazztok" target="_blank" href="https://www.tiktok.com/tag/jazztok?refer=embed">#jazztok</a> <a title="trending" target="_blank" href="https://www.tiktok.com/tag/trending?refer=embed">#trending</a> <a title="musicaltheater" target="_blank" href="https://www.tiktok.com/tag/musicaltheater?refer=embed">#musicaltheater</a> <a title="stephensondheim" target="_blank" href="https://www.tiktok.com/tag/stephensondheim?refer=embed">#stephensondheim</a> <a title="ladieswholunch" target="_blank" href="https://www.tiktok.com/tag/ladieswholunch?refer=embed">#ladieswholunch</a> <a title="nyc" target="_blank" href="https://www.tiktok.com/tag/nyc?refer=embed">#nyc</a> <a title="fyp" target="_blank" href="https://www.tiktok.com/tag/fyp?refer=embed">#fyp</a> <a title="showtunes" target="_blank" href="https://www.tiktok.com/tag/showtunes?refer=embed">#showtunes</a> <a title="broadway" target="_blank" href="https://www.tiktok.com/tag/broadway?refer=embed">#broadway</a> <a title="stephensondheim" target="_blank" href="https://www.tiktok.com/tag/stephensondheim?refer=embed">#stephensondheim</a> <a target="_blank" title="♬ original sound - June Cavlan" href="https://www.tiktok.com/music/original-sound-7407628956842855214?refer=embed">♬ original sound - June Cavlan</a> </section> </blockquote> <script async src="https://www.tiktok.com/embed.js"></script>
   </div>
 </div>
 
@@ -297,7 +308,7 @@ In the TikTok version, June Cavlan is seated alone at her piano. This posture al
 Conversely, in the "Live Room" recording, June Cavlan performs the piece standing, accompanied by Luther S. Allison on piano and a string ensemble conducted by Jackson A. Waters (also co-arranger). This change in environment slightly alters the rhythmic and harmonic stability, creating a subtle desynchronization between the voice and instrumental accompaniment. This phenomenon is notably linked to the "body memory" that the artist had initially acquired in the seated position.
 
 <div class="video-container">
-  <div class="video-wrapper">
+  <div class="video-wrapper widescreen">
     <iframe src="https://www.youtube.com/embed/f_OSbfV7WdU?si=_TyPV7Q334JJNVsi" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
   </div>
 </div>
@@ -337,7 +348,7 @@ Location: The Bridge Recording Studio
   <hr>
 </div>
 
-### Critical Conclusion (by ANDY Quartz)
+<h3>Critical Conclusion (by ANDY Quartz)</h3>
 
 June Cavlan's artistic approach deserves to be pursued in the intimate and minimalist direction, ensuring an optimal musical interpretation that fully respects her talent. While appreciating the ambitious orchestral choices, particular attention to the bodily and vocal integrity initially acquired in intimate conditions would allow this promising artist to achieve even deeper expressiveness.
 
