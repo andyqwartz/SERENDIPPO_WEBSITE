@@ -143,7 +143,11 @@ a[href*="youtube.com"]:hover, a[href*="soundcloud.com"]:hover {
 <div class="language-nav">
 <a href="#english-version">English Version ↓</a>
 </div>
+<br />
 
+<div align="center">⁂</div>
+
+</div>
 <br /> 
 <h2 align="center">June Cavlan interprète « Johanna » : Analyse Critique d'une Version Jazz Contemporaine</h2>
 <div align="justify">
