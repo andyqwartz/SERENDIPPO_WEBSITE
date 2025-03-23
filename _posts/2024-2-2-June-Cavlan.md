@@ -222,6 +222,15 @@ Lieu : The Bridge Recording Studio
 
 La démarche artistique de June Cavlan mérite d'être poursuivie dans la voie intime et minimaliste, garantissant une interprétation musicale optimale et pleinement respectueuse de son talent. Tout en appréciant les choix orchestraux ambitieux, une attention particulière portée à l'intégrité corporelle et vocale initialement acquise en conditions intimes permettrait à cette artiste prometteuse d'atteindre une expressivité encore plus profonde.
 
+
+<br />
+
+<div align="center">⁂</div>
+
+</div>
+
+
+
 <div id="english-version"></div>
 
 <div class="section-separator">
@@ -308,14 +317,6 @@ June Cavlan's artistic approach deserves to be pursued in the intimate and minim
 <div class="section-separator">
   <hr>
 </div>
-
-<div class="related" style="width: 100%; max-width: 800px; margin: 0 auto; text-align: center;">
-  <h3 style="text-align: center;">Pages Suggérées / Suggested Pages</h3>
-  <ul style="list-style: none; padding: 0; text-align: center;">
-    <li style="margin: 10px 0;"><a href="/MY-ARTWORK/">Galerie Virtuelle / Virtual Gallery</a></li>
-    <li style="margin: 10px 0;"><a href="/MUSIC/">Musique / Music</a></li>
-    <li style="margin: 10px 0;"><a href="/DEFICIT/">Collectif Déficit</a></li>
-  </ul>
 </div>
 
 <br />
