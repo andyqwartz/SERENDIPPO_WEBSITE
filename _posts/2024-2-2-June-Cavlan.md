@@ -2,8 +2,8 @@
 layout: post
 title: "June Cavlan's interpretation of an underrated tune"
 author: "Joachim Cohen"
-categories: [critique]
-tags: [témoignage, critique, Joachim Cohen]
+categories: [critic]
+tags: [témoignage, critic, Joachim Cohen]
 permalink: /June-Cavlan/
 image: June-Cavlan.png
 ---
