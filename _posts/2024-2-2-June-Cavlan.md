@@ -160,15 +160,7 @@ a[href*="youtube.com"]:hover, a[href*="soundcloud.com"]:hover {
   padding-bottom: 56.25%;
 }
 
-/* 9:16 aspect ratio for TikTok */
-.video-wrapper.vertical {
-  padding-bottom: 177.78%;
-  max-width: 325px;
-  margin: 0 auto;
-}
-
-.video-wrapper iframe,
-.video-wrapper .tiktok-embed {
+.video-wrapper iframe {
   position: absolute;
   top: 0;
   left: 0;
@@ -188,37 +180,24 @@ a[href*="youtube.com"]:hover, a[href*="soundcloud.com"]:hover {
 <div align="center">⁂</div>
 <br />
 
-<h2 align="center">June Cavlan interprète « Johanna » : Analyse Critique d'une Version Jazz Contemporaine</h2>
+<h2 align="center">June Cavlan's Interpretation of "Johanna": A Comprehensive Critical Analysis</h2>
 <div align="justify">
 
-<h3>Contexte artistique et singularité de l'interprétation</h3>
+<h3>Preamble: A Singular Musical Discovery and Analytical Context</h3>
 
-June Cavlan est une chanteuse, arrangeuse et enseignante installée à New York depuis 2023. Lauréate de plusieurs prix, elle s'impose progressivement comme une référence montante de la scène jazz new-yorkaise contemporaine. Sa récente reprise du thème « Johanna » extrait de la comédie musicale *Sweeney Todd* de Stephen Sondheim est particulièrement remarquable par le choix audacieux d'un titre habituellement chanté par des voix masculines.
+Equipped with perfect pitch and extensive training in music history and jazz, enriched by several years of professional experience in a French jazz club where I held various roles (reception, contract signing, artist management), I have had the opportunity to analyze a wide variety of contemporary jazz interpretations. It was in this context that I discovered June Cavlan through two distinct interpretations of "Johanna" from Stephen Sondheim's musical *Sweeney Todd*.
 
-Cette version féminine apporte une résonance nouvelle au morceau, tout en restant fidèle à la complexité originale de la composition de Sondheim.
-
-<div class="section-separator">
-  <hr>
-</div>
-
-<h3>Comparaison et analyse approfondie des versions enregistrées</h3>
-
-Deux interprétations distinctes sont à considérer : la première, une vidéo amateur publiée par l'artiste sur TikTok, et la seconde, une performance professionnelle réalisée dans le cadre du projet « Live Room », filmée au Bridge Recording Studio avec orchestre et publiée officiellement sur YouTube.
-
-<div class="video-container">
-  <div class="video-wrapper vertical">
-    <!-- TikTok embed code -->
-    <blockquote class="tiktok-embed" cite="https://www.tiktok.com/@junecavlanjazz/video/7407629017584520490" data-video-id="7407629017584520490" style="max-width: 325px;min-width: 325px;" > <section> <a target="_blank" title="@junecavlanjazz" href="https://www.tiktok.com/@junecavlanjazz?refer=embed">@junecavlanjazz</a> More Sondheim in celebration of my latest single. Click link in bio to listen! <a title="jazzsinger" target="_blank" href="https://www.tiktok.com/tag/jazzsinger?refer=embed">#jazzsinger</a> <a title="jazz" target="_blank" href="https://www.tiktok.com/tag/jazz?refer=embed">#jazz</a> <a title="sondheim" target="_blank" href="https://www.tiktok.com/tag/sondheim?refer=embed">#sondheim</a> <a title="newmusic" target="_blank" href="https://www.tiktok.com/tag/newmusic?refer=embed">#newmusic</a> <a title="junecavlan" target="_blank" href="https://www.tiktok.com/tag/junecavlan?refer=embed">#junecavlan</a> <a title="singer" target="_blank" href="https://www.tiktok.com/tag/singer?refer=embed">#singer</a> <a title="jazztok" target="_blank" href="https://www.tiktok.com/tag/jazztok?refer=embed">#jazztok</a> <a title="trending" target="_blank" href="https://www.tiktok.com/tag/trending?refer=embed">#trending</a> <a title="musicaltheater" target="_blank" href="https://www.tiktok.com/tag/musicaltheater?refer=embed">#musicaltheater</a> <a title="stephensondheim" target="_blank" href="https://www.tiktok.com/tag/stephensondheim?refer=embed">#stephensondheim</a> <a title="ladieswholunch" target="_blank" href="https://www.tiktok.com/tag/ladieswholunch?refer=embed">#ladieswholunch</a> <a title="nyc" target="_blank" href="https://www.tiktok.com/tag/nyc?refer=embed">#nyc</a> <a title="fyp" target="_blank" href="https://www.tiktok.com/tag/fyp?refer=embed">#fyp</a> <a title="showtunes" target="_blank" href="https://www.tiktok.com/tag/showtunes?refer=embed">#showtunes</a> <a title="broadway" target="_blank" href="https://www.tiktok.com/tag/broadway?refer=embed">#broadway</a> <a title="stephensondheim" target="_blank" href="https://www.tiktok.com/tag/stephensondheim?refer=embed">#stephensondheim</a> <a target="_blank" title="♬ original sound - June Cavlan" href="https://www.tiktok.com/music/original-sound-7407628956842855214?refer=embed">♬ original sound - June Cavlan</a> </section> </blockquote> <script async src="https://www.tiktok.com/embed.js"></script>
-  </div>
-</div>
+This artist, a singer, arranger, and teacher based in New York since 2023, is gradually establishing herself as a rising figure in the contemporary New York jazz scene. Her cover of this piece, traditionally performed by male voices, brings a new resonance while respecting the original complexity of Sondheim's composition. It is particularly noteworthy that, although other female versions of this piece exist, none achieve the level of vocal and expressive accuracy that June Cavlan demonstrates.
 
 <div class="section-separator">
   <hr>
 </div>
 
-Dans la version TikTok, June Cavlan est assise seule à son piano. Cette posture lui permet de maintenir une parfaite synchronisation corporelle, vocale et instrumentale. La réverbération naturelle de l'environnement domestique participe directement à la chaleur harmonique de sa voix. Le choix de cette simplicité technique amplifie l'authenticité émotionnelle, permettant à l'auditeur d'apprécier pleinement la justesse expressive de l'artiste.
+<h3>Comparative Analysis of Both Versions and Harmonic Foundation</h3>
 
-À l'inverse, dans l'enregistrement « Live Room », June Cavlan interprète le morceau debout, accompagnée par Luther S. Allison au piano ainsi qu'un ensemble à cordes dirigé par Jackson A. Waters (également co-arrangeur). Ce changement d'environnement altère légèrement la stabilité rythmique et harmonique, engendrant une subtile désynchronisation entre la voix et l'accompagnement instrumental. Ce phénomène est notamment lié à la « mémoire corporelle » que l'artiste avait initialement acquise en position assise.
+The first version, an amateur video published on TikTok, presents June Cavlan alone at her piano in an intimate setting. This configuration reveals a perfect "harmonic foundation" - a term designating the stability and coherence in vocal interpretation linked to instrumental accompaniment. The connection between her singing and instrumental playing achieves a remarkable symbiosis here, enhanced by the natural reverberation of the domestic environment. The technical simplicity of this recording highlights the emotional authenticity and expressive accuracy of the artist.
+
+The second version, a professional recording made as part of the "Live Room" project at Bridge Recording Studio, offers a striking contrast. June Cavlan performs the piece standing, accompanied by Luther S. Allison on piano and a string ensemble conducted by Jackson A. Waters. Although technically impeccable, this configuration reveals a subtle alteration in rhythmic and harmonic stability, a phenomenon directly linked to the modification of her habitual body memory.
 
 <div class="video-container">
   <div class="video-wrapper widescreen">
@@ -226,19 +205,45 @@ Dans la version TikTok, June Cavlan est assise seule à son piano. Cette posture
   </div>
 </div>
 
+<div class="video-container">
+  <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/6We35TxOIcNG7If2KK92FA?utm_source=generator&theme=0" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+</div>
+
 <div class="section-separator">
   <hr>
 </div>
 
-<h3>Considérations sur le mastering et l'approche technique</h3>
+<h3>The Impact of Body Memory and Jazz Vocal Conventions</h3>
 
-L'enregistrement professionnel « Live Room » présente une qualité sonore impeccable grâce au travail d'ingénierie audio effectué au Bridge Recording Studio. Toutefois, cette excellence technique ne compense pas totalement le léger déficit d'intimité et de cohésion interne constaté en comparaison avec l'enregistrement TikTok. Le choix de dissocier l'artiste de son piano pour l'intégrer à un contexte instrumental plus large, bien qu'esthétiquement plaisant, diminue légèrement la cohérence d'ensemble.
+The concept of body memory proves crucial in this comparative analysis. In the seated position at the piano, June Cavlan benefits from optimal stability, the result of her numerous hours of practice in this configuration. This posture allows for natural and effective mobilization of her vocal technique, fostering perfect cohesion between breathing, sound emission, and musical expression.
+
+It is important to note that jazz singers often face an implicit injunction to modify their habitual body memory to adapt to live performance constraints. This alteration notably requires them to sing standing, facing the audience and instrumentalists, even if this doesn't necessarily correspond to their daily practice. Conversely, instrumentalists generally benefit from a precise and respected physical "ritual," almost sacred, allowing them to achieve optimal coherence in their instrumental playing.
+
+The pretext often invoked in favor of the standing posture for singers concerns the superior mobility of the air column. However, this justification is only valid if accompanied by a rigorous bodily technique specifically mobilizing adapted musculature: pelvic floor muscles ensuring essential tonicity for vocal stability, back muscles (particularly around the shoulder blades), and a general bodily relaxation essential and interdependent to this muscular mobilization.
 
 <div class="section-separator">
   <hr>
 </div>
 
-<h3>Crédits complets de la session Live Room</h3>
+<h3>Technical and Environmental Considerations</h3>
+
+The technical excellence of the Live Room recording is undeniable, benefiting from professional sound engineering at Bridge Recording Studio. However, this technical perfection does not fully compensate for the observed loss of intimacy and internal cohesion. The presence of other musicians, while enriching the arrangement, adds a dimension of psychological pressure that subtly influences the vocal performance.
+
+The complete orchestral configuration - comprising Luther S. Allison on piano, Hava Polinsky and Nami Nazar on violins, Cameron Williams on viola, Wangshu Xiang on cello, and Jared Beckstead on double bass - creates a rich sound texture but imposes additional constraints in terms of coordination and musical interaction. These requirements, combined with the change in posture, contribute to a slight desynchronization between voice and accompaniment.
+
+<div class="section-separator">
+  <hr>
+</div>
+
+<h3>Perspective on the Vocal Jazz Scene</h3>
+
+This analysis would not be complete without mentioning a crucial aspect that distinguishes June Cavlan on the international scene: her perfect mastery of English pronunciation and tonic accentuation. This quality is all the more remarkable as the French vocal jazz scene often struggles with correctly reproducing the intrinsic melodic subtleties of the English language, even among technically competent artists. This shortcoming, due to insufficient linguistic immersion, has significant repercussions on the overall quality of vocal jazz in France. June Cavlan's integration into the New York scene gives her an undeniable advantage in this regard.
+
+<div class="section-separator">
+  <hr>
+</div>
+
+<h3>Complete Credits for the Live Room Session</h3>
 
 <div style="width: 100%; max-width: 800px; margin: 0 auto; padding: 20px; background: rgba(208, 144, 242, 0.05); border-radius: 8px;">
 Lyrics & Song : Stephen Sondheim  
@@ -261,9 +266,11 @@ Lieu : The Bridge Recording Studio
   <hr>
 </div>
 
-<h3>Conclusion critique (par ANDY Quartz)</h3>
+<h3>Conclusion and Perspectives</h3>
 
-La démarche artistique de June Cavlan mérite d'être poursuivie dans la voie intime et minimaliste, garantissant une interprétation musicale optimale et pleinement respectueuse de son talent. Tout en appréciant les choix orchestraux ambitieux, une attention particulière portée à l'intégrité corporelle et vocale initialement acquise en conditions intimes permettrait à cette artiste prometteuse d'atteindre une expressivité encore plus profonde.
+This comparative analysis reveals the crucial importance of respecting body memory in musical interpretation. Although the Live Room version presents undeniable qualities in terms of arrangement and production, the more intimate TikTok version demonstrates superior coherence in artistic expression.
+
+For a promising artist like June Cavlan, it would be judicious to favor recording conditions that respect her natural body memory while progressively developing a technique adapted to the standing position. This approach would allow for preserving the authenticity of her expression while meeting the requirements of traditional stage performances. This reflection is part of a broader questioning of vocal jazz conventions, advocating for more rigorous respect for the individual body memory of singers to preserve their harmonic potential and vocal expressiveness.
 
 <br />
 <div align="center">⁂</div>
@@ -292,25 +299,22 @@ This feminine version brings a new resonance to the piece while remaining faithf
 
 Two distinct interpretations are to be considered: the first, an amateur video published by the artist on TikTok, and the second, a professional performance realized as part of the "Live Room" project, filmed at Bridge Recording Studio with orchestra and officially published on YouTube.
 
-<div class="video-container">
-  <div class="video-wrapper vertical">
-    <!-- TikTok embed code -->
-    <blockquote class="tiktok-embed" cite="https://www.tiktok.com/@junecavlanjazz/video/7407629017584520490" data-video-id="7407629017584520490" style="max-width: 325px;min-width: 325px;" > <section> <a target="_blank" title="@junecavlanjazz" href="https://www.tiktok.com/@junecavlanjazz?refer=embed">@junecavlanjazz</a> More Sondheim in celebration of my latest single. Click link in bio to listen! <a title="jazzsinger" target="_blank" href="https://www.tiktok.com/tag/jazzsinger?refer=embed">#jazzsinger</a> <a title="jazz" target="_blank" href="https://www.tiktok.com/tag/jazz?refer=embed">#jazz</a> <a title="sondheim" target="_blank" href="https://www.tiktok.com/tag/sondheim?refer=embed">#sondheim</a> <a title="newmusic" target="_blank" href="https://www.tiktok.com/tag/newmusic?refer=embed">#newmusic</a> <a title="junecavlan" target="_blank" href="https://www.tiktok.com/tag/junecavlan?refer=embed">#junecavlan</a> <a title="singer" target="_blank" href="https://www.tiktok.com/tag/singer?refer=embed">#singer</a> <a title="jazztok" target="_blank" href="https://www.tiktok.com/tag/jazztok?refer=embed">#jazztok</a> <a title="trending" target="_blank" href="https://www.tiktok.com/tag/trending?refer=embed">#trending</a> <a title="musicaltheater" target="_blank" href="https://www.tiktok.com/tag/musicaltheater?refer=embed">#musicaltheater</a> <a title="stephensondheim" target="_blank" href="https://www.tiktok.com/tag/stephensondheim?refer=embed">#stephensondheim</a> <a title="ladieswholunch" target="_blank" href="https://www.tiktok.com/tag/ladieswholunch?refer=embed">#ladieswholunch</a> <a title="nyc" target="_blank" href="https://www.tiktok.com/tag/nyc?refer=embed">#nyc</a> <a title="fyp" target="_blank" href="https://www.tiktok.com/tag/fyp?refer=embed">#fyp</a> <a title="showtunes" target="_blank" href="https://www.tiktok.com/tag/showtunes?refer=embed">#showtunes</a> <a title="broadway" target="_blank" href="https://www.tiktok.com/tag/broadway?refer=embed">#broadway</a> <a title="stephensondheim" target="_blank" href="https://www.tiktok.com/tag/stephensondheim?refer=embed">#stephensondheim</a> <a target="_blank" title="♬ original sound - June Cavlan" href="https://www.tiktok.com/music/original-sound-7407628956842855214?refer=embed">♬ original sound - June Cavlan</a> </section> </blockquote> <script async src="https://www.tiktok.com/embed.js"></script>
-  </div>
-</div>
-
 <div class="section-separator">
   <hr>
 </div>
 
 In the TikTok version, June Cavlan is seated alone at her piano. This posture allows her to maintain perfect bodily, vocal, and instrumental synchronization. The natural reverberation of the domestic environment directly contributes to the harmonic warmth of her voice. The choice of this technical simplicity amplifies the emotional authenticity, allowing the listener to fully appreciate the artist's expressive accuracy.
 
-Conversely, in the "Live Room" recording, June Cavlan performs the piece standing, accompanied by Luther S. Allison on piano and a string ensemble conducted by Jackson A. Waters (also co-arranger). This change in environment slightly alters the rhythmic and harmonic stability, creating a subtle desynchronization between the voice and instrumental accompaniment. This phenomenon is notably linked to the "body memory" that the artist had initially acquired in the seated position.
+Conversely, in the "Live Room" recording, June Cavlan performs the piece standing, accompanied by Luther S. Allison on piano and a string ensemble conducted by Jackson A. Waters. This change in environment slightly alters the rhythmic and harmonic stability, creating a subtle desynchronization between the voice and instrumental accompaniment. This phenomenon is notably linked to the "body memory" that the artist had initially acquired in the seated position.
 
 <div class="video-container">
   <div class="video-wrapper widescreen">
     <iframe src="https://www.youtube.com/embed/f_OSbfV7WdU?si=_TyPV7Q334JJNVsi" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
   </div>
+</div>
+
+<div class="video-container">
+  <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/6We35TxOIcNG7If2KK92FA?utm_source=generator&theme=0" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 </div>
 
 <div class="section-separator">
@@ -355,15 +359,5 @@ June Cavlan's artistic approach deserves to be pursued in the intimate and minim
 <br />
 <div align="center">⁂</div>
 <br />
-
-<div class="related" style="width: 100%; max-width: 800px; margin: 0 auto; text-align: center;">
-  <h3 style="text-align: center;">Pages Suggérées / Suggested Pages</h3>
-  <ul style="list-style: none; padding: 0; text-align: center;">
-    <li style="margin: 10px 0;"><a href="/MY-ARTWORK/">Galerie Virtuelle / Virtual Gallery</a></li>
-    <li style="margin: 10px 0;"><a href="/MUSIC/">Musique / Music</a></li>
-    <li style="margin: 10px 0;"><a href="/DEFICIT/">Collectif Déficit</a></li>
-  </ul>
-</div>
-
 </div>
 </div>
