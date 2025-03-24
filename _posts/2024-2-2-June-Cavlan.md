@@ -147,10 +147,14 @@ a[href*="youtube.com"]:hover, a[href*="soundcloud.com"]:hover {
   border-radius: 12px;
   padding: 20px;
   box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .video-wrapper {
   position: relative;
+  width: 100%;
   height: 0;
   overflow: hidden;
   border-radius: 8px;
@@ -168,6 +172,26 @@ a[href*="youtube.com"]:hover, a[href*="soundcloud.com"]:hover {
   width: 100%;
   height: 100%;
   border: none;
+}
+
+/* Add specific styles for Spotify embed */
+.spotify-container {
+  width: 100%;
+  max-width: 800px;
+  margin: 2em auto;
+  background: rgba(208, 144, 242, 0.05);
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.spotify-container iframe {
+  border-radius: 12px;
+  width: 100%;
+  max-width: 700px;
 }
 
 /* Add new styles for the credits section */
@@ -329,8 +353,8 @@ La première version, une vidéo amateur publiée sur TikTok, présente June Cav
 
 La seconde version, un enregistrement professionnel réalisé dans le cadre du projet « Live Room » au Bridge Recording Studio, offre un contraste saisissant. June Cavlan y interprète le morceau debout, accompagnée par Luther S. Allison au piano et un ensemble à cordes dirigé par Jackson A. Waters. Bien que techniquement impeccable, cette configuration révèle une subtile altération de la stabilité rythmique et harmonique, phénomène directement lié à la modification de sa mémoire corporelle habituelle. Cette altération devient particulièrement perceptible dans la légère désynchronisation entre le phrasé vocal et l'accompagnement instrumental, malgré la qualité professionnelle de l'enregistrement.
 
-<div class="video-container">
-  <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/6We35TxOIcNG7If2KK92FA?utm_source=generator&theme=0" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+<div class="spotify-container">
+  <iframe src="https://open.spotify.com/embed/track/6We35TxOIcNG7If2KK92FA?utm_source=generator&theme=0" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 </div>
 
 <div class="section-separator">
@@ -488,8 +512,8 @@ The first version, an amateur video published on TikTok, presents June Cavlan al
 
 The second version, a professional recording made as part of the "Live Room" project at Bridge Recording Studio, offers a striking contrast. June Cavlan performs the piece standing, accompanied by Luther S. Allison on piano and a string ensemble conducted by Jackson A. Waters. Although technically impeccable, this configuration reveals a subtle alteration in rhythmic and harmonic stability, a phenomenon directly linked to the modification of her habitual body memory.
 
-<div class="video-container">
-  <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/6We35TxOIcNG7If2KK92FA?utm_source=generator&theme=0" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+<div class="spotify-container">
+  <iframe src="https://open.spotify.com/embed/track/6We35TxOIcNG7If2KK92FA?utm_source=generator&theme=0" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 </div>
 
 <div class="section-separator">
