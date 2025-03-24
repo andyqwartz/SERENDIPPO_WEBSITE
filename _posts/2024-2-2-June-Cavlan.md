@@ -631,4 +631,3 @@ Paris, France<br />
 <div align="center">⁂</div>
 <br />
 </div>
-</div>
