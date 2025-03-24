@@ -613,7 +613,7 @@ Photography: Abigail Bloch
 This comparative analysis reveals the crucial importance of <strong>respecting body memory</strong> in musical interpretation. Although the Live Room version presents undeniable qualities in terms of arrangement and production, the more intimate TikTok version demonstrates <strong>superior coherence</strong> in artistic expression.
 
 For a promising artist like June Cavlan, it would be judicious to favor recording conditions that respect her natural body memory while progressively developing a technique adapted to the standing position. Cette approche would allow for preserving the authenticity of her expression while meeting the requirements of traditional stage performances. This reflection is part of a broader questioning of vocal jazz conventions, advocating for more rigorous respect for the individual body memory of singers to preserve their harmonic potential and vocal expressiveness.
-
+<hr>
 <div align="right">
 <em>Joachim Cohen<br />
 Paris, France<br />
@@ -623,5 +623,4 @@ Paris, France<br />
 <br />
 <div align="center">⁂</div>
 <br />
-</div>
 </div>
