@@ -209,6 +209,58 @@ a[href*="youtube.com"]:hover, a[href*="soundcloud.com"]:hover {
   margin: 1em 0;
   letter-spacing: -0.02em;
 }
+
+/* Add new styles for TikTok embed and dark mode compatibility */
+.tiktok-embed {
+  border-radius: 12px !important;
+  margin: 2em auto !important;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1) !important;
+  background: rgba(208, 144, 242, 0.05) !important;
+  max-width: 800px !important;
+}
+
+.dark-mode .tiktok-embed,
+.macchiato .tiktok-embed {
+  background: rgba(208, 144, 242, 0.1) !important;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.2) !important;
+}
+
+/* Improve embedded content visibility in dark mode */
+.dark-mode .video-container,
+.macchiato .video-container,
+.dark-mode .credits-container,
+.macchiato .credits-container {
+  background: rgba(208, 144, 242, 0.1);
+  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+}
+
+/* Enhanced link styling matching BIO post */
+.post-content a:not(.language-nav a) {
+  color: var(--link-color, #d090f2) !important;
+  font-weight: 500;
+  transition: color 0.3s;
+  text-decoration: none;
+  border-bottom: 1px dotted currentColor;
+}
+
+.post-content a:hover:not(.language-nav a),
+.post-content a:focus:not(.language-nav a) {
+  color: var(--link-hover-color, #f5c1ff) !important;
+  border-bottom: 1px solid currentColor;
+}
+
+/* Dark mode specific link enhancements */
+.dark-mode .post-content a:not(.language-nav a),
+.macchiato .post-content a:not(.language-nav a) {
+  color: #c9a0f0 !important;
+}
+
+.dark-mode .post-content a:hover:not(.language-nav a),
+.dark-mode .post-content a:focus:not(.language-nav a),
+.macchiato .post-content a:hover:not(.language-nav a),
+.macchiato .post-content a:focus:not(.language-nav a) {
+  color: #d4b2fa !important;
+}
 </style>
 
 <div class="post-content">
@@ -226,7 +278,7 @@ a[href*="youtube.com"]:hover, a[href*="soundcloud.com"]:hover {
 
 <h3>Préambule : Une Découverte Musicale Singulière</h3>
 
-C'est à travers deux interprétations distinctes du morceau « Johanna », extrait de la comédie musicale Sweeney Todd de Stephen Sondheim, que j'ai découvert June Cavlan. Cette artiste, chanteuse, arrangeuse et enseignante installée à New York depuis 2023, s'impose progressivement comme une référence montante de la scène jazz new-yorkaise contemporaine. Lauréate de multiples prix Downbeat Magazine (2019-2022) et récompensée comme Meilleure Vocaliste Jazz Undergraduate en 2022, elle a récemment sorti son premier album, "A Portrait of June", sous le label La Reserve Records, où elle démontre non seulement son talent vocal mais aussi ses remarquables capacités d'arrangeuse, ayant orchestré chaque moment de l'album.
+C'est à travers deux interprétations distinctes du morceau « <strong>Johanna</strong> », extrait de la comédie musicale <strong>Sweeney Todd</strong> de <strong>Stephen Sondheim</strong>, que j'ai découvert <strong>June Cavlan</strong>. Cette artiste, chanteuse, arrangeuse et enseignante installée à <strong>New York</strong> depuis 2023, s'impose progressivement comme une référence montante de la scène jazz new-yorkaise contemporaine. Lauréate de multiples prix <strong>Downbeat Magazine</strong> (2019-2022) et récompensée comme <strong>Meilleure Vocaliste Jazz Undergraduate</strong> en 2022, elle a récemment sorti son premier album, "<strong>A Portrait of June</strong>", sous le label <strong>La Reserve Records</strong>, où elle démontre non seulement son talent vocal mais aussi ses remarquables capacités d'arrangeuse, ayant orchestré chaque moment de l'album.
 
 Son parcours musical, enraciné dans une formation classique (voix, piano, cor français) et enrichi par le jazz et le théâtre musical, s'est épanoui à l'Université de Miami's Frost School of Music, où elle a obtenu une bourse complète pour ses études en Jazz Vocal Performance. Actuellement étudiante en master à la Manhattan School of Music, elle poursuit sa carrière d'enseignante et de performeuse, collaborant avec des musiciens renommés tels qu'Emmet Cohen, Bryan Carter et Benny Benack III. Sa reprise de "Johanna", traditionnellement interprété par des voix masculines, apporte une résonance nouvelle tout en respectant la complexité originale de la composition de Sondheim.
 
@@ -384,9 +436,9 @@ Paris, France<br />
 
 <h3>Preamble: A Singular Musical Discovery and Analytical Context</h3>
 
-Equipped with perfect pitch and extensive training in music history and jazz, enriched by several years of professional experience in a French jazz club where I held various roles (reception, contract signing, artist management), I have had the opportunity to analyze a wide variety of contemporary jazz interpretations. It was in this context that I discovered June Cavlan through two distinct interpretations of "Johanna" from Stephen Sondheim's musical *Sweeney Todd*.
+Equipped with perfect pitch and extensive training in music history and jazz, enriched by several years of professional experience in a French jazz club where I held various roles (reception, contract signing, artist management), I have had the opportunity to analyze a wide variety of contemporary jazz interpretations. It was in this context that I discovered <strong>June Cavlan</strong> through two distinct interpretations of "<strong>Johanna</strong>" from <strong>Stephen Sondheim</strong>'s musical <strong>Sweeney Todd</strong>.
 
-This award-winning artist, a singer, arranger, and teacher based in New York since 2023, is rapidly establishing herself as a rising figure in the contemporary New York jazz scene. A multiple Downbeat Magazine award winner (2019-2022) and recipient of the Best Undergraduate Jazz Vocalist award in 2022, she recently released her debut album, "A Portrait of June," on La Reserve Records, where she showcases not only her vocal talent but also her remarkable arranging abilities, having orchestrated every moment of the album.
+This award-winning artist, a singer, arranger, and teacher based in <strong>New York</strong> since 2023, is rapidly establishing herself as a rising figure in the contemporary New York jazz scene. A multiple <strong>Downbeat Magazine</strong> award winner (2019-2022) and recipient of the <strong>Best Undergraduate Jazz Vocalist</strong> award in 2022, she recently released her debut album, "<strong>A Portrait of June</strong>," on <strong>La Reserve Records</strong>, where she showcases not only her vocal talent but also her remarkable arranging abilities, having orchestrated every moment of the album.
 
 Her musical journey, rooted in classical training (voice, piano, French horn) and enriched by jazz and musical theater, flourished at the University of Miami's Frost School of Music, where she earned a full scholarship to study Jazz Vocal Performance. Currently pursuing her master's degree at the Manhattan School of Music while maintaining an active career as both teacher and performer, she collaborates with renowned musicians such as Emmet Cohen, Bryan Carter, and Benny Benack III. Her cover of "Johanna," traditionally performed by male voices, brings a new resonance while respecting the original complexity of Sondheim's composition.
 
@@ -398,7 +450,7 @@ Her musical journey, rooted in classical training (voice, piano, French horn) an
 
 <blockquote class="tiktok-embed" cite="https://www.tiktok.com/@junecavlanjazz/video/7407629017584520490" data-video-id="7407629017584520490" style="max-width: 605px;min-width: 325px;" > <section> <a target="_blank" title="@junecavlanjazz" href="https://www.tiktok.com/@junecavlanjazz?refer=embed">@junecavlanjazz</a> More Sondheim in celebration of my latest single. Click link in bio to listen! <a title="jazzsinger" target="_blank" href="https://www.tiktok.com/tag/jazzsinger?refer=embed">#jazzsinger</a> <a title="jazz" target="_blank" href="https://www.tiktok.com/tag/jazz?refer=embed">#jazz</a> <a title="sondheim" target="_blank" href="https://www.tiktok.com/tag/sondheim?refer=embed">#sondheim</a> <a title="newmusic" target="_blank" href="https://www.tiktok.com/tag/newmusic?refer=embed">#newmusic</a> <a title="junecavlan" target="_blank" href="https://www.tiktok.com/tag/junecavlan?refer=embed">#junecavlan</a> <a title="singer" target="_blank" href="https://www.tiktok.com/tag/singer?refer=embed">#singer</a> <a title="jazztok" target="_blank" href="https://www.tiktok.com/tag/jazztok?refer=embed">#jazztok</a> <a title="trending" target="_blank" href="https://www.tiktok.com/tag/trending?refer=embed">#trending</a> <a title="musicaltheater" target="_blank" href="https://www.tiktok.com/tag/musicaltheater?refer=embed">#musicaltheater</a> <a title="stephensondheim" target="_blank" href="https://www.tiktok.com/tag/stephensondheim?refer=embed">#stephensondheim</a> <a title="ladieswholunch" target="_blank" href="https://www.tiktok.com/tag/ladieswholunch?refer=embed">#ladieswholunch</a> <a title="nyc" target="_blank" href="https://www.tiktok.com/tag/nyc?refer=embed">#nyc</a> <a title="fyp" target="_blank" href="https://www.tiktok.com/tag/fyp?refer=embed">#fyp</a> <a title="showtunes" target="_blank" href="https://www.tiktok.com/tag/showtunes?refer=embed">#showtunes</a> <a title="broadway" target="_blank" href="https://www.tiktok.com/tag/broadway?refer=embed">#broadway</a> <a title="stephensondheim" target="_blank" href="https://www.tiktok.com/tag/stephensondheim?refer=embed">#stephensondheim</a> <a target="_blank" title="♬ original sound - June Cavlan" href="https://www.tiktok.com/music/original-sound-7407628956842855214?refer=embed">♬ original sound - June Cavlan</a> </section> </blockquote> <script async src="https://www.tiktok.com/embed.js"></script>
 
-The first version, an amateur video published on TikTok, presents June Cavlan alone at her piano in an intimate setting. This configuration reveals a perfect "harmonic foundation" - a term designating the stability and coherence in vocal interpretation linked to instrumental accompaniment. The connection between her singing and instrumental playing achieves a remarkable symbiosis here, enhanced by the natural reverberation of the domestic environment. The technical simplicity of this recording highlights the emotional authenticity and expressive accuracy of the artist.
+The first version, an amateur video published on TikTok, presents June Cavlan alone at her piano in an intimate setting. Cette configuration reveals a perfect "harmonic foundation" - a term designating the stability and coherence in vocal interpretation linked to instrumental accompaniment. The connection between her singing and instrumental playing achieves a remarkable symbiosis here, enhanced by the natural reverberation of the domestic environment. The technical simplicity of this recording highlights the emotional authenticity and expressive accuracy of the artist.
 
 <div class="video-container">
   <div class="video-wrapper widescreen">
@@ -418,11 +470,9 @@ The second version, a professional recording made as part of the "Live Room" pro
 
 <h3>The Impact of Body Memory and Jazz Vocal Conventions</h3>
 
-The concept of body memory proves crucial in this comparative analysis. In the seated position at the piano, June Cavlan benefits from optimal stability, the result of her numerous hours of practice in this configuration. This posture allows for natural and effective mobilization of her vocal technique, fostering perfect cohesion between breathing, sound emission, and musical expression.
+The concept of body memory proves crucial in this comparative analysis. In the seated position at the piano, June Cavlan benefits from optimal stability, the result of her numerous hours of practice in this configuration. Cette posture allows for natural and effective mobilization of her vocal technique, fostering perfect cohesion between breathing, sound emission, and musical expression.
 
-It is important to note that jazz singers often face an implicit injunction to modify their habitual body memory to adapt to live performance constraints. This alteration notably requires them to sing standing, facing the audience and instrumentalists, even if this doesn't necessarily correspond to their daily practice. Conversely, instrumentalists generally benefit from a precise and respected physical "ritual," almost sacred, allowing them to achieve optimal coherence in their instrumental playing.
-
-The pretext often invoked in favor of the standing posture for singers concerns the superior mobility of the air column. However, this justification is only valid if accompanied by a rigorous bodily technique specifically mobilizing adapted musculature: pelvic floor muscles ensuring essential tonicity for vocal stability, back muscles (particularly around the shoulder blades), and a general bodily relaxation essential and interdependent to this muscular mobilization. Without this precise technical adaptation, the standing position can become counterproductive, potentially compromising the vocal stability that was naturally achieved in the seated position.
+Le passage à la position debout lors de la session Live Room, bien que répondant à des conventions scéniques traditionnelles, perturbe cette mémoire corporelle établie. Cette modification posturale nécessiterait une technique corporelle spécifique, mobilisant notamment les muscles du périnée et du dos, pour maintenir la même qualité d'interprétation. L'absence de cette adaptation technique se traduit par une légère altération de la stabilité vocale et de la précision rythmique.
 
 <div class="section-separator">
   <hr>
@@ -430,11 +480,11 @@ The pretext often invoked in favor of the standing posture for singers concerns 
 
 <h3>Technical and Environmental Considerations</h3>
 
-The technical excellence of the Live Room recording is undeniable, benefiting from professional sound engineering at Bridge Recording Studio. However, this technical perfection does not fully compensate for the observed loss of intimacy and internal cohesion. The presence of other musicians, while enriching the arrangement, adds a dimension of psychological pressure that subtly influences the vocal performance. This pressure, though subtle, directly affects June Cavlan's performance by further disturbing her body memory, already compromised by the change in posture.
+L'excellence technique de l'enregistrement Live Room est indéniable, bénéficiant d'une ingénierie sonore professionnelle au Bridge Recording Studio. Cependant, cette perfection technique ne compense pas entièrement la perte d'intimité et de cohésion interne observée. La présence d'autres musiciens, while enriching the arrangement, adds a dimension of psychological pressure that subtly influences the vocal performance. This pressure, though subtle, affects directly June Cavlan's performance by further disturbing her body memory, already compromised by the change in posture.
 
-In the intimate setting of her home, without an audience or other musicians present, the artist benefits from emotional and psychological security that allows her to fully mobilize her body memory and vocal resources, resulting in a more coherent and accurate harmonic interpretation.
+Dans la configuration intime de son domicile, sans public ni autres musiciens présents, l'artiste bénéficie d'une sécurité émotionnelle et psychologique lui permettant de mobiliser pleinement sa mémoire corporelle et ses ressources vocales, aboutissant ainsi à une interprétation harmonique plus cohérente et plus juste.
 
-The complete orchestral configuration - comprising Luther S. Allison on piano, Hava Polinsky and Nami Nazar on violins, Cameron Williams on viola, Wangshu Xiang on cello, and Jared Beckstead on double bass - creates a rich sound texture but imposes additional constraints in terms of coordination and musical interaction. These requirements, combined with the change in posture, contribute to a slight desynchronization between voice and accompaniment.
+La configuration orchestrale, comprenant piano, violons, alto, violoncelle et contrebasse, crée une texture sonore riche mais impose des contraintes supplémentaires en termes de coordination et d'interaction musicale. Ces exigences, combinées au changement de posture, contribuent à une légère désynchronisation entre la voix et l'accompagnement.
 
 <div class="section-separator">
   <hr>
