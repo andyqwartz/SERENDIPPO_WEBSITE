@@ -141,7 +141,7 @@ a[href*="youtube.com"]:hover, a[href*="soundcloud.com"]:hover {
 /* Adjust video containers for different aspect ratios */
 .video-container {
   width: 100%;
-  max-width: 800px;
+  max-width: 100%; /* Ensure no horizontal overflow */
   margin: 2em auto;
   background: rgba(208, 144, 242, 0.05);
   border-radius: 12px;
@@ -155,7 +155,7 @@ a[href*="youtube.com"]:hover, a[href*="soundcloud.com"]:hover {
 .video-wrapper {
   position: relative;
   width: 100%;
-  max-width: 700px;
+  max-width: 100%; /* Ensure no horizontal overflow */
   height: 0;
   overflow: hidden;
   border-radius: 8px;
@@ -182,7 +182,7 @@ a[href*="youtube.com"]:hover, a[href*="soundcloud.com"]:hover {
 /* Add specific styles for Spotify embed */
 .spotify-container {
   width: 100%;
-  max-width: 800px;
+  max-width: 100%; /* Ensure no horizontal overflow */
   margin: 2em auto;
   background: rgba(208, 144, 242, 0.05);
   border-radius: 12px;
@@ -196,7 +196,7 @@ a[href*="youtube.com"]:hover, a[href*="soundcloud.com"]:hover {
 .spotify-container iframe {
   border-radius: 12px;
   width: 100%;
-  max-width: 700px;
+  max-width: 100%; /* Ensure no horizontal overflow */
   margin: 0 auto;
   display: block;
 }
