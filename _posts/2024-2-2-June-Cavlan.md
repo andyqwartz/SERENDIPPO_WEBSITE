@@ -4,7 +4,7 @@ title: "June Cavlan's interpretation of a classic"
 author: "ANDY"
 categories: [critique]
 tags: [témoignage, critique, andy]
-image: ANDY_ARTWORK.jpeg
+image: June-Cavlan.png
 ---
 
 <style>
