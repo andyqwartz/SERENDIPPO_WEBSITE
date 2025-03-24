@@ -1,9 +1,9 @@
 ---
 layout: post
 title: "June Cavlan's interpretation of a classic"
-author: "ANDY"
+author: "Joachim Cohen"
 categories: [critique]
-tags: [témoignage, critique, andy]
+tags: [témoignage, critique, Joachim Coehn]
 image: June-Cavlan.png
 ---
 
