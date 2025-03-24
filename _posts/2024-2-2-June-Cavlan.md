@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "June Cavlan's interpretation of a classic"
+title: "June Cavlan's interpretation of an underrated tune"
 author: "Joachim Cohen"
 categories: [critique]
 tags: [témoignage, critique, Joachim Cohen]
