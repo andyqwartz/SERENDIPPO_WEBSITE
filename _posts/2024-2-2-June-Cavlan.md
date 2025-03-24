@@ -155,9 +155,13 @@ a[href*="youtube.com"]:hover, a[href*="soundcloud.com"]:hover {
 .video-wrapper {
   position: relative;
   width: 100%;
+  max-width: 700px;
   height: 0;
   overflow: hidden;
   border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /* 16:9 aspect ratio for YouTube */
@@ -172,6 +176,7 @@ a[href*="youtube.com"]:hover, a[href*="soundcloud.com"]:hover {
   width: 100%;
   height: 100%;
   border: none;
+  margin: 0 auto;
 }
 
 /* Add specific styles for Spotify embed */
@@ -192,6 +197,8 @@ a[href*="youtube.com"]:hover, a[href*="soundcloud.com"]:hover {
   border-radius: 12px;
   width: 100%;
   max-width: 700px;
+  margin: 0 auto;
+  display: block;
 }
 
 /* Add new styles for the credits section */
@@ -343,7 +350,7 @@ En tant que critique musical spécialisé dans le jazz vocal contemporain, j'ai 
 <blockquote class="tiktok-embed" cite="https://www.tiktok.com/@junecavlanjazz/video/7407629017584520490" data-video-id="7407629017584520490" style="max-width: 605px;min-width: 325px;" > <section> <a target="_blank" title="@junecavlanjazz" href="https://www.tiktok.com/@junecavlanjazz?refer=embed">@junecavlanjazz</a> More Sondheim in celebration of my latest single. Click link in bio to listen! <a title="jazzsinger" target="_blank" href="https://www.tiktok.com/tag/jazzsinger?refer=embed">#jazzsinger</a> <a title="jazz" target="_blank" href="https://www.tiktok.com/tag/jazz?refer=embed">#jazz</a> <a title="sondheim" target="_blank" href="https://www.tiktok.com/tag/sondheim?refer=embed">#sondheim</a> <a title="newmusic" target="_blank" href="https://www.tiktok.com/tag/newmusic?refer=embed">#newmusic</a> <a title="junecavlan" target="_blank" href="https://www.tiktok.com/tag/junecavlan?refer=embed">#junecavlan</a> <a title="singer" target="_blank" href="https://www.tiktok.com/tag/singer?refer=embed">#singer</a> <a title="jazztok" target="_blank" href="https://www.tiktok.com/tag/jazztok?refer=embed">#jazztok</a> <a title="trending" target="_blank" href="https://www.tiktok.com/tag/trending?refer=embed">#trending</a> <a title="musicaltheater" target="_blank" href="https://www.tiktok.com/tag/musicaltheater?refer=embed">#musicaltheater</a> <a title="stephensondheim" target="_blank" href="https://www.tiktok.com/tag/stephensondheim?refer=embed">#stephensondheim</a> <a title="ladieswholunch" target="_blank" href="https://www.tiktok.com/tag/ladieswholunch?refer=embed">#ladieswholunch</a> <a title="nyc" target="_blank" href="https://www.tiktok.com/tag/nyc?refer=embed">#nyc</a> <a title="fyp" target="_blank" href="https://www.tiktok.com/tag/fyp?refer=embed">#fyp</a> <a title="showtunes" target="_blank" href="https://www.tiktok.com/tag/showtunes?refer=embed">#showtunes</a> <a title="broadway" target="_blank" href="https://www.tiktok.com/tag/broadway?refer=embed">#broadway</a> <a title="stephensondheim" target="_blank" href="https://www.tiktok.com/tag/stephensondheim?refer=embed">#stephensondheim</a> <a target="_blank" title="♬ original sound - June Cavlan" href="https://www.tiktok.com/music/original-sound-7407628956842855214?refer=embed">♬ original sound - June Cavlan</a> </section> </blockquote> <script async src="https://www.tiktok.com/embed.js"></script>
 
 
-La première version, une vidéo amateur publiée sur TikTok, présente June Cavlan seule à son piano dans un cadre intime. Cette configuration révèle une parfaite <strong>assise harmonique</strong> - terme désignant la <strong>stabilité et la cohérence dans l'interprétation vocale</strong> liée à l'accompagnement instrumental. La connexion entre son chant et son jeu instrumental atteint ici une <strong>symbiose remarquable</strong>, sublimée par la <strong>réverbération naturelle</strong> de l'environnement domestique. La simplicité technique de cet enregistrement met en valeur l'authenticité émotionnelle et la justesse expressive de l'artiste.
+La première version, une vidéo amateur publiée sur TikTok, présente June Cavlan seule à son piano dans un cadre intime. Cette configuration révèle une parfaite <strong>assise harmonique</strong> - terme désignant la <strong>stabilité et la cohérence dans l'interprétation vocale</strong> liée à l'accompagnement instrumental. La connexion entre son chant et son jeu instrumental atteint ici une <strong>symbiose remarquable</strong>, sublimée par une double réverbération : la <strong>réverbération naturelle</strong> de l'environnement domestique, enrichie par une <strong>réverbération numérique post-production</strong> subtilement ajoutée à l'enregistrement. Cette combinaison acoustique, associant l'authenticité de l'espace naturel et les améliorations techniques de l'application TikTok, crée une <strong>simulation spatiale harmonieuse</strong> qui renforce la mémoire corporelle de l'artiste. On note toutefois une certaine <strong>saturation sonore</strong>, due à la proximité du téléphone avec le piano et l'intensité des <strong>vibrations acoustiques</strong> qui en résultent. Malgré cet aspect technique inhérent à l'enregistrement mobile, l'authenticité et l'expressivité de l'interprétation restent pleinement appréciables.
 
 <div class="video-container">
   <div class="video-wrapper widescreen">
@@ -351,7 +358,7 @@ La première version, une vidéo amateur publiée sur TikTok, présente June Cav
   </div>
 </div>
 
-La seconde version, un enregistrement professionnel réalisé dans le cadre du projet « Live Room » au Bridge Recording Studio, offre un contraste saisissant. June Cavlan y interprète le morceau debout, accompagnée par Luther S. Allison au piano et un ensemble à cordes dirigé par Jackson A. Waters. Bien que techniquement impeccable, cette configuration révèle une subtile altération de la stabilité rythmique et harmonique, phénomène directement lié à la modification de sa mémoire corporelle habituelle. Cette altération devient particulièrement perceptible dans la légère désynchronisation entre le phrasé vocal et l'accompagnement instrumental, malgré la qualité professionnelle de l'enregistrement.
+La seconde version, un <strong>enregistrement professionnel</strong> réalisé dans le cadre du projet « Live Room » au Bridge Recording Studio, offre un contraste saisissant. June Cavlan y interprète le morceau <strong>debout</strong>, accompagnée par Luther S. Allison au piano et un <strong>ensemble à cordes</strong> dirigé par Jackson A. Waters. Bien que <strong>techniquement impeccable</strong>, cette configuration révèle une <strong>subtile altération</strong> de la stabilité rythmique et harmonique, phénomène directement lié à la <strong>modification de sa mémoire corporelle</strong> habituelle. Cette altération devient particulièrement perceptible dans la légère désynchronisation entre le phrasé vocal et l'accompagnement instrumental, malgré la qualité professionnelle de l'enregistrement.
 
 <div class="spotify-container">
   <iframe src="https://open.spotify.com/embed/track/6We35TxOIcNG7If2KK92FA?utm_source=generator&theme=0" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
@@ -363,9 +370,9 @@ La seconde version, un enregistrement professionnel réalisé dans le cadre du p
 
 <h3>L'Impact de la Mémoire Corporelle sur l'Interprétation</h3>
 
-La notion de <strong>mémoire corporelle</strong> s'avère cruciale dans cette analyse comparative. En position assise au piano, June Cavlan bénéficie d'une <strong>stabilité optimale</strong>, fruit de ses nombreuses heures de pratique dans cette configuration. Cette posture permet une <strong>mobilisation naturelle et efficace</strong> de sa technique vocale, favorisant une <strong>cohésion parfaite</strong> entre respiration, émission sonore et expression musicale.
+La notion de <strong>mémoire corporelle</strong> s'avère cruciale dans cette analyse comparative. En <strong>position assise</strong> au piano, June Cavlan bénéficie d'une <strong>stabilité optimale</strong>, fruit de ses nombreuses heures de pratique dans cette configuration. Cette posture permet une <strong>mobilisation naturelle et efficace</strong> de sa technique vocale, favorisant une <strong>cohésion parfaite</strong> entre <strong>respiration</strong>, <strong>émission sonore</strong> et <strong>expression musicale</strong>.
 
-Le passage à la position debout lors de la session Live Room, bien que répondant à des conventions scéniques traditionnelles, perturbe cette mémoire corporelle établie. Cette modification posturale nécessiterait une technique corporelle spécifique, mobilisant notamment les muscles du périnée et du dos, pour maintenir la même qualité d'interprétation. L'absence de cette adaptation technique se traduit par une légère altération de la stabilité vocale et de la précision rythmique.
+Le passage à la <strong>position debout</strong> lors de la session Live Room, bien que répondant à des <strong>conventions scéniques traditionnelles</strong>, perturbe cette <strong>mémoire corporelle établie</strong>. Cette modification posturale nécessiterait une <strong>technique corporelle spécifique</strong>, mobilisant notamment les <strong>muscles du périnée</strong> et du <strong>dos</strong>, pour maintenir la même qualité d'interprétation. L'absence de cette adaptation technique se traduit par une légère altération de la stabilité vocale et de la précision rythmique.
 
 <div class="section-separator">
   <hr>
@@ -373,11 +380,11 @@ Le passage à la position debout lors de la session Live Room, bien que réponda
 
 <h3>Considérations Techniques et Environnementales</h3>
 
-L'excellence technique de l'enregistrement Live Room est indéniable, bénéficiant d'une <strong>ingénierie sonore professionnelle</strong> au Bridge Recording Studio. Cependant, cette perfection technique ne compense pas entièrement la <strong>perte d'intimité et de cohésion interne</strong> observée. La présence d'autres musiciens, bien qu'enrichissant l'arrangement, ajoute une dimension de <strong>pression psychologique</strong> qui influence subtilement la performance vocale.
+L'excellence technique de l'enregistrement Live Room est indéniable, bénéficiant d'une <strong>ingénierie sonore professionnelle</strong> au Bridge Recording Studio. Cependant, cette <strong>perfection technique</strong> ne compense pas entièrement la <strong>perte d'intimité et de cohésion interne</strong> observée. La présence d'autres musiciens, bien qu'enrichissant l'arrangement, ajoute une dimension de <strong>pression psychologique</strong> qui influence subtilement la performance vocale.
 
-Dans la configuration intime de son domicile, sans public ni autres musiciens présents, l'artiste bénéficie d'une sécurité émotionnelle et psychologique lui permettant de mobiliser pleinement sa mémoire corporelle et ses ressources vocales, aboutissant ainsi à une interprétation harmonique plus cohérente et plus juste.
+Dans la configuration intime de son domicile, sans public ni autres musiciens présents, l'artiste bénéficie d'une <strong>sécurité émotionnelle et psychologique</strong> lui permettant de mobiliser pleinement sa <strong>mémoire corporelle</strong> et ses <strong>ressources vocales</strong>, aboutissant ainsi à une <strong>interprétation harmonique</strong> plus cohérente et plus juste.
 
-La configuration orchestrale, comprenant piano, violons, alto, violoncelle et contrebasse, crée une texture sonore riche mais impose des contraintes supplémentaires en termes de coordination et d'interaction musicale. Ces exigences, combinées au changement de posture, contribuent à une légère désynchronisation entre la voix et l'accompagnement.
+La configuration orchestrale complète - comprenant piano, violons, alto, violoncelle et contrebasse - crée une <strong>texture sonore riche</strong> mais impose des <strong>contraintes supplémentaires</strong> en termes de coordination et d'interaction musicale. Ces exigences, combinées au <strong>changement de posture</strong>, contribuent à une <strong>légère désynchronisation</strong> entre la voix et l'accompagnement.
 
 <div class="section-separator">
   <hr>
@@ -502,7 +509,7 @@ As a music critic specializing in contemporary vocal jazz, I have had the opport
 <blockquote class="tiktok-embed" cite="https://www.tiktok.com/@junecavlanjazz/video/7407629017584520490" data-video-id="7407629017584520490" style="max-width: 605px;min-width: 325px;" > <section> <a target="_blank" title="@junecavlanjazz" href="https://www.tiktok.com/@junecavlanjazz?refer=embed">@junecavlanjazz</a> More Sondheim in celebration of my latest single. Click link in bio to listen! <a title="jazzsinger" target="_blank" href="https://www.tiktok.com/tag/jazzsinger?refer=embed">#jazzsinger</a> <a title="jazz" target="_blank" href="https://www.tiktok.com/tag/jazz?refer=embed">#jazz</a> <a title="sondheim" target="_blank" href="https://www.tiktok.com/tag/sondheim?refer=embed">#sondheim</a> <a title="newmusic" target="_blank" href="https://www.tiktok.com/tag/newmusic?refer=embed">#newmusic</a> <a title="junecavlan" target="_blank" href="https://www.tiktok.com/tag/junecavlan?refer=embed">#junecavlan</a> <a title="singer" target="_blank" href="https://www.tiktok.com/tag/singer?refer=embed">#singer</a> <a title="jazztok" target="_blank" href="https://www.tiktok.com/tag/jazztok?refer=embed">#jazztok</a> <a title="trending" target="_blank" href="https://www.tiktok.com/tag/trending?refer=embed">#trending</a> <a title="musicaltheater" target="_blank" href="https://www.tiktok.com/tag/musicaltheater?refer=embed">#musicaltheater</a> <a title="stephensondheim" target="_blank" href="https://www.tiktok.com/tag/stephensondheim?refer=embed">#stephensondheim</a> <a title="ladieswholunch" target="_blank" href="https://www.tiktok.com/tag/ladieswholunch?refer=embed">#ladieswholunch</a> <a title="nyc" target="_blank" href="https://www.tiktok.com/tag/nyc?refer=embed">#nyc</a> <a title="fyp" target="_blank" href="https://www.tiktok.com/tag/fyp?refer=embed">#fyp</a> <a title="showtunes" target="_blank" href="https://www.tiktok.com/tag/showtunes?refer=embed">#showtunes</a> <a title="broadway" target="_blank" href="https://www.tiktok.com/tag/broadway?refer=embed">#broadway</a> <a title="stephensondheim" target="_blank" href="https://www.tiktok.com/tag/stephensondheim?refer=embed">#stephensondheim</a> <a target="_blank" title="♬ original sound - June Cavlan" href="https://www.tiktok.com/music/original-sound-7407628956842855214?refer=embed">♬ original sound - June Cavlan</a> </section> </blockquote> <script async src="https://www.tiktok.com/embed.js"></script>
 
 
-The first version, an amateur video published on TikTok, presents June Cavlan alone at her piano in an intimate setting. This configuration reveals a perfect <strong>harmonic foundation</strong> - a term designating the <strong>stability and coherence in vocal interpretation</strong> linked to instrumental accompaniment. The connection between her singing and instrumental playing achieves a <strong>remarkable symbiosis</strong> here, enhanced by the <strong>natural reverberation</strong> of the domestic environment.
+The first version, an amateur video published on TikTok, presents June Cavlan alone at her piano in an intimate setting. This configuration reveals a perfect <strong>harmonic foundation</strong> - a term designating the <strong>stability and coherence in vocal interpretation</strong> linked to instrumental accompaniment. The connection between her singing and instrumental playing achieves a <strong>remarkable symbiosis</strong> here, enhanced by a dual reverberation: the <strong>natural reverberation</strong> of the domestic environment, enriched by subtle <strong>post-production digital reverberation</strong> added to the recording. This acoustic combination, merging the authenticity of natural space with TikTok's technical enhancements, creates a <strong>harmonious spatial simulation</strong> that reinforces the artist's body memory. There is, however, noticeable <strong>sound saturation</strong> due to the phone's proximity to the piano and the resulting intensity of <strong>acoustic vibrations</strong>. Despite this technical aspect inherent to mobile recording, the authenticity and expressiveness of the interpretation remain fully appreciable.
 
 <div class="video-container">
   <div class="video-wrapper widescreen">
@@ -510,7 +517,7 @@ The first version, an amateur video published on TikTok, presents June Cavlan al
   </div>
 </div>
 
-The second version, a professional recording made as part of the "Live Room" project at Bridge Recording Studio, offers a striking contrast. June Cavlan performs the piece standing, accompanied by Luther S. Allison on piano and a string ensemble conducted by Jackson A. Waters. Although technically impeccable, this configuration reveals a subtle alteration in rhythmic and harmonic stability, a phenomenon directly linked to the modification of her habitual body memory.
+The second version, a <strong>professional recording</strong> made as part of the "Live Room" project at Bridge Recording Studio, offers a striking contrast. June Cavlan performs the piece <strong>standing</strong>, accompanied by Luther S. Allison on piano and a <strong>string ensemble</strong> conducted by Jackson A. Waters. Although <strong>technically impeccable</strong>, this configuration reveals a <strong>subtle alteration</strong> in rhythmic and harmonic stability, a phenomenon directly linked to the <strong>modification of her habitual body memory</strong>.
 
 <div class="spotify-container">
   <iframe src="https://open.spotify.com/embed/track/6We35TxOIcNG7If2KK92FA?utm_source=generator&theme=0" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
@@ -522,9 +529,9 @@ The second version, a professional recording made as part of the "Live Room" pro
 
 <h3>The Impact of Body Memory and Jazz Vocal Conventions</h3>
 
-The concept of <strong>body memory</strong> proves crucial in this comparative analysis. In the seated position at the piano, June Cavlan benefits from <strong>optimal stability</strong>, the result of her numerous hours of practice in this configuration. This posture allows for <strong>natural and effective mobilization</strong> of her vocal technique, fostering <strong>perfect cohesion</strong> between breathing, sound emission, and musical expression.
+The concept of <strong>body memory</strong> proves crucial in this comparative analysis. In the <strong>seated position</strong> at the piano, June Cavlan benefits from <strong>optimal stability</strong>, the result of her numerous hours of practice in this configuration. This posture allows for <strong>natural and effective mobilization</strong> of her vocal technique, fostering <strong>perfect cohesion</strong> between <strong>breathing</strong>, <strong>sound emission</strong>, and <strong>musical expression</strong>.
 
-It is important to note that jazz singers often face an implicit injunction to modify their habitual body memory to adapt to live performance constraints. This alteration notably requires them to sing standing, facing the audience and instrumentalists, even if this doesn't necessarily correspond to their daily practice. Conversely, instrumentalists generally benefit from a precise and respected physical "ritual," almost sacred, allowing them to achieve optimal coherence in their instrumental playing.
+It is important to note that jazz singers often face an <strong>implicit injunction</strong> to modify their habitual body memory to adapt to <strong>live performance constraints</strong>. This alteration notably requires them to sing <strong>standing</strong>, facing the audience and instrumentalists, even if this doesn't necessarily correspond to their <strong>daily practice</strong>. Conversely, instrumentalists generally benefit from a <strong>precise and respected physical ritual</strong>, almost sacred, allowing them to achieve <strong>optimal coherence</strong> in their instrumental playing.
 
 The pretext often invoked in favor of the standing posture for singers concerns the superior mobility of the air column. However, this justification is only valid if accompanied by a rigorous bodily technique specifically mobilizing adapted musculature: pelvic floor muscles ensuring essential tonicity for vocal stability, back muscles (particularly around the shoulder blades), and a general bodily relaxation essential and interdependent to this muscular mobilization. Without this precise technical adaptation, the standing position can become counterproductive, potentially compromising the vocal stability that was naturally achieved in the seated position.
 
@@ -534,11 +541,11 @@ The pretext often invoked in favor of the standing posture for singers concerns 
 
 <h3>Technical and Environmental Considerations</h3>
 
-The technical excellence of the Live Room recording is undeniable, benefiting from <strong>professional sound engineering</strong> at Bridge Recording Studio. However, this technical perfection does not fully compensate for the observed <strong>loss of intimacy and internal cohesion</strong>. The presence of other musicians, while enriching the arrangement, adds a dimension of <strong>psychological pressure</strong> that subtly influences the vocal performance.
+The technical excellence of the Live Room recording is undeniable, benefiting from <strong>professional sound engineering</strong> at Bridge Recording Studio. However, this <strong>technical perfection</strong> does not fully compensate for the observed <strong>loss of intimacy and internal cohesion</strong>. The presence of other musicians, while enriching the arrangement, adds a dimension of <strong>psychological pressure</strong> that subtly influences the vocal performance.
 
-In the intimate setting of her home, without an audience or other musicians present, the artist benefits from emotional and psychological security that allows her to fully mobilize her body memory and vocal resources, resulting in a more coherent and accurate harmonic interpretation.
+In the intimate setting of her home, without an audience or other musicians present, the artist benefits from <strong>emotional and psychological security</strong> that allows her to fully mobilize her <strong>body memory</strong> and <strong>vocal resources</strong>, resulting in a more coherent and accurate <strong>harmonic interpretation</strong>.
 
-The complete orchestral configuration - comprising Luther S. Allison on piano, Hava Polinsky and Nami Nazar on violins, Cameron Williams on viola, Wangshu Xiang on cello, and Jared Beckstead on double bass - creates a rich sound texture but imposes additional constraints in terms of coordination and musical interaction. These requirements, combined with the change in posture, contribute to a slight desynchronization between voice and accompaniment.
+The complete orchestral configuration - comprising piano, violins, viola, cello, and double bass - creates a <strong>rich sound texture</strong> but imposes <strong>additional constraints</strong> in terms of coordination and musical interaction. These requirements, combined with the <strong>change in posture</strong>, contribute to a <strong>slight desynchronization</strong> between voice and accompaniment.
 
 <div class="section-separator">
   <hr>
@@ -554,7 +561,7 @@ Paradoxically, the professional environment of Bridge Recording Studio, despite 
 
 Cette absence ou limitation de reverberation during professional recordings directly impacts the artists' body and vocal memory, sometimes affecting their usual technique or expressiveness. In June Cavlan's case, one can precisely perceive the technical and harmonic repercussions of this acoustic deprivation, particularly in passages requiring great interpretative finesse.
 
-To address this issue, a comprehensive technical solution could be considered: the use of personal ear monitors with specific artificial reverberation settings, accompanied by precise instructions to sound engineers. These settings, consisting of customized presets or plugins, should be defined in close collaboration with the artist to faithfully reproduce the acoustic conditions of their personal practice. This approach would artificially restore the ideal acoustic environment, thus preserving body memory and optimal harmonic quality during studio performance.
+To address this issue, a comprehensive technical solution could be considered: the use of personal ear monitors with specific artificial reverberation settings, accompanied by precise instructions to sound engineers. These settings, consisting of customized presets or plugins, should be defined in close collaboration with the artist to faithfully reproduce the acoustic conditions of their personal practice. Cette approche permettrait de restituer artificiellement l'environnement acoustique idéal, thus preserving body memory and optimal harmonic quality during studio performance.
 
 <div class="section-separator">
   <hr>
@@ -630,4 +637,5 @@ Paris, France<br />
 <br />
 <div align="center">⁂</div>
 <br />
+</div>
 </div>
