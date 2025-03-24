@@ -168,6 +168,47 @@ a[href*="youtube.com"]:hover, a[href*="soundcloud.com"]:hover {
   height: 100%;
   border: none;
 }
+
+/* Add new styles for the credits section */
+.credits-container {
+  width: 100%;
+  max-width: 800px;
+  margin: 2em auto;
+  padding: 30px;
+  background: rgba(208, 144, 242, 0.05);
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.credits-section {
+  margin-bottom: 20px;
+}
+
+.credits-section:last-child {
+  margin-bottom: 0;
+}
+
+.credits-title {
+  font-weight: 600;
+  margin-bottom: 8px;
+  color: #9b4dca;
+}
+
+.credits-content {
+  margin-left: 20px;
+}
+
+/* Improved title styling */
+.article-title {
+  font-family: 'Georgia', serif;
+  font-size: 2.5em;
+  line-height: 1.4;
+  font-weight: 700;
+  color: #2c3e50;
+  text-align: center;
+  margin: 1em 0;
+  letter-spacing: -0.02em;
+}
 </style>
 
 <div class="post-content">
@@ -271,21 +312,45 @@ Cette analyse ne serait pas complète sans mentionner un aspect crucial qui dist
 
 <h3>Crédits de la Session Live Room</h3>
 
-<div style="width: 100%; max-width: 800px; margin: 0 auto; padding: 20px; background: rgba(208, 144, 242, 0.05); border-radius: 8px;">
-Lyrics & Song : Stephen Sondheim  
-Arrangement : Jackson A. Waters, June Cavlan  
-Orchestration et direction : Jackson A. Waters  
+<div class="credits-container">
+  <div class="credits-section">
+    <div class="credits-title">Composition</div>
+    <div class="credits-content">
+      Paroles et Musique : Stephen Sondheim<br>
+      Arrangement : Jackson A. Waters, June Cavlan<br>
+      Orchestration et direction : Jackson A. Waters
+    </div>
+  </div>
 
-Voix : June Cavlan  
-Piano : Luther S. Allison  
-Violon 1 : Hava Polinsky | Violon 2 : Nami Nazar | Alto : Cameron Williams | Violoncelle : Wangshu Xiang | Contrebasse : Jared Beckstead  
+  <div class="credits-section">
+    <div class="credits-title">Musiciens</div>
+    <div class="credits-content">
+      Voix : June Cavlan<br>
+      Piano : Luther S. Allison<br>
+      Violon 1 : Hava Polinsky<br>
+      Violon 2 : Nami Nazar<br>
+      Alto : Cameron Williams<br>
+      Violoncelle : Wangshu Xiang<br>
+      Contrebasse : Jared Beckstead
+    </div>
+  </div>
 
-Production vidéo : Live Room Music LLC  
-Réalisation et direction : Live Room Music LLC  
-Cinématographie : Pablo Freesé-Hernandez  
-Photographie : Abigail Bloch  
+  <div class="credits-section">
+    <div class="credits-title">Production</div>
+    <div class="credits-content">
+      Production vidéo : Live Room Music LLC<br>
+      Réalisation et direction : Live Room Music LLC<br>
+      Cinématographie : Pablo Freesé-Hernandez<br>
+      Photographie : Abigail Bloch
+    </div>
+  </div>
 
-Lieu : The Bridge Recording Studio
+  <div class="credits-section">
+    <div class="credits-title">Lieu</div>
+    <div class="credits-content">
+      The Bridge Recording Studio
+    </div>
+  </div>
 </div>
 
 <div class="section-separator">
@@ -401,21 +466,45 @@ This analysis would not be complete without mentioning a crucial aspect that dis
 
 <h3>Complete Credits for the Live Room Session</h3>
 
-<div style="width: 100%; max-width: 800px; margin: 0 auto; padding: 20px; background: rgba(208, 144, 242, 0.05); border-radius: 8px;">
-Lyrics & Song: Stephen Sondheim  
-Arrangement: Jackson A. Waters, June Cavlan  
-Orchestration and Direction: Jackson A. Waters  
+<div class="credits-container">
+  <div class="credits-section">
+    <div class="credits-title">Composition</div>
+    <div class="credits-content">
+      Lyrics & Song: Stephen Sondheim<br>
+      Arrangement: Jackson A. Waters, June Cavlan<br>
+      Orchestration and Direction: Jackson A. Waters
+    </div>
+  </div>
 
-Voice: June Cavlan  
-Piano: Luther S. Allison  
-Violin 1: Hava Polinsky | Violin 2: Nami Nazar | Viola: Cameron Williams | Cello: Wangshu Xiang | Double Bass: Jared Beckstead  
+  <div class="credits-section">
+    <div class="credits-title">Musicians</div>
+    <div class="credits-content">
+      Voice: June Cavlan<br>
+      Piano: Luther S. Allison<br>
+      Violin 1: Hava Polinsky<br>
+      Violin 2: Nami Nazar<br>
+      Viola: Cameron Williams<br>
+      Cello: Wangshu Xiang<br>
+      Double Bass: Jared Beckstead
+    </div>
+  </div>
 
-Video Production: Live Room Music LLC  
-Direction: Live Room Music LLC  
-Cinematography: Pablo Freesé-Hernandez  
-Photography: Abigail Bloch  
+  <div class="credits-section">
+    <div class="credits-title">Production</div>
+    <div class="credits-content">
+      Video Production: Live Room Music LLC<br>
+      Direction: Live Room Music LLC<br>
+      Cinematography: Pablo Freesé-Hernandez<br>
+      Photography: Abigail Bloch
+    </div>
+  </div>
 
-Location: The Bridge Recording Studio
+  <div class="credits-section">
+    <div class="credits-title">Location</div>
+    <div class="credits-content">
+      The Bridge Recording Studio
+    </div>
+  </div>
 </div>
 
 <div class="section-separator">
