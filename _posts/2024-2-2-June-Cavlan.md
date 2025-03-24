@@ -185,7 +185,7 @@ a[href*="youtube.com"]:hover, a[href*="soundcloud.com"]:hover {
 
 <h3>Préambule : Une Découverte Musicale Singulière</h3>
 
-C'est à travers deux interprétations distinctes du morceau « Johanna », extrait de la comédie musicale *Sweeney Todd* de Stephen Sondheim, que j'ai découvert June Cavlan. Cette artiste, chanteuse, arrangeuse et enseignante installée à New York depuis 2023, s'impose progressivement comme une référence montante de la scène jazz new-yorkaise contemporaine. Lauréate de multiples prix Downbeat Magazine (2019-2022) et récompensée comme Meilleure Vocaliste Jazz Undergraduate en 2022, elle a récemment sorti son premier album, "A Portrait of June", sous le label La Reserve Records, où elle démontre non seulement son talent vocal mais aussi ses remarquables capacités d'arrangeuse, ayant orchestré chaque moment de l'album.
+C'est à travers deux interprétations distinctes du morceau « Johanna », extrait de la comédie musicale Sweeney Todd de Stephen Sondheim, que j'ai découvert June Cavlan. Cette artiste, chanteuse, arrangeuse et enseignante installée à New York depuis 2023, s'impose progressivement comme une référence montante de la scène jazz new-yorkaise contemporaine. Lauréate de multiples prix Downbeat Magazine (2019-2022) et récompensée comme Meilleure Vocaliste Jazz Undergraduate en 2022, elle a récemment sorti son premier album, "A Portrait of June", sous le label La Reserve Records, où elle démontre non seulement son talent vocal mais aussi ses remarquables capacités d'arrangeuse, ayant orchestré chaque moment de l'album.
 
 Son parcours musical, enraciné dans une formation classique (voix, piano, cor français) et enrichi par le jazz et le théâtre musical, s'est épanoui à l'Université de Miami's Frost School of Music, où elle a obtenu une bourse complète pour ses études en Jazz Vocal Performance. Actuellement étudiante en master à la Manhattan School of Music, elle poursuit sa carrière d'enseignante et de performeuse, collaborant avec des musiciens renommés tels qu'Emmet Cohen, Bryan Carter et Benny Benack III. Sa reprise de "Johanna", traditionnellement interprété par des voix masculines, apporte une résonance nouvelle tout en respectant la complexité originale de la composition de Sondheim.
 
@@ -297,10 +297,6 @@ Lieu : The Bridge Recording Studio
 Cette analyse comparative révèle l'importance cruciale du respect de la mémoire corporelle dans l'interprétation musicale. Bien que la version Live Room présente des qualités indéniables en termes d'arrangement et de production, la version TikTok plus intime démontre une cohérence supérieure dans l'expression artistique.
 
 Pour une artiste prometteuse comme June Cavlan, il serait judicieux de privilégier des conditions d'enregistrement respectant sa mémoire corporelle naturelle, tout en développant progressivement une technique adaptée à la position debout. Cette approche permettrait de préserver l'authenticité de son expression tout en répondant aux exigences des performances scéniques traditionnelles.
-
-<br />
-<div align="center">⁂</div>
-<br />
 
 <div align="right">
 <em>Joachim Cohen<br />
@@ -431,10 +427,6 @@ Location: The Bridge Recording Studio
 This comparative analysis reveals the crucial importance of respecting body memory in musical interpretation. Although the Live Room version presents undeniable qualities in terms of arrangement and production, the more intimate TikTok version demonstrates superior coherence in artistic expression.
 
 For a promising artist like June Cavlan, it would be judicious to favor recording conditions that respect her natural body memory while progressively developing a technique adapted to the standing position. This approach would allow for preserving the authenticity of her expression while meeting the requirements of traditional stage performances. This reflection is part of a broader questioning of vocal jazz conventions, advocating for more rigorous respect for the individual body memory of singers to preserve their harmonic potential and vocal expressiveness.
-
-<br />
-<div align="center">⁂</div>
-<br />
 
 <div align="right">
 <em>Joachim Cohen<br />
