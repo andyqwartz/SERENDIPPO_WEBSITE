@@ -200,7 +200,7 @@ a[href*="youtube.com"]:hover, a[href*="soundcloud.com"]:hover {
 
 /* Update title styling */
 .article-title {
-  font-family: 'Courier New', monospace;
+  font-family: 'Courier New', monospace !important;
   font-size: 2em;
   line-height: 1.2;
   font-weight: 700;
@@ -212,7 +212,7 @@ a[href*="youtube.com"]:hover, a[href*="soundcloud.com"]:hover {
 
 /* Add styles for subtitles */
 h3 {
-  font-family: 'Courier New', monospace;
+  font-family: 'Courier New', monospace !important;
   font-size: 1.5em;
   line-height: 1.2;
   margin: 1em 0;
