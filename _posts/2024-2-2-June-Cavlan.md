@@ -200,19 +200,29 @@ a[href*="youtube.com"]:hover, a[href*="soundcloud.com"]:hover {
 
 /* Update title styling */
 .article-title {
-  font-family: 'Playfair Display', 'Georgia', serif;
-  font-size: 2.8em;
-  line-height: 1.4;
+  font-family: 'Courier New', monospace;
+  font-size: 2em;
+  line-height: 1.2;
   font-weight: 700;
   color: var(--text-color, #2c3e50);
   text-align: center;
-  margin: 1.5em 0;
+  margin: 1em 0;
   letter-spacing: -0.02em;
-  text-shadow: 1px 1px 2px rgba(0,0,0,0.1);
+}
+
+/* Add styles for subtitles */
+h3 {
+  font-family: 'Courier New', monospace;
+  font-size: 1.5em;
+  line-height: 1.2;
+  margin: 1em 0;
+  color: var(--text-color, #2c3e50);
 }
 
 .dark-mode .article-title,
-.macchiato .article-title {
+.dark-mode h3,
+.macchiato .article-title,
+.macchiato h3 {
   color: var(--text-color, #e0e0e0);
 }
 
