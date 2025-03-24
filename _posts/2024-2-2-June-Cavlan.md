@@ -352,7 +352,11 @@ En tant que critique musical spécialisé dans le jazz vocal contemporain, j'ai 
 
 La première version, une vidéo amateur publiée sur TikTok, présente June Cavlan seule à son piano dans un cadre intime. Cette configuration révèle une parfaite <strong>assise harmonique</strong> - terme désignant la <strong>stabilité et la cohérence dans l'interprétation vocale</strong> liée à l'accompagnement instrumental. La connexion entre son chant et son jeu instrumental atteint ici une <strong>symbiose remarquable</strong>, sublimée par une double réverbération : la <strong>réverbération naturelle</strong> de l'environnement domestique, enrichie par une <strong>réverbération numérique post-production</strong> subtilement ajoutée à l'enregistrement. Cette combinaison acoustique, associant l'authenticité de l'espace naturel et les améliorations techniques de l'application TikTok, crée une <strong>simulation spatiale harmonieuse</strong> qui renforce la mémoire corporelle de l'artiste. On note toutefois une certaine <strong>saturation sonore</strong>, due à la proximité du téléphone avec le piano et l'intensité des <strong>vibrations acoustiques</strong> qui en résultent. Malgré cet aspect technique inhérent à l'enregistrement mobile, l'authenticité et l'expressivité de l'interprétation restent pleinement appréciables.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/f_OSbfV7WdU?si=ueoO_82EAypVX0wn&amp;controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<div class="video-container">
+  <div class="video-wrapper widescreen">
+    <iframe src="https://www.youtube.com/embed/f_OSbfV7WdU?si=_TyPV7Q334JJNVsi" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+  </div>
+</div>
 <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/6We35TxOIcNG7If2KK92FA?utm_source=generator&theme=0" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 
 La seconde version, un <strong>enregistrement professionnel</strong> réalisé dans le cadre du projet « Live Room » au Bridge Recording Studio, offre un contraste saisissant. June Cavlan y interprète le morceau <strong>debout</strong>, accompagnée par Luther S. Allison au piano et un <strong>ensemble à cordes</strong> dirigé par Jackson A. Waters. Bien que <strong>techniquement impeccable</strong>, cette configuration révèle une <strong>subtile altération</strong> de la stabilité rythmique et harmonique, phénomène directement lié à la <strong>modification de sa mémoire corporelle</strong> habituelle. Cette altération devient particulièrement perceptible dans la légère désynchronisation entre le phrasé vocal et l'accompagnement instrumental, malgré la qualité professionnelle de l'enregistrement.
@@ -460,6 +464,10 @@ Cette analyse comparative révèle l'importance cruciale du <strong>respect de l
 
 Pour une artiste prometteuse comme June Cavlan, il serait judicieux de privilégier des conditions d'enregistrement respectant sa mémoire corporelle naturelle, tout en développant progressivement une technique adaptée à la position debout. Cette approche permettrait de préserver l'authenticité de son expression tout en répondant aux exigences des performances scéniques traditionnelles.
 
+<div class="section-separator">
+  <hr>
+</div>
+
 <div align="right">
 <em>Joachim Cohen<br />
 Paris, France<br />
@@ -504,7 +512,11 @@ As a music critic specializing in contemporary vocal jazz, I have had the opport
 
 The first version, an amateur video published on TikTok, presents June Cavlan alone at her piano in an intimate setting. This configuration reveals a perfect <strong>harmonic foundation</strong> - a term designating the <strong>stability and coherence in vocal interpretation</strong> linked to instrumental accompaniment. The connection between her singing and instrumental playing achieves a <strong>remarkable symbiosis</strong> here, enhanced by a dual reverberation: the <strong>natural reverberation</strong> of the domestic environment, enriched by subtle <strong>post-production digital reverberation</strong> added to the recording. This acoustic combination, merging the authenticity of natural space with TikTok's technical enhancements, creates a <strong>harmonious spatial simulation</strong> that reinforces the artist's body memory. There is, however, noticeable <strong>sound saturation</strong> due to the phone's proximity to the piano and the resulting intensity of <strong>acoustic vibrations</strong>. Despite this technical aspect inherent to mobile recording, the authenticity and expressiveness of the interpretation remain fully appreciable.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/f_OSbfV7WdU?si=ueoO_82EAypVX0wn&amp;controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<div class="video-container">
+  <div class="video-wrapper widescreen">
+    <iframe src="https://www.youtube.com/embed/f_OSbfV7WdU?si=_TyPV7Q334JJNVsi" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+  </div>
+</div>
 <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/6We35TxOIcNG7If2KK92FA?utm_source=generator&theme=0" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 
 The second version, a <strong>professional recording</strong> made as part of the "Live Room" project at Bridge Recording Studio, offers a striking contrast. June Cavlan performs the piece <strong>standing</strong>, accompanied by Luther S. Allison on piano and a <strong>string ensemble</strong> conducted by Jackson A. Waters. Although <strong>technically impeccable</strong>, this configuration reveals a <strong>subtle alteration</strong> in rhythmic and harmonic stability, a phenomenon directly linked to the <strong>modification of her habitual body memory</strong>.
@@ -613,7 +625,11 @@ Photography: Abigail Bloch
 This comparative analysis reveals the crucial importance of <strong>respecting body memory</strong> in musical interpretation. Although the Live Room version presents undeniable qualities in terms of arrangement and production, the more intimate TikTok version demonstrates <strong>superior coherence</strong> in artistic expression.
 
 For a promising artist like June Cavlan, it would be judicious to favor recording conditions that respect her natural body memory while progressively developing a technique adapted to the standing position. Cette approche would allow for preserving the authenticity of her expression while meeting the requirements of traditional stage performances. This reflection is part of a broader questioning of vocal jazz conventions, advocating for more rigorous respect for the individual body memory of singers to preserve their harmonic potential and vocal expressiveness.
-<hr>
+
+<div class="section-separator">
+  <hr>
+</div>
+
 <div align="right">
 <em>Joachim Cohen<br />
 Paris, France<br />
