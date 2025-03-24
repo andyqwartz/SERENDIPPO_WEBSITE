@@ -292,7 +292,7 @@ h3 {
 <div align="center">⁂</div>
 <br />
 
-<h2 align="center" class="article-title">June Cavlan interprète « Johanna »</h2>
+<h2 align="center" class="article-title">June Cavlan interprète «Johanna»</h2>
 <h3>Une Analyse Critique Approfondie</h3>
 
 <h3>Préambule : Une Découverte Musicale Singulière</h3>
@@ -451,7 +451,7 @@ Paris, France<br />
   <hr>
 </div>
 
-<h2 align="center" class="article-title">June Cavlan's Interpretation of « Johanna »</h2>
+<h2 align="center" class="article-title">June Cavlan's Interpretation of «Johanna»</h2>
 <h3>A Comprehensive Critical Analysis</h3>
 
 <h3>Preamble: A Singular Musical Discovery and Analytical Context</h3>
