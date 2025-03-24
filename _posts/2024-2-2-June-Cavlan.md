@@ -293,9 +293,7 @@ h3 {
 <br />
 
 <h2 align="center" class="article-title">June Cavlan interprète « Johanna »</h2>
-<div align="justify">
 <h3>Une Analyse Critique Approfondie</h3>
-<div align="justify">
 
 <h3>Préambule : Une Découverte Musicale Singulière</h3>
 
@@ -318,6 +316,7 @@ En tant que critique musical spécialisé dans le jazz vocal contemporain, j'ai 
 <h3>Analyse Comparative des Deux Versions</h3>
 
 <blockquote class="tiktok-embed" cite="https://www.tiktok.com/@junecavlanjazz/video/7407629017584520490" data-video-id="7407629017584520490" style="max-width: 605px;min-width: 325px;" > <section> <a target="_blank" title="@junecavlanjazz" href="https://www.tiktok.com/@junecavlanjazz?refer=embed">@junecavlanjazz</a> More Sondheim in celebration of my latest single. Click link in bio to listen! <a title="jazzsinger" target="_blank" href="https://www.tiktok.com/tag/jazzsinger?refer=embed">#jazzsinger</a> <a title="jazz" target="_blank" href="https://www.tiktok.com/tag/jazz?refer=embed">#jazz</a> <a title="sondheim" target="_blank" href="https://www.tiktok.com/tag/sondheim?refer=embed">#sondheim</a> <a title="newmusic" target="_blank" href="https://www.tiktok.com/tag/newmusic?refer=embed">#newmusic</a> <a title="junecavlan" target="_blank" href="https://www.tiktok.com/tag/junecavlan?refer=embed">#junecavlan</a> <a title="singer" target="_blank" href="https://www.tiktok.com/tag/singer?refer=embed">#singer</a> <a title="jazztok" target="_blank" href="https://www.tiktok.com/tag/jazztok?refer=embed">#jazztok</a> <a title="trending" target="_blank" href="https://www.tiktok.com/tag/trending?refer=embed">#trending</a> <a title="musicaltheater" target="_blank" href="https://www.tiktok.com/tag/musicaltheater?refer=embed">#musicaltheater</a> <a title="stephensondheim" target="_blank" href="https://www.tiktok.com/tag/stephensondheim?refer=embed">#stephensondheim</a> <a title="ladieswholunch" target="_blank" href="https://www.tiktok.com/tag/ladieswholunch?refer=embed">#ladieswholunch</a> <a title="nyc" target="_blank" href="https://www.tiktok.com/tag/nyc?refer=embed">#nyc</a> <a title="fyp" target="_blank" href="https://www.tiktok.com/tag/fyp?refer=embed">#fyp</a> <a title="showtunes" target="_blank" href="https://www.tiktok.com/tag/showtunes?refer=embed">#showtunes</a> <a title="broadway" target="_blank" href="https://www.tiktok.com/tag/broadway?refer=embed">#broadway</a> <a title="stephensondheim" target="_blank" href="https://www.tiktok.com/tag/stephensondheim?refer=embed">#stephensondheim</a> <a target="_blank" title="♬ original sound - June Cavlan" href="https://www.tiktok.com/music/original-sound-7407628956842855214?refer=embed">♬ original sound - June Cavlan</a> </section> </blockquote> <script async src="https://www.tiktok.com/embed.js"></script>
+
 
 La première version, une vidéo amateur publiée sur TikTok, présente June Cavlan seule à son piano dans un cadre intime. Cette configuration révèle une parfaite <strong>assise harmonique</strong> - terme désignant la <strong>stabilité et la cohérence dans l'interprétation vocale</strong> liée à l'accompagnement instrumental. La connexion entre son chant et son jeu instrumental atteint ici une <strong>symbiose remarquable</strong>, sublimée par la <strong>réverbération naturelle</strong> de l'environnement domestique. La simplicité technique de cet enregistrement met en valeur l'authenticité émotionnelle et la justesse expressive de l'artiste.
 
@@ -452,10 +451,8 @@ Paris, France<br />
   <hr>
 </div>
 
-<h2 align="center" class="article-title">June Cavlan's Interpretation of « Johanna »</h2> 
-<div align="justify">
+<h2 align="center" class="article-title">June Cavlan's Interpretation of « Johanna »</h2>
 <h3>A Comprehensive Critical Analysis</h3>
-<div align="justify">
 
 <h3>Preamble: A Singular Musical Discovery and Analytical Context</h3>
 
@@ -474,6 +471,8 @@ Her musical journey, rooted in classical training (voice, piano, French horn) an
 <h3>Comparative Analysis of Both Versions and Harmonic Foundation</h3>
 
 <blockquote class="tiktok-embed" cite="https://www.tiktok.com/@junecavlanjazz/video/7407629017584520490" data-video-id="7407629017584520490" style="max-width: 605px;min-width: 325px;" > <section> <a target="_blank" title="@junecavlanjazz" href="https://www.tiktok.com/@junecavlanjazz?refer=embed">@junecavlanjazz</a> More Sondheim in celebration of my latest single. Click link in bio to listen! <a title="jazzsinger" target="_blank" href="https://www.tiktok.com/tag/jazzsinger?refer=embed">#jazzsinger</a> <a title="jazz" target="_blank" href="https://www.tiktok.com/tag/jazz?refer=embed">#jazz</a> <a title="sondheim" target="_blank" href="https://www.tiktok.com/tag/sondheim?refer=embed">#sondheim</a> <a title="newmusic" target="_blank" href="https://www.tiktok.com/tag/newmusic?refer=embed">#newmusic</a> <a title="junecavlan" target="_blank" href="https://www.tiktok.com/tag/junecavlan?refer=embed">#junecavlan</a> <a title="singer" target="_blank" href="https://www.tiktok.com/tag/singer?refer=embed">#singer</a> <a title="jazztok" target="_blank" href="https://www.tiktok.com/tag/jazztok?refer=embed">#jazztok</a> <a title="trending" target="_blank" href="https://www.tiktok.com/tag/trending?refer=embed">#trending</a> <a title="musicaltheater" target="_blank" href="https://www.tiktok.com/tag/musicaltheater?refer=embed">#musicaltheater</a> <a title="stephensondheim" target="_blank" href="https://www.tiktok.com/tag/stephensondheim?refer=embed">#stephensondheim</a> <a title="ladieswholunch" target="_blank" href="https://www.tiktok.com/tag/ladieswholunch?refer=embed">#ladieswholunch</a> <a title="nyc" target="_blank" href="https://www.tiktok.com/tag/nyc?refer=embed">#nyc</a> <a title="fyp" target="_blank" href="https://www.tiktok.com/tag/fyp?refer=embed">#fyp</a> <a title="showtunes" target="_blank" href="https://www.tiktok.com/tag/showtunes?refer=embed">#showtunes</a> <a title="broadway" target="_blank" href="https://www.tiktok.com/tag/broadway?refer=embed">#broadway</a> <a title="stephensondheim" target="_blank" href="https://www.tiktok.com/tag/stephensondheim?refer=embed">#stephensondheim</a> <a target="_blank" title="♬ original sound - June Cavlan" href="https://www.tiktok.com/music/original-sound-7407628956842855214?refer=embed">♬ original sound - June Cavlan</a> </section> </blockquote> <script async src="https://www.tiktok.com/embed.js"></script>
+
+
 The first version, an amateur video published on TikTok, presents June Cavlan alone at her piano in an intimate setting. This configuration reveals a perfect <strong>harmonic foundation</strong> - a term designating the <strong>stability and coherence in vocal interpretation</strong> linked to instrumental accompaniment. The connection between her singing and instrumental playing achieves a <strong>remarkable symbiosis</strong> here, enhanced by the <strong>natural reverberation</strong> of the domestic environment.
 
 <div class="video-container">
