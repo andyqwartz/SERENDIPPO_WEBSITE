@@ -81,6 +81,16 @@ a[href*="youtube.com"]:hover, a[href*="soundcloud.com"]:hover {
   background-color: rgba(208, 144, 242, 0.3);
 }
 
+/* Fix horizontal scroll and content width */
+.post-content {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  overflow-x: hidden;
+  box-sizing: border-box;
+  padding: 0 20px;
+}
+
 .section-separator {
   width: 100%;
   max-width: 800px;
@@ -138,126 +148,6 @@ a[href*="youtube.com"]:hover, a[href*="soundcloud.com"]:hover {
   visibility: hidden;
 }
 
-/* Adjust video containers for different aspect ratios */
-.video-container {
-  width: 100%;
-  max-width: 100%; /* Ensure no horizontal overflow */
-  margin: 2em auto;
-  background: rgba(208, 144, 242, 0.05);
-  border-radius: 12px;
-  padding: 20px;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.video-wrapper {
-  position: relative;
-  width: 100%;
-  max-width: 100%; /* Ensure no horizontal overflow */
-  height: 0;
-  overflow: hidden;
-  border-radius: 8px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-/* 16:9 aspect ratio for YouTube */
-.video-wrapper.widescreen {
-  padding-bottom: 56.25%;
-}
-
-.video-wrapper iframe {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  border: none;
-  margin: 0 auto;
-}
-
-/* Add specific styles for Spotify embed */
-.spotify-container {
-  width: 100%;
-  max-width: 100%; /* Ensure no horizontal overflow */
-  margin: 2em auto;
-  background: rgba(208, 144, 242, 0.05);
-  border-radius: 12px;
-  padding: 20px;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.spotify-container iframe {
-  border-radius: 12px;
-  width: 100%;
-  max-width: 100%; /* Ensure no horizontal overflow */
-  margin: 0 auto;
-  display: block;
-}
-
-/* Add new styles for the credits section */
-.credits-container {
-  width: 100%;
-  max-width: 800px;
-  margin: 2em auto;
-  padding: 30px;
-  background: rgba(208, 144, 242, 0.05);
-  border-radius: 12px;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-}
-
-.credits-section {
-  margin-bottom: 20px;
-}
-
-.credits-section:last-child {
-  margin-bottom: 0;
-}
-
-.credits-title {
-  font-weight: 600;
-  margin-bottom: 8px;
-  color: #9b4dca;
-}
-
-.credits-content {
-  margin-left: 20px;
-}
-
-/* Update title styling */
-.article-title {
-  font-family: 'Courier New', monospace !important;
-  font-size: 2em;
-  line-height: 1.2;
-  font-weight: 700;
-  color: var(--text-color, #2c3e50);
-  text-align: center;
-  margin: 1em 0;
-  letter-spacing: -0.02em;
-}
-
-/* Add styles for subtitles */
-h3 {
-  font-family: 'Courier New', monospace !important;
-  font-size: 1.5em;
-  line-height: 1.2;
-  margin: 1em 0;
-  color: var(--text-color, #2c3e50);
-}
-
-.dark-mode .article-title,
-.dark-mode h3,
-.macchiato .article-title,
-.macchiato h3 {
-  color: var(--text-color, #e0e0e0);
-}
-
 /* Add styles for embedded content containers */
 .embedded-content {
   width: 100%;
@@ -312,6 +202,63 @@ h3 {
 .macchiato .tiktok-embed a:focus {
   color: #d4b2fa !important;
 }
+
+/* Update title styling */
+.article-title {
+  font-family: 'Courier New', monospace !important;
+  font-size: 2em;
+  line-height: 1.2;
+  font-weight: 700;
+  color: var(--text-color, #2c3e50);
+  text-align: center;
+  margin: 1em 0;
+  letter-spacing: -0.02em;
+}
+
+/* Add styles for subtitles */
+h3 {
+  font-family: 'Courier New', monospace !important;
+  font-size: 1.5em;
+  line-height: 1.2;
+  margin: 1em 0;
+  color: var(--text-color, #2c3e50);
+}
+
+.dark-mode .article-title,
+.dark-mode h3,
+.macchiato .article-title,
+.macchiato h3 {
+  color: var(--text-color, #e0e0e0);
+}
+
+/* Add styles for credits section */
+.credits-container {
+  width: 100%;
+  max-width: 800px;
+  margin: 2em auto;
+  padding: 30px;
+  background: rgba(208, 144, 242, 0.05);
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.credits-section {
+  margin-bottom: 20px;
+}
+
+.credits-section:last-child {
+  margin-bottom: 0;
+}
+
+.credits-title {
+  font-weight: 600;
+  margin-bottom: 8px;
+  color: #9b4dca;
+}
+
+.credits-content {
+  margin-left: 20px;
+}
 </style>
 
 <div class="post-content">
@@ -343,7 +290,7 @@ En tant que critique musical spécialisé dans le jazz vocal contemporain, j'ai 
 
 <div class="section-separator">
   <hr>
-</div>
+  </div>
 
 <h3>Analyse Comparative des Deux Versions</h3>
 
@@ -370,7 +317,7 @@ Le passage à la <strong>position debout</strong> lors de la session Live Room, 
 
 <div class="section-separator">
   <hr>
-</div>
+  </div>
 
 <h3>Considérations Techniques et Environnementales</h3>
 
@@ -500,7 +447,7 @@ As a music critic specializing in contemporary vocal jazz, I have had the opport
 
 <div class="section-separator">
   <hr>
-</div>
+  </div>
 
 <h3>Comparative Analysis of Both Versions</h3>
 
@@ -529,7 +476,7 @@ The pretext often invoked in favor of the standing posture for singers concerns 
 
 <div class="section-separator">
   <hr>
-</div>
+  </div>
 
 <h3>Technical and Environmental Considerations</h3>
 
