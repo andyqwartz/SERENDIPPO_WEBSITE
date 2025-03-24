@@ -297,7 +297,7 @@ Son parcours musical, enraciné dans une formation classique (voix, piano, cor f
 
 <h3>Contexte d'Analyse et Expertise</h3>
 
-Dotée d'une oreille absolue et d'une formation approfondie en histoire de la musique et du jazz, enrichie par plusieurs années d'expérience professionnelle dans un club de jazz en France où j'ai occupé divers rôles (accueil, signature de contrats, gestion des artistes), j'ai eu l'opportunité d'analyser une grande variété d'interprétations jazz contemporaines. Cette expérience m'a permis de développer une compréhension fine des subtilités de l'interprétation vocale, particulièrement en ce qui concerne la maîtrise de la prononciation et de l'accentuation tonique en anglais, un aspect souvent problématique dans la scène jazz vocale française.
+En tant que critique musical spécialisé dans le jazz vocal contemporain, j'ai eu l'opportunité d'observer et d'analyser l'évolution de nombreux artistes émergents sur la scène internationale. Mon approche analytique se fonde sur une étude approfondie des techniques vocales et des traditions du jazz, enrichie par une expérience pratique dans l'organisation et la production de concerts. Cette perspective m'a permis de développer une compréhension des défis auxquels font face les artistes contemporains, particulièrement dans le contexte des nouvelles technologies d'enregistrement et de diffusion.
 
 <div class="section-separator">
   <hr>
@@ -445,7 +445,9 @@ Paris, France<br />
 
 <h3>Preamble: A Singular Musical Discovery and Analytical Context</h3>
 
-Equipped with perfect pitch and extensive training in music history and jazz, enriched by several years of professional experience in a French jazz club where I held various roles (reception, contract signing, artist management), I have had the opportunity to analyze a wide variety of contemporary jazz interpretations. It was in this context that I discovered June Cavlan through two distinct interpretations of "<a href="https://www.youtube.com/watch?v=f_OSbfV7WdU">Johanna</a>" from <a href="https://en.wikipedia.org/wiki/Stephen_Sondheim">Stephen Sondheim</a>'s musical *<a href="https://en.wikipedia.org/wiki/Sweeney_Todd:_The_Demon_Barber_of_Fleet_Street">Sweeney Todd</a>*.
+As a music critic specializing in contemporary vocal jazz, I have had the opportunity to observe and analyze the evolution of many emerging artists on the international scene. My analytical approach is based on an in-depth study of vocal techniques and jazz traditions, enriched by practical experience in concert organization and production. This perspective has allowed me to develop an understanding of the challenges faced by contemporary artists, particularly in the context of new recording and broadcasting technologies.
+
+It was in this context that I discovered June Cavlan through two distinct interpretations of "<a href="https://www.youtube.com/watch?v=f_OSbfV7WdU">Johanna</a>" from <a href="https://en.wikipedia.org/wiki/Stephen_Sondheim">Stephen Sondheim</a>'s musical *<a href="https://en.wikipedia.org/wiki/Sweeney_Todd:_The_Demon_Barber_of_Fleet_Street">Sweeney Todd</a>*.
 
 This award-winning artist, a singer, arranger, and teacher based in <strong>New York</strong> since 2023, is rapidly establishing herself as a rising figure in the contemporary New York jazz scene. A multiple <strong>Downbeat Magazine</strong> award winner (2019-2022) and recipient of the <strong>Best Undergraduate Jazz Vocalist</strong> award in 2022, she recently released her debut album, "<a href="https://open.spotify.com/album/6We35TxOIcNG7If2KK92FA"><strong>A Portrait of June</strong></a>", on <strong>La Reserve Records</strong>, where she showcases not only her vocal talent but also her remarkable arranging abilities, having orchestrated every moment of the album.
 
