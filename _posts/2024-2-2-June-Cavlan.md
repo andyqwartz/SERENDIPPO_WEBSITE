@@ -185,7 +185,9 @@ a[href*="youtube.com"]:hover, a[href*="soundcloud.com"]:hover {
 
 <h3>Préambule : Une Découverte Musicale Singulière</h3>
 
-C'est à travers deux interprétations distinctes du morceau « Johanna », extrait de la comédie musicale *Sweeney Todd* de Stephen Sondheim, que j'ai découvert June Cavlan. Cette artiste, chanteuse, arrangeuse et enseignante installée à New York depuis 2023, s'impose progressivement comme une référence montante de la scène jazz new-yorkaise contemporaine. Sa reprise de ce thème, traditionnellement interprété par des voix masculines, apporte une résonance nouvelle tout en respectant la complexité originale de la composition de Sondheim.
+C'est à travers deux interprétations distinctes du morceau « Johanna », extrait de la comédie musicale *Sweeney Todd* de Stephen Sondheim, que j'ai découvert June Cavlan. Cette artiste, chanteuse, arrangeuse et enseignante installée à New York depuis 2023, s'impose progressivement comme une référence montante de la scène jazz new-yorkaise contemporaine. Lauréate de multiples prix Downbeat Magazine (2019-2022) et récompensée comme Meilleure Vocaliste Jazz Undergraduate en 2022, elle a récemment sorti son premier album, "A Portrait of June", sous le label La Reserve Records, où elle démontre non seulement son talent vocal mais aussi ses remarquables capacités d'arrangeuse, ayant orchestré chaque moment de l'album.
+
+Son parcours musical, enraciné dans une formation classique (voix, piano, cor français) et enrichi par le jazz et le théâtre musical, s'est épanoui à l'Université de Miami's Frost School of Music, où elle a obtenu une bourse complète pour ses études en Jazz Vocal Performance. Actuellement étudiante en master à la Manhattan School of Music, elle poursuit sa carrière d'enseignante et de performeuse, collaborant avec des musiciens renommés tels qu'Emmet Cohen, Bryan Carter et Benny Benack III. Sa reprise de "Johanna", traditionnellement interprété par des voix masculines, apporte une résonance nouvelle tout en respectant la complexité originale de la composition de Sondheim.
 
 <div class="section-separator">
   <hr>
@@ -300,6 +302,16 @@ Pour une artiste prometteuse comme June Cavlan, il serait judicieux de privilég
 <div align="center">⁂</div>
 <br />
 
+<div align="right">
+<em>Joachim Cohen<br />
+Paris, France<br />
+25/03/2025</em>
+</div>
+
+<br />
+<div align="center">⁂</div>
+<br />
+
 <div id="english-version"></div>
 
 <div class="section-separator">
@@ -313,7 +325,9 @@ Pour une artiste prometteuse comme June Cavlan, il serait judicieux de privilég
 
 Equipped with perfect pitch and extensive training in music history and jazz, enriched by several years of professional experience in a French jazz club where I held various roles (reception, contract signing, artist management), I have had the opportunity to analyze a wide variety of contemporary jazz interpretations. It was in this context that I discovered June Cavlan through two distinct interpretations of "Johanna" from Stephen Sondheim's musical *Sweeney Todd*.
 
-This artist, a singer, arranger, and teacher based in New York since 2023, is gradually establishing herself as a rising figure in the contemporary New York jazz scene. Her cover of this piece, traditionally performed by male voices, brings a new resonance while respecting the original complexity of Sondheim's composition. It is particularly noteworthy that, although other female versions of this piece exist, none achieve the level of vocal and expressive accuracy that June Cavlan demonstrates.
+This award-winning artist, a singer, arranger, and teacher based in New York since 2023, is rapidly establishing herself as a rising figure in the contemporary New York jazz scene. A multiple Downbeat Magazine award winner (2019-2022) and recipient of the Best Undergraduate Jazz Vocalist award in 2022, she recently released her debut album, "A Portrait of June," on La Reserve Records, where she showcases not only her vocal talent but also her remarkable arranging abilities, having orchestrated every moment of the album.
+
+Her musical journey, rooted in classical training (voice, piano, French horn) and enriched by jazz and musical theater, flourished at the University of Miami's Frost School of Music, where she earned a full scholarship to study Jazz Vocal Performance. Currently pursuing her master's degree at the Manhattan School of Music while maintaining an active career as both teacher and performer, she collaborates with renowned musicians such as Emmet Cohen, Bryan Carter, and Benny Benack III. Her cover of "Johanna," traditionally performed by male voices, brings a new resonance while respecting the original complexity of Sondheim's composition.
 
 <div class="section-separator">
   <hr>
@@ -417,6 +431,16 @@ Location: The Bridge Recording Studio
 This comparative analysis reveals the crucial importance of respecting body memory in musical interpretation. Although the Live Room version presents undeniable qualities in terms of arrangement and production, the more intimate TikTok version demonstrates superior coherence in artistic expression.
 
 For a promising artist like June Cavlan, it would be judicious to favor recording conditions that respect her natural body memory while progressively developing a technique adapted to the standing position. This approach would allow for preserving the authenticity of her expression while meeting the requirements of traditional stage performances. This reflection is part of a broader questioning of vocal jazz conventions, advocating for more rigorous respect for the individual body memory of singers to preserve their harmonic potential and vocal expressiveness.
+
+<br />
+<div align="center">⁂</div>
+<br />
+
+<div align="right">
+<em>Joachim Cohen<br />
+Paris, France<br />
+25/03/2025</em>
+</div>
 
 <br />
 <div align="center">⁂</div>
