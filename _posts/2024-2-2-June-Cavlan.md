@@ -466,9 +466,9 @@ Pour une artiste prometteuse comme June Cavlan, il serait judicieux de privilég
 </div>
 
 <div align="right">
-<em>Joachim Cohen<br />
+<em>Andy Qwartz // Joachim Cohen<br />
 Paris, France<br />
-25/03/2025</em>
+02/04/2025</em>
 </div>
 
 <br />
@@ -625,9 +625,9 @@ For a promising artist like June Cavlan, it would be judicious to favor recordin
 </div>
 
 <div align="right">
-<em>Joachim Cohen<br />
+<em>Andy Qwartz // Joachim Cohen<br />
 Paris, France<br />
-25/03/2025</em>
+02/04/2025</em>
 </div>
 
 <br />
