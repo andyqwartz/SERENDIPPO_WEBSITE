@@ -36,7 +36,7 @@ We may update this Privacy Policy periodically. Continued use of the site consti
 <br />
 
 <div align="center">
-  <p>If you have any questions about our Privacy Policy, please contact us at [contact@serendippo.me].</p>
+  <p>If you have any questions about our Privacy Policy, please contact us at contact[@]serendippo.me</p>
 </div>
 
 <br /><br /> 
