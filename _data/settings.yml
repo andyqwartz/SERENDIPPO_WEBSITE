@@ -7,12 +7,6 @@ disqus:
 google-ID: 'G-VEXLHLGV38'
 
 menu:
-- {name: 'BIO',  url: 'BIO'}
-- {name: 'MUSIC',            url: 'MUSIC'}
-- {name: 'ARTWORK', url: 'MY-ARTWORK'}
-- {name: 'DEFICIT',              url: 'DEFICIT'}
-- {name: 'SOURCE',  url: 'SOURCE'}
-- {name: 'SIAN',  url: 'SIAN'}
 - {name: 'AQUA',            url: 'aqua.html'}
 # Available social icons are powered by Font Awesome, so you can use any icon that they offer
 social:
