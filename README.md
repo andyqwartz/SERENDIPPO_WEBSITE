@@ -25,7 +25,6 @@ At the heart of this website is a minimalist philosophy that emphasizes:
 
 Thank you for taking the time to explore my website. I hope you enjoy the blend of minimalist design and functional elegance. 
 
-"In simplicity lies complexity; in darkness, revelation."
 
 <p align="center">
   <img src="/assets/img/logo_white-2.png" alt="White Logo">
